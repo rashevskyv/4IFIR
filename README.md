@@ -231,18 +231,24 @@
 
 Ниже перечислены лицензии тех программ, которые были модифицированы специально для 4IFIR. Следуя положениям этих лицензий, весь код в модификациях распространяется под той же лицензией
 
-GPL 2.0: 
+[GPL 2.0](https://github.com/Atmosphere-NX/Atmosphere/blob/master/LICENSE): 
   * [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere)
   * [hekate](https://github.com/CTCaer/hekate)
   * [SysDVR](https://github.com/exelix11/SysDVR)
   * [sysdvr-overlay](https://github.com/Hartie95/sysdvr-overlay)
   * [Tesla Overlay Menu](https://github.com/WerWolv/Tesla-Menu/)
   * [Status-Monitor-Overlay](https://github.com/masagrator/Status-Monitor-Overlay)
-GPL 3.0: 
+
+[GPL 3.0](https://github.com/masagrator/ReverseNX-Tool/blob/master/LICENSE): 
   * [ReverseNX-Tool](https://github.com/masagrator/ReverseNX-Tool)
   * [sys-ftpd](https://github.com/cathery/sys-ftpd)
-THE BEER-WARE LICENSE: 
+
+[THE BEER-WARE LICENSE](https://github.com/retronx-team/sys-clk/blob/develop/LICENSE): 
   * [sys-clk](https://github.com/retronx-team/sys-clk)
+
+[MIT license](https://github.com/masagrator/FPSLocker/blob/main/LICENSE):
+  * [FPSLocker](https://github.com/masagrator/FPSLocker)
+
 No license: 
   * [SaltyNX](https://github.com/masagrator/SaltyNX)
 
