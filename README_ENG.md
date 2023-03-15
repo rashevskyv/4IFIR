@@ -2,6 +2,8 @@
 
 [ИНСТРУКЦИЯ НА РУССКОМ](README.md)
 
+Translated from Russian to English using the generative model GPT-4. Please report any inaccuracies in Issues and make Pull Requests.
+
 ![](https://gbatemp.net/attachments/1_done-png.358918/)
 
 **ATTENTION! The guide is still a work in progress! Pull requests with corrections and additions are welcome.**
@@ -12,74 +14,31 @@ This is a collection of modified components designed to maximize the overclockin
 
 In the case of 4IFIR, overclocking does not mean unlocking frequencies within stock tables, but rather overclocking that includes overvolting of each overclocked component. By installing the modification without theoretical preparation, you remove the author's responsibility for any possible consequences, including console failure, and fully assume the risks yourself. According to my circuit calculations, if they are correct, no problems should arise. Currently, there have been no incidents of console failure. However, your console could be the first, as safe overclocking is impossible by definition. I have warned you. To prevent potential software issues, use EmuNand, FAT32, and have backups. To avoid conflicts, it is recommended to perform a clean installation.
 
-## Содержание 
-
-1. [Что может 4IFIR]()
-1. [Состав 4IFIR]()
-1. [Установка]()
-   * [Установка с нуля (она же переустановка начисто)]()
-   * [Установка (с кефира или другой сборки)]()
-   * [Обновление (переход с предыдущих версий)]()
-1. [Как использовать 4IFIR]()
-   * [Включение и отключение модулей]()
-   * [Управление режимом работы консоли (портатив \ докстанция, ReverseNX-RT)]()
-   * [Разгон]()
-      * [Настройки частот и говернор (governor) (sys-clk-OC)]()
-      * [STAGE (Self-Torture by Aggressive Generation of Explosions)]()
-   * [Выжимаем больше - читы и патчи на улучшение графики]()
-      * [Читы]()
-      * [Модификации]()
-   * [Оптимизация работы, выбор подходящих частот и энергопотребление]()
-1. [Проблемы и их решения]()
-   * [Проблемы с батареей]()
-      * [Батарея начала разряжаться до 1% со 100% за считаные минуты, однако без проблем работает на 1% несколько часов]()
-      * [При игре с включенным разгоном через некоторое время показывается значок пустой батареи]()
-1. [FAQ]()
-1. [Лицензии]()
-1. [Благодарности]()
-
-## Что может 4IFIR
-
-* Разгон вплоть до значений в 2397 Mhz для CPU, 1536 Mhz для GPU, 24хх Mhz для RAM (точный потолок значения индивидуален для каждой консоли)
-* Автоматический овервольтинг
-* Автоматический буст при загрузке игры 
-* Поддержка говернора - снижения потребления ресурсов когда они не требуются консоли 
-* Видеозапись без ограничений во всех играх, кроме нескольких не поддерживаемых
-* Беспроводная видеотрансляция с повышенным битрейтом, 60 кадрами в секунду, на внешние мониторы - практически без задержек
-* Эмуляция док режима
-* Ускоренная зарядка
-* Снижение порога тока для Official Charger
-* Радикальное снижение шума системы охлаждения
-* Overlay c FPS и системными метриками
-* Над-экранное меню, для управления перечисленными возможностями на лету
-* Фоновый FTP сервер
-* Необходимые для совместной работы всего перечисленного системные модули
-
 ## Table of Contents
 
-1. [What can 4IFIR do?]()
-1. [4IFIR Components]()
-1. [Installation]()
-   * [Fresh installation]()
-   * [Installation (from Kefir or other builds)]()
-   * [Update (transition from previous versions)]()
-1. [How to use 4IFIR]()
-   * [Enabling and disabling modules]()
-   * [Console mode management (portable \ docked, ReverseNX-RT)]()
-   * [Overclocking]()
-      * [Frequency and governor settings (sys-clk-OC)]()
-      * [STAGE (Self-Torture by Aggressive Generation of Explosions)]()
-   * [Get more out of it - cheats and patches for improving graphics]()
-      * [Cheats]()
-      * [Modifications]()
-   * [Optimizing performance, selecting appropriate frequencies and power consumption]()
-1. [Issues and solutions]()
-   * [Battery problems]()
-      * [The battery starts to discharge to 1% from 100% in a matter of minutes, but works without problems for several hours at 1%]()
-      * [When playing with overclocking enabled, the empty battery icon appears after some time]()
-1. [FAQ]()
-1. [Licenses]()
-1. [Acknowledgments]()
+1. [What can 4IFIR do?](#what-can-4ifir-do)
+1. [Composition of 4IFIR](#composition-of-4ifir)
+1. [Installation](#installation)
+   * [Installation from scratch (also known as a clean install)](#installation-from-scratch-also-known-as-a-clean-install)
+   * [Installation (from Kefir or other builds)](#installation-from-kefir-or-other-builds)
+   * [Update (transition from previous versions)](#update-transition-from-previous-versions)
+1. [How to use 4IFIR](#how-to-use-4ifir)
+   * [Enabling and disabling modules](#enabling-and-disabling-modules)
+   * [Managing Console Operation Mode (portable \ dock, ReverseNX-RT)](#managing-console-operation-mode-portable--dock-reversenx-rt)
+   * [Overclocking](#overclocking)
+      * [Frequency and governor settings (sys-clk-OC)](#frequency-settings-and-governor-sys-clk-oc)
+      * [STAGE (Self-Torture by Aggressive Generation of Explosions)](#stage-self-torture-by-aggressive-generation-of-explosions)
+   * [Squeeze more - cheats and patches for graphics improvement](#squeeze-more---cheats-and-patches-for-graphics-improvement)
+      * [Cheats](#cheats)
+      * [Modifications](#modifications)
+   * [Performance Optimization, Choosing Suitable Frequencies, and Power Consumption](#performance-optimization-choosing-suitable-frequencies-and-power-consumption)
+1. [Troubleshootings](#troubleshootings)
+   * [Battery Issues](#battery-issues)
+      * [Battery drains from 100% to 1% within minutes, but it works fine at 1% for several hours](#battery-drains-from-100-to-1-within-minutes-but-it-works-fine-at-1-for-several-hours)
+      * [When playing with overclocking enabled, the empty battery icon appears after a while](#when-playing-with-overclocking-enabled-the-empty-battery-icon-appears-after-a-while)
+1. [FAQ](#faq)
+1. [Licenses](#licenses)
+1. [Acknowledgments](#acknowledgements)
 
 ## What can 4IFIR do?
 
@@ -180,6 +139,7 @@ The module's state is indicated to the right of its name, for example **On | х*
 Press the **(A)** button to enable or disable a module. The (Y) button enables or disables the module's autoload. If pressing the (A) button does not change the module's state, it can only be controlled by restarting the console. Enable the module's autoload and reboot the console for it to start working, or disable it and reboot to stop it.
 
 Modules that can be enabled at any time are grouped at the top into the **Dynamic** group, while those that require a reboot are grouped into the **Static** group.
+
 ### Managing Console Operation Mode (portable \ dock, ReverseNX-RT)
 
 The **ReverseNX-RT** module allows you to forcibly enable dock mode while playing in portable mode and vice versa. Use the **Change system control** button to enable forced mode switching (displayed in the **Controlled by system** line, the **No** position means you can change modes manually). After that, you can switch modes with the Change mode button (displayed in the **Mode** line, where **Docked** - dock mode, **Handheld** - portable).
@@ -191,6 +151,7 @@ It is important to understand that in dock mode, the console forcibly increases 
 In chifir, overclocking is achieved through deep optimizations of HOS components. The efficiency of the hardware in terms of watts is approximately 3-5 times higher than at stock frequencies without overclocking. All this is thanks to breakthrough memory optimization (overcoming frequency and timing thresholds). At the moment, undervolting in the classic sense is not implemented in 4IFIR, however, thanks to optimizations, chifir consumes energy much more economically when overclocking than its competitors.
 
 For stable overclocking, you need to select the stage at which your console can work, and then the operating frequencies for the CPU\GPU\Memory and other settings. All this is done experimentally and individually for each specific console and, moreover, for each specific game.
+
 #### Frequency Settings and Governor (sys-clk-OC)
 
 Overclocking is configured through the Sys-clk-OC overlay module.
@@ -239,6 +200,7 @@ Both of these items will be available only if the **Frequency Governor (Experime
 Enabling the GPU governor in some games may cause stuttering or decreased FPS (for example, Metroid Prime Remastered sometimes drops FPS to 30 when exiting the map to the game). If your game experiences this, disable the GPU governor.
 
 Each of the profiles contains separate items for overclocking **CPU**, **GPU**, and **Memory**. It's easy to understand what each item does by its name. Each of these items has a **Default** value, which is responsible for the default value taken from the previous overclocking setting (Temporary/App/Global/System value) in the corresponding priority profile. Working frequencies are selected individually for each specific game on each specific console. More details on frequency selection will be below.
+
 #### STAGE (Self-Torture by Aggressive Generation of Explosions)
 
 The higher the STAGE, the more aggressive the optimization of timings/undervolting values. The faster and more energy-efficient the gaming console. The stock 4IFIR should work on any console and its performance is equivalent to STAGE 5+. The probability of ST6 and higher working for you depends on the [luck of the CPU binning process](https://www.computerra.ru/285384/dzhekpot-kremnievoj-loterei-chto-takoe-binning-protsessory/) of your specific console.
@@ -283,6 +245,7 @@ Mods installed this way are automatically activated when the game is launched.
 Remember that the game version for which the mod was made is important. A mod made for one game version may not work on another.
 
 Don't hesitate to play with frequencies and use the Status Monitor to achieve the best stable result!
+
 ### Performance Optimization, Choosing Suitable Frequencies, and Power Consumption
 
 To achieve optimal performance and avoid excessive energy consumption on your device, it is necessary to select frequency parameters that prevent the game from lagging. It is recommended to use the Status Monitor, a tool that allows you to track the load on your device's components.
@@ -292,7 +255,8 @@ To find the optimal balance between performance and power consumption, you can l
 Don't chase frequencies and numbers. The only measure of successful overclocking is your comfort while gaming. Frequencies do not reflect actual performance or power consumption. Keep in mind that each device has unique characteristics, so you need to adjust frequencies according to the specific model of your device and the games you plan to run on it. Each game has unique requirements.
 
 Using the **InfoNX** module, you can monitor the console's power consumption. Measure consumption in the tested game without overclocking and with overclocking, and then find a balance between performance and power consumption. Remember that the higher the energy consumption, the faster the battery will drain in portable mode. For operation in dock mode or from a charger, power consumption is not that important.
-## Problems and Solutions
+
+## Troubleshootings
 
 ### Battery Issues
 
@@ -302,6 +266,7 @@ MARIKO is equipped with the PMIC MAX77812 controller, designed for currents up t
 ERISTA, surprisingly, is equipped with a more powerful PMICs MAX77621 controller, with 16A CPU / 16A GPU.
 
 A load above 15 watts (approximately; exact current limit values for different console models are specified in the manufacturer's specifications) can lead to a decrease in the estimated residual battery capacity in the Nintendo Switch console. The console's power controller compares actual readings with factory-set readings, and in case of an exceedance, it triggers an emergency shutdown. The console may think that the battery cannot handle the load and reduces the estimated residual capacity by 1% with each failure. This can cause the console's charge indicator to instantly drop to 1% charge when the battery is under load. Battery Fix may allow you to "regenerate" the battery capacity mistakenly written off.
+
 #### Battery drains from 100% to 1% within minutes, but it works fine at 1% for several hours
 
 The power controller is designed for a peak power consumption of approximately 15W. If exceeded, the console will activate emergency protection and shut down. You need to reduce the demands, as this affects the controller's calibration data. The console may think that the battery cannot handle the load and lower its estimated residual capacity by 1% with each failure. This can cause the console's charge indicator to instantly drop to 1% charge when the battery is under load. To solve this problem, the 4IFIR package includes the [Battery Desync Fix NX](https://github.com/CTCaer/battery_desync_fix_nx) program.
@@ -321,6 +286,7 @@ To reset battery statistics:
    * Do not leave the console charging on a black screen with a battery icon, otherwise, the firmware will restore the previous battery calibration values, which we do not need, and you will have to start all over again
 6. After calibrating the battery in sysNAND, do the same for each emuNAND, if you have more than one.
    * Do not switch between sysNAND and emuNANDs until you have completed two charging/discharging cycles, as the firmware will restore the previous battery calibration values, which we do not need, and you will have to start all over again
+
 #### When playing with overclocking enabled, the empty battery icon appears after a while
 
 The power controller is designed for a peak power consumption of approximately 15W. If exceeded, the console will activate emergency protection and shut down. This is what's happening. You have probably exceeded the controller's threshold. Temper your enthusiasm and lower the frequency values.
