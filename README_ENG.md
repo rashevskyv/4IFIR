@@ -31,11 +31,15 @@ In the case of 4IFIR, overclocking does not mean unlocking frequencies within st
    * [Squeeze more - cheats and patches for graphics improvement](#squeeze-more---cheats-and-patches-for-graphics-improvement)
       * [Cheats](#cheats)
       * [Modifications](#modifications)
+      * [FPSLocker](#fpslocker)
    * [Performance Optimization, Choosing Suitable Frequencies, and Power Consumption](#performance-optimization-choosing-suitable-frequencies-and-power-consumption)
 1. [Troubleshootings](#troubleshootings)
    * [Battery Issues](#battery-issues)
       * [Battery drains from 100% to 1% within minutes, but it works fine at 1% for several hours](#battery-drains-from-100-to-1-within-minutes-but-it-works-fine-at-1-for-several-hours)
       * [When playing with overclocking enabled, the empty battery icon appears after a while](#when-playing-with-overclocking-enabled-the-empty-battery-icon-appears-after-a-while)
+      * [The game stopped running and started crashing](#the-game-stopped-running-and-started-crashing)
+      * [Witcher 3 won't start](#witcher-3-wont-start)
+      * [FPS in-game always shows 0\254 \ ReverseNX does not switch modes](#fps-in-game-always-shows-0254--reversenx-does-not-switch-modes)
 1. [FAQ](#faq)
 1. [Licenses](#licenses)
 1. [Acknowledgments](#acknowledgements)
@@ -97,13 +101,18 @@ In the case of 4IFIR, overclocking does not mean unlocking frequencies within st
 
 **IMPORTANT! Follow the instructions strictly and do not deviate from them. In case of any problems, return to the instructions and reinstall 4IFIR from scratch.**
 
-### Installation from scratch (also known as a clean install)
-1. Remove everything from your memory card except for the Nintendo and emummc folders (if they exist)
-   * The card must be in [FAT32](https://format.customfw.xyz)
-1. Unpack [4IFIR](https://sintez.io/4IFIR.zip) onto your console
-1. Install [AiO Updater](https://github.com/HamletDuFromage/aio-switch-updater)
-1. Unpack [this](https://sintez.io/aio.zip) onto your console
-1. Restart the console
+Versioning of the chip is very conditional (it's simpler to say, it's completely absent), so many updates can be released without changing the version of the chip at all. You can follow the new versions in the [chip chat](https://t.me/kefir_switch/48074), or on [this page](https://github.com/rashevskyv/4ifir-checker), where it will be shown when a new version is released and what specifically has changed in it.
+
+### Clean installation (also known as a clean reinstall)
+1. Remove everything from the memory card except the Nintendo and emummc folders (if any)
+   * The card should be in [FAT32](https://format.customfw.xyz)
+2. Unpack [4IFIR](https://sintez.io/4IFIR.zip) onto your console
+3. Unpack [this](https://sintez.io/aio.zip) onto your console
+4. Wait for the internet connection and launch [**Homebrew Launcher**](https://switch.customfw.xyz/hbl) > **All in One Updater**
+   * If you get a black screen instead of launching the app, download the app manually from its [repository](https://github.com/HamletDuFromage/aio-switch-updater) and manually enter this address `https://sintez.io/aio.zip` in Custom downloads > Add custom link, then restart the app
+5. Go to **Custom Downloads** > **4IFIR 1.3** > **Continue**, choose **Yes** when asked to overwrite `ini`, choose **No** when asked to reinstall hekate, the console will reboot
+   * When updating stages, the console needs to be rebooted manually (also choose **Yes** when asked to overwrite `ini`)
+6. Reboot the console
 
 ### Installation (from Kefir or other builds)
 Perform a clean install
@@ -201,6 +210,27 @@ Enabling the GPU governor in some games may cause stuttering or decreased FPS (f
 
 Each of the profiles contains separate items for overclocking **CPU**, **GPU**, and **Memory**. It's easy to understand what each item does by its name. Each of these items has a **Default** value, which is responsible for the default value taken from the previous overclocking setting (Temporary/App/Global/System value) in the corresponding priority profile. Working frequencies are selected individually for each specific game on each specific console. More details on frequency selection will be below.
 
+* **Miscellaneous** - section with additional settings. It contains the following options:
+   * **Auto CPU Boost** - active layer of auto boost. Increases CPU frequency under system core load, which usually means loading data, streaming textures, locations, etc. On Erista, it is better to disable, as it affects battery life
+   * **Sync ReverseNX Mode** - setting that synchronizes the state of the ReverseNX value with the sys-clk profile. That is, if Reverse is set to **Handheld**, the active sys-clk profile will be **Handheld**, if **Docked**, then **Docked** accordingly
+   * **Frequency Governor (Experimental)** - enables governors in **Edit app Profile**
+   * **Charging current** - charging current limit
+   * **Charging Limit** - limit to which the console will be charged
+   * **Force Disable Charging** - option that allows not charging the battery while working from a charger. That is, the battery will not discharge, but it will not be charged either. Helps avoid battery desynchronization problems
+   * **Screen Backlight** - disables screen backlight. Useful in combination with sys-dvr
+   * **Info** - various metrics:
+      * **Charger** - type of charging device connected to the console. Displays voltage and amperage, as well as power in Watts
+      * **Battery** - battery voltage and temperature
+      * **Current Limit** -
+      * **Charging Limit** - value specified in **Charging current**
+      * **Raw Charge** - Battery charge provided by the charging controller
+      * **Battery Age** - "health" of the battery
+      * **Power Role** -
+      * **Current Flow** - current consumption
+      * **CPU Volt** - CPU voltage
+      * **GPU Volt** - GPU voltage
+      * **DRAM Volt** - memory voltage
+
 #### STAGE (Self-Torture by Aggressive Generation of Explosions)
 
 The higher the STAGE, the more aggressive the optimization of timings/undervolting values. The faster and more energy-efficient the gaming console. The stock 4IFIR should work on any console and its performance is equivalent to STAGE 5+. The probability of ST6 and higher working for you depends on the [luck of the CPU binning process](https://www.computerra.ru/285384/dzhekpot-kremnievoj-loterei-chto-takoe-binning-protsessory/) of your specific console.
@@ -246,6 +276,21 @@ Remember that the game version for which the mod was made is important. A mod ma
 
 Don't hesitate to play with frequencies and use the Status Monitor to achieve the best stable result!
 
+#### FPSLocker
+
+With this plugin, you can unlock the frame rate in some games without using cheats.
+
+Metrics in the header:
+* **Large number on the right** - shows how many frames have passed in the last second for the running game. Allows you to make sure the program is working correctly
+* **Interval Mode** - internal game engine value based on NVN API, can take a value of **0**, **1**, or ****2****. By changing this value, we can change the maximum amount of FPS in the game. **2** - 30 FPS, **1** - 60 FPS, **0 - means the game has no FPS limit or uses another API.
+* **Custom FPS Target** - shows the maximum number of FPS for a particular game. If the game uses its own engine FPS restrictions, rather than the standard ones, it may be impossible to unlock more than 30 FPS without additional patches
+
+Switches:
+* **Increase/Decrease FPS target** - change the target number of frames per second in increments of 5 FPS. **Minimum** - 15 FPS, **maximum** - 60 FPS. If FPS is set above 30, then **Interval Mode** is set to 1. Otherwise, it is set to 2.
+* **Disable custom FPS target** - removes the FPS limit depending on the set **Interval Mode**. If **Interval Mode** is 2, the game will be capped at 30 FPS, if 1, at 60.
+* **Sync Wait (!)** - this is a dangerous setting that in most cases will lead to the game crashing (for example, Witcher 3 and Breath of The Wild), but in some cases, it can be beneficial by disabling double buffering, introducing minor graphical artifacts (for example, Xenoblade Chronicles 3). Use with caution. It is recommended to keep this **enabled**.
+* **Save settings** - save the profile for the currently running game, which will be automatically loaded by the plugin at launch next time. Do not use this feature if you have disabled synchronization (Sync Wait Off) and have not tested its safety, so you do not have to manually delete the saved profile. The profile is saved in `SaltySD/plugins/FPSLocker/TITLEID.dat`
+
 ### Performance Optimization, Choosing Suitable Frequencies, and Power Consumption
 
 To achieve optimal performance and avoid excessive energy consumption on your device, it is necessary to select frequency parameters that prevent the game from lagging. It is recommended to use the Status Monitor, a tool that allows you to track the load on your device's components.
@@ -290,6 +335,18 @@ To reset battery statistics:
 #### When playing with overclocking enabled, the empty battery icon appears after a while
 
 The power controller is designed for a peak power consumption of approximately 15W. If exceeded, the console will activate emergency protection and shut down. This is what's happening. You have probably exceeded the controller's threshold. Temper your enthusiasm and lower the frequency values.
+
+#### The game stopped running and started crashing
+
+First, try removing the game's profile from FPSLocker. You may have disabled Sync Wait without ensuring its safety. The profile is located at `SaltySD/plugins/FPSLocker/TITLEID.dat`. You can view the game's title in **DBI** > **Browse Installed**
+
+#### Witcher 3 won't start
+
+Delete the folder `atmosphere/exefs_patches/am` and restart the console. These are patches for sys-dvr that enable screen recording, and consequently, game streaming for any game. By deleting these patches, you will lose this ability. However, if you don't plan to stream the game to your PC, it doesn't matter.
+
+#### FPS in-game always shows 0\254 \ ReverseNX does not switch modes
+
+Your game may not be compatible with **SaltyNX**, which is responsible for these functions. The list of incompatible games can be found [here](https://github.com/masagrator/SaltyNX#list-of-titles-not-compatible-with-pluginspatches)
 
 ## FAQ
 
