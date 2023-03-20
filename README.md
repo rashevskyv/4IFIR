@@ -1,4 +1,4 @@
-# 4IFIR 1.3
+# 4IFIR 1.4
 
 [ENGLISH GUIDE](README_ENG.md)
 
@@ -109,7 +109,7 @@
 1. Распакуйте [это](https://sintez.io/aio.zip) на вашу консоль
 1. Дождитесь подключения интернета и запустите [**Homebrew Launcher**](https://switch.customfw.xyz/hbl) > **All in One Updater**
    * Если вместо запуска приложения вы получаете черный экран, перекачайте приложение вручную из его [репозитория](https://github.com/HamletDuFromage/aio-switch-updater) и вручную пропишите в Custom downloads > Add custom link этот адрес `https://sintez.io/aio.zip`, после чего перезапустите приложение
-1. Перейдите в **Custom Downloads** > **4IFIR 1.3** > **Continue**, на запрос о перезаписи `ini`, выберите **Yes**, на запрос о переустановке hekate выберите **No**, консоль перезагрузится
+1. Перейдите в **Custom Downloads** > **4IFIR 1.4** > **Continue**, на запрос о перезаписи `ini`, выберите **Yes**, на запрос о переустановке hekate выберите **No**, консоль перезагрузится
    * При обновлении стейджей, консоль нужно перезагружать вручную (также на запрос о перезаписи `ini`, выберите **Yes**)
 1. Перезагрузите консоль
 
@@ -117,7 +117,11 @@
 Сделайте чистую установку 
 
 ### Обновление (переход с предыдущих версий)
-1. Установите [4IFIR](https://sintez.io/4IFIR.zip) через [AiO Updater](https://github.com/HamletDuFromage/aio-switch-updater)
+1. Установите **4IFIR** через **AiO Updater**
+1. Дождитесь подключения интернета и запустите [**Homebrew Launcher**](https://switch.customfw.xyz/hbl) > **All in One Updater**
+   * Если вместо запуска приложения вы получаете черный экран, перекачайте приложение вручную из его [репозитория](https://github.com/HamletDuFromage/aio-switch-updater) и вручную пропишите в Custom downloads > Add custom link этот адрес `https://sintez.io/aio.zip`, после чего перезапустите приложение
+1. Перейдите в **Custom Downloads** > **4IFIR 1.4** > **Continue**, на запрос о перезаписи `ini`, выберите **Yes**, на запрос о переустановке hekate выберите **No**, консоль перезагрузится
+
 2. Перезагрузите консоль
 
 ## Как использовать 4IFIR 

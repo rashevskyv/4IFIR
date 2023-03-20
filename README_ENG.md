@@ -1,4 +1,4 @@
-# 4IFIR 1.3
+# 4IFIR 1.4
 
 [ИНСТРУКЦИЯ НА РУССКОМ](README.md)
 
@@ -110,7 +110,7 @@ Versioning of the chip is very conditional (it's simpler to say, it's completely
 3. Unpack [this](https://sintez.io/aio.zip) onto your console
 4. Wait for the internet connection and launch [**Homebrew Launcher**](https://switch.customfw.xyz/hbl) > **All in One Updater**
    * If you get a black screen instead of launching the app, download the app manually from its [repository](https://github.com/HamletDuFromage/aio-switch-updater) and manually enter this address `https://sintez.io/aio.zip` in Custom downloads > Add custom link, then restart the app
-5. Go to **Custom Downloads** > **4IFIR 1.3** > **Continue**, choose **Yes** when asked to overwrite `ini`, choose **No** when asked to reinstall hekate, the console will reboot
+5. Go to **Custom Downloads** > **4IFIR 1.4** > **Continue**, choose **Yes** when asked to overwrite `ini`, choose **No** when asked to reinstall hekate, the console will reboot
    * When updating stages, the console needs to be rebooted manually (also choose **Yes** when asked to overwrite `ini`)
 6. Reboot the console
 
@@ -118,8 +118,11 @@ Versioning of the chip is very conditional (it's simpler to say, it's completely
 Perform a clean install
 
 ### Update (transition from previous versions)
-1. Install [4IFIR](https://sintez.io/4IFIR.zip) through [AiO Updater](https://github.com/HamletDuFromage/aio-switch-updater)
-2. Restart the console
+1. Install **4IFIR** through **AiO Updater**
+1. Wait for the internet connection and launch [**Homebrew Launcher**](https://switch.customfw.xyz/hbl) > **All in One Updater**
+   * If you get a black screen instead of launching the app, download the app manually from its [repository](https://github.com/HamletDuFromage/aio-switch-updater) and manually enter this address `https://sintez.io/aio.zip` in Custom downloads > Add custom link, then restart the app
+1. Go to **Custom Downloads** > **4IFIR 1.4** > **Continue**, choose **Yes** when asked to overwrite `ini`, choose **No** when asked to reinstall hekate, the console will reboot
+1. Restart the console
 
 ## How to use 4IFIR
 
