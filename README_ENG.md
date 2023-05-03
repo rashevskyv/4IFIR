@@ -28,7 +28,7 @@ In the case of 4IFIR, overclocking does not mean unlocking frequencies within st
    * [Enabling and disabling modules](#enabling-and-disabling-modules)
    * [Managing Console Operation Mode (portable \ dock, ReverseNX-RT)](#managing-console-operation-mode-portable--dock-reversenx-rt)
    * [Overclocking](#overclocking)
-      * [Frequency and governor settings (sys-clk-OC)](#frequency-settings-and-governor-sys-clk-oc)
+      * [Frequency and governor settings (4FIR Kraken)](#frequency-settings-and-governor-4fir-kraken)
       * [STAGE (Self-Torture by Aggressive Generation of Explosions)](#stage-self-torture-by-aggressive-generation-of-explosions)
    * [Squeeze more - cheats and patches for graphics improvement](#squeeze-more---cheats-and-patches-for-graphics-improvement)
       * [Cheats](#cheats)
@@ -139,7 +139,7 @@ After simultaneous pressing of these three buttons, the Tesla menu with the foll
 * **Status Monitor PRO** - module displaying system metrics in real time over the screen, without taking away control from the game. There are many operating modes, including a mode that allows you to display frequency and FPS counters in the upper left corner of the screen.
 * **EdiZone** - module for cheat management
 * **Sysmodules** - module for managing modules. Allows you to enable/disable installed modules
-* **sys-clk-OC** - module for managing overclocking profiles
+* **4FIR Kraken** - module for managing overclocking profiles
 * **sys-ftpd-ovl** - module showing current IP address for establishing FTP connection
 * **SysDVR Overlay** - module controlling streaming of console image to PC via WiFi or cable
 
@@ -166,9 +166,9 @@ In chifir, overclocking is achieved through deep optimizations of HOS components
 
 For stable overclocking, you need to select the stage at which your console can work, and then the operating frequencies for the CPU\GPU\Memory and other settings. All this is done experimentally and individually for each specific console and, moreover, for each specific game.
 
-#### Frequency Settings and Governor (sys-clk-OC)
+#### Frequency Settings and Governor (4FIR Kraken)
 
-Overclocking is configured through the Sys-clk-OC overlay module.
+Overclocking is configured through the 4FIR Kraken overlay module.
 
 The header contains the following parameters:
 * **App ID** - displays the titleid of the running game
@@ -198,7 +198,7 @@ Overclocking is done by changing the maximum frequency for CPU/GPU/Memory throug
 
 Profiles also have their own priority. From highest to lowest: **Docked** -> **Official Charging** / **USB Charger** -> **Charging** -> **Handheld**. The application principle is exactly the same. **Docked** mode has the highest priority and overwrites the values of lower priority profiles. **Official Charging** or **USB Charger** have the same priority and overwrite the values of **Charging** and **Handheld** profiles, and so on.
 
-**Docked** and **Handheld** profiles are synchronized with Reverse-NX settings (can be disabled in **Miscellaneous** of **sys-clk-OC** module) and depend on the console mode (dock/portable). The **Charging** profile is activated when any charger is connected to the console. The **Official Charger** profile is activated when connecting the original charger, or any other charger with Power Delivery support. The **USB Charger** profile is activated when connecting any other charger. That is, you can set up a separate overclocking profile for charging from any source and separately for powerful or low-power sources, with the latter having a higher priority.
+**Docked** and **Handheld** profiles are synchronized with Reverse-NX settings (can be disabled in **Miscellaneous** of **4FIR Kraken** module) and depend on the console mode (dock/portable). The **Charging** profile is activated when any charger is connected to the console. The **Official Charger** profile is activated when connecting the original charger, or any other charger with Power Delivery support. The **USB Charger** profile is activated when connecting any other charger. That is, you can set up a separate overclocking profile for charging from any source and separately for powerful or low-power sources, with the latter having a higher priority.
 
 **Edit app Profile** contains governor management.
 
@@ -247,7 +247,7 @@ To choose a stable stage, test the console as follows:
 **WARNING!!!** If at any stage during stage testing there is a freeze, or the game freezes, or artifacts appear on the screen, or any unexpected console behavior occurs, lower the stage. Your current console can't handle it!
 
 1. Select the maximum available stage in AiO, restart
-1. Disable governors (**sys-clk-OC** > **Frequency Governor (Experimental)** > **Off**)
+1. Disable governors (**4FIR Kraken** > **Frequency Governor (Experimental)** > **Off**)
 1. Select the maximum available memory frequency.
 1. If the console doesn't freeze, select the maximum available GPU frequency
 1. If the console doesn't freeze, select the maximum available CPU frequency
@@ -368,7 +368,7 @@ Your game may not be compatible with **SaltyNX**, which is responsible for these
 **A**: Refer to the Problems and Solutions section above.
 
 **Q**: No governor            
-**A**: Enable **sys-clk-OC** > **Miscellaneous** > **Frequency Governor (Experimental)**, then both governors will appear in **sys-clk-OC** > **Edit app Profile**.
+**A**: Enable **4FIR Kraken** > **Miscellaneous** > **Frequency Governor (Experimental)**, then both governors will appear in **4FIR Kraken** > **Edit app Profile**.
 
 **Q**: Frequencies are jumping            
 **A**: This is normal when the governor is working.
