@@ -178,7 +178,7 @@ The header contains the following parameters:
 * **Enable** - responsible for activating overclocking. On - enabled, Off - disabled
 * **Edit app Profile** - overclocking profile settings for the running application. The specified settings will be automatically applied when the application is launched. They have medium priority.
 
-* Advance
+* Advanced
    * **Temporary overrides** - overclocking settings for all applications. The specified settings apply to all launched applications and are valid until the console is rebooted. They have the highest priority.
    * **Global profile** - overclocking settings for all applications. The specified settings apply to all launched applications. They have the lowest priority.
    * **Miscellaneous** - additional console settings, such as charge voltage limitation, auto boost, charge percentage limitation, and others. More details will be covered separately.
