@@ -136,7 +136,6 @@ After simultaneous pressing of these three buttons, the Tesla menu with the foll
 * **EdiZone** - module for cheat management
 * **Sysmodules** - module for managing modules. Allows you to enable/disable installed modules
 * **4IFIR Kraken** - module for managing overclocking profiles
-* **sys-ftpd-ovl** - module showing current IP address for establishing FTP connection
 * **SysDVR Overlay** - module controlling streaming of console image to PC via WiFi or cable
 
 Pressing **(A)** on a item will open its personal menu.
