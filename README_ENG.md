@@ -167,7 +167,7 @@ Overclocking is configured through the 4IFIR Kraken overlay module.
 
 The header contains the following parameters:
 * **App ID** - displays the titleid of the running game
-* **Profile** - a parameter synchronized with ReverseNX-RT settings and shows the current console mode (**Docked** - dock mode, **Handheld** - portable)
+* **Profile** - a parameter synchronized with ReverseNX-RT settings (if the corresponding setting is enabled in the parameters) and shows the current console mode (**Docked** - dock mode, **Handheld** - portable)
 * **CPU** - the current processor frequency
 * **GPU** - the current video processor core frequency
 * **MEM** - the current memory frequency
