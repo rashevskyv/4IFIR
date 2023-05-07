@@ -5,7 +5,7 @@
 **Автор проекта @Cooler3D**
 [Группа в телеграме](https://t.me/kefir_switch/48074)
 
-![](https://gbatemp.net/attachments/1_done-png.358918/)
+![](https://gbatemp.net/attachments/1_done-png.359267/)
 
 **ВНИМАНИЕ! Над инструкцией все еще ведется работа! Пулреквесты с исправлениями и дополнениями приветствуются** 
 

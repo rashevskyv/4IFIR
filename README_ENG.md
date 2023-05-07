@@ -7,7 +7,7 @@
 
 Translated from Russian to English using the generative model GPT-4. Please report any inaccuracies in Issues and make Pull Requests.
 
-![](https://gbatemp.net/attachments/1_done-png.358918/)
+![](https://gbatemp.net/attachments/1_done-png.359267/)
 
 **ATTENTION! The guide is still a work in progress! Pull requests with corrections and additions are welcome.**
 
