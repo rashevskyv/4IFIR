@@ -106,7 +106,7 @@ In the case of 4IFIR, overclocking does not mean unlocking frequencies within st
 Versioning of the chip is very conditional (it's simpler to say, it's completely absent), so many updates can be released without changing the version of the chip at all. You can follow the new versions in the [chip chat](https://t.me/kefir_switch/48074), or on [this page](https://github.com/rashevskyv/4ifir-checker), where it will be shown when a new version is released and what specifically has changed in it. Updating from current 4ifir installation possibly over [AIO](#update-transition-from-previous-versions)
 
 ### Clean installation (also known as a clean reinstall)
-1. Remove everything from the memory card except the Nintendo and emummc folders (if any)
+1. Remove everything from the memory card except the Nintendo and emummc folders (if any) (The folder with backups of saves, for example JKSV, should not be deleted either)
    * The card should be in [FAT32](https://format.customfw.xyz)
    * Modify data on memory card should be done over card reader, to avoid problems with switch file management specific.
 2. Unpack [4IFIR](https://sintez.io/4IFIR.zip) onto your card
