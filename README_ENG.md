@@ -314,7 +314,7 @@ A load above 15 watts (approximately; exact current limit values for different c
 
 #### Battery drains from 100% to 1% within minutes, but it works fine at 1% for several hours
 
-The power controller is designed for a peak power consumption of approximately 15W. If exceeded, the console will activate emergency protection and shut down. You need to reduce the demands, as this affects the controller's calibration data. The console may think that the battery cannot handle the load and lower its estimated residual capacity by 1% with each failure. This can cause the console's charge indicator to instantly drop to 1% charge when the battery is under load. To solve this problem, the 4IFIR package includes the [Battery Desync Fix NX](https://github.com/CTCaer/battery_desync_fix_nx) program.
+The power controller is designed for a peak power consumption of approximately 15W. If exceeded, the console will activate emergency protection and shut down. You need to reduce the demands, as this affects the controller's calibration data. The console may think that the battery cannot handle the load and lower its estimated residual capacity by 1% with each failure. This can cause the console's charge indicator to instantly drop to 1% charge when the battery is under load. To solve this problem, exists the [Battery Desync Fix NX](https://github.com/CTCaer/battery_desync_fix_nx) program.
 
 **WARNING!!!** Do not run [Battery Desync Fix NX](https://github.com/CTCaer/battery_desync_fix_nx) if you don't have battery problems, or else they will appear! You will need to perform separate calibrations for stock and each of your emuNANDs separately, as calibration data is stored separately in each!
 
