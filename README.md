@@ -115,8 +115,7 @@
 Сделайте [чистую установку](#установка-с-нуля-она-же-переустановка-начисто)
 
 ### Обновление (переход с предыдущих версий)
-1. Установите **4IFIR** через **AiO Updater**
-1. Дождитесь подключения интернета и запустите [**Homebrew Launcher**](https://switch.customfw.xyz/hbl) > **All in One Updater**
+1. Запустите [**Homebrew Launcher**](https://switch.customfw.xyz/hbl) > **All in One Updater**
    * Если вместо запуска приложения вы получаете черный экран, перекачайте приложение вручную из его [репозитория](https://github.com/HamletDuFromage/aio-switch-updater) и вручную пропишите в Custom downloads > Add custom link этот адрес `https://sintez.io/aio.zip`, после чего перезапустите приложение
 1. Перейдите в **Custom Downloads** > **4IFIR 1.5** > **Continue**, на запрос о перезаписи `ini`, выберите **Yes**, на запрос о переустановке hekate выберите **No**, консоль перезагрузится
 

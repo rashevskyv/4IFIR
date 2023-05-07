@@ -117,8 +117,7 @@ Versioning of the chip is very conditional (it's simpler to say, it's completely
 Perform a [clean install](#clean-installation-also-known-as-a-clean-reinstall)
 
 ### Update (transition from previous versions)
-1. Install **4IFIR** through **AiO Updater**
-1. Wait for the internet connection and launch [**Homebrew Launcher**](https://switch.customfw.xyz/hbl) > **All in One Updater**
+1. Launch [**Homebrew Launcher**](https://switch.customfw.xyz/hbl) > **All in One Updater**
    * If you get a black screen instead of launching the app, download the app manually from its [repository](https://github.com/HamletDuFromage/aio-switch-updater) and manually enter this address `https://sintez.io/aio.zip` in Custom downloads > Add custom link, then restart the app
 1. Go to **Custom Downloads** > **4IFIR 1.5** > **Continue**, choose **Yes** when asked to overwrite `ini`, choose **No** when asked to reinstall hekate, the console will reboot
 1. Restart the console
