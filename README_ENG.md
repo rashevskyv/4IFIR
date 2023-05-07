@@ -78,7 +78,6 @@ In the case of 4IFIR, overclocking does not mean unlocking frequencies within st
    * [Daybreak](https://github.com/Atmosphere-NX/Atmosphere/tree/0.14.1/troposphere/daybreak) - a program for updating system software.
    * [DBI](https://github.com/rashevskyv/dbi) - a potentially better file manager, save manager, and program installer for the console.
    * [Fizeau](https://github.com/averne/Fizeau) - a program that allows you to change color display settings on the screen.
-   * [Battery Desync Fix NX](https://github.com/CTCaer/battery_desync_fix_nx) - a program for fixing battery desync. Use only when the battery discharges to 1% in 5 minutes and then works for two hours. Use strictly according to the instructions in the program repository if you do not want to lose the full capacity potential of your battery. **Do not use unless necessary!**
    * [SysDVR](https://cloud.sintez.io/s/4IFIR), a fork of [SysDVR](https://github.com/exelix11/SysDVR) - a program for wireless transmission of images from the console to a PC or other device.
    * [sys-ftpd](https://cloud.sintez.io/s/4IFIR), a fork of [sys-ftpd](https://github.com/cathery/sys-ftpd) - an FTP server running in the background.
 6. Installed modules. Modules are additional components that work within Atmosphere and allow you to do cool things like using Xbox-compatible controllers, amiibo emulation, overclocking, and more.
