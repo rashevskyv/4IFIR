@@ -132,7 +132,7 @@ After simultaneous pressing of these three buttons, the Tesla menu with the foll
 * **InfoNX** - module showing extended information about console power consumption
 * **QuickNTP** - module for clock synchronization via internet, since the built-in synchronization method in kefir is disabled
 * **ReverseNX-RT** - module allowing to forcibly choose console operation mode (portable or docked)
-* **Status Monitor PRO** - module displaying system metrics in real time over the screen, without taking away control from the game. There are many operating modes, including a mode that allows you to display frequency and FPS counters in the upper left corner of the screen.
+* **Status Monitor** - module displaying system metrics in real time over the screen, without taking away control from the game. There are many operating modes, including a mode that allows you to display frequency and FPS counters in the upper left corner of the screen.
 * **EdiZone** - module for cheat management
 * **Sysmodules** - module for managing modules. Allows you to enable/disable installed modules
 * **4IFIR Kraken** - module for managing overclocking profiles
