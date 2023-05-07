@@ -103,18 +103,15 @@ In the case of 4IFIR, overclocking does not mean unlocking frequencies within st
 
 **IMPORTANT! Follow the instructions strictly and do not deviate from them. In case of any problems, return to the instructions and reinstall 4IFIR from scratch.**
 
-Versioning of the chip is very conditional (it's simpler to say, it's completely absent), so many updates can be released without changing the version of the chip at all. You can follow the new versions in the [chip chat](https://t.me/kefir_switch/48074), or on [this page](https://github.com/rashevskyv/4ifir-checker), where it will be shown when a new version is released and what specifically has changed in it.
+Versioning of the chip is very conditional (it's simpler to say, it's completely absent), so many updates can be released without changing the version of the chip at all. You can follow the new versions in the [chip chat](https://t.me/kefir_switch/48074), or on [this page](https://github.com/rashevskyv/4ifir-checker), where it will be shown when a new version is released and what specifically has changed in it. Updating from current 4ifir installation possibly over [AIO](#update-transition-from-previous-versions)
 
 ### Clean installation (also known as a clean reinstall)
 1. Remove everything from the memory card except the Nintendo and emummc folders (if any)
    * The card should be in [FAT32](https://format.customfw.xyz)
-2. Unpack [4IFIR](https://sintez.io/4IFIR.zip) onto your console
-3. Unpack [this](https://sintez.io/aio.zip) onto your console
-4. Wait for the internet connection and launch [**Homebrew Launcher**](https://switch.customfw.xyz/hbl) > **All in One Updater**
-   * If you get a black screen instead of launching the app, download the app manually from its [repository](https://github.com/HamletDuFromage/aio-switch-updater) and manually enter this address `https://sintez.io/aio.zip` in Custom downloads > Add custom link, then restart the app
-5. Go to **Custom Downloads** > **4IFIR 1.5** > **Continue**, choose **Yes** when asked to overwrite `ini`, choose **No** when asked to reinstall hekate, the console will reboot
-   * When updating stages, the console needs to be rebooted manually (also choose **Yes** when asked to overwrite `ini`)
-6. Reboot the console
+   * Modify data on memory card should be done over card reader, to avoid problems with switch file management specific.
+2. Unpack [4IFIR](https://sintez.io/4IFIR.zip) onto your card
+3. Insert card in console and boot
+
 
 ### Installation (from Kefir or other builds)
 Perform a clean install
