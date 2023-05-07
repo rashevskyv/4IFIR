@@ -233,7 +233,7 @@ Each of the profiles contains separate items for overclocking **CPU**, **GPU**, 
 
 #### STAGE (Self-Torture by Aggressive Generation of Explosions)
 
-The higher the STAGE, the more aggressive the optimization of timings/undervolting values. The faster and more energy-efficient the gaming console. The stock 4IFIR should work on any console and its performance is equivalent to STAGE 5+. The probability of ST6 and higher working for you depends on the [luck of the CPU binning process](https://www.computerra.ru/285384/dzhekpot-kremnievoj-loterei-chto-takoe-binning-protsessory/) of your specific console.
+The higher the STAGE, the more aggressive the optimization of timings/undervolting values. The faster and more energy-efficient the gaming console. The stock 4IFIR 1.5 should work on any console and its performance is equivalent to STAGE 6+. The probability of ST7 and higher working for you depends on the [luck of the CPU binning process](https://www.computerra.ru/285384/dzhekpot-kremnievoj-loterei-chto-takoe-binning-protsessory/) of your specific console.
 
 The selection of stages is done in **AiO Updater**, in the **Custom Downloads** menu. After selecting the stage, the console must be restarted.
 
