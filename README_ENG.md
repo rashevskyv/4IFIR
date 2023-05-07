@@ -114,7 +114,7 @@ Versioning of the chip is very conditional (it's simpler to say, it's completely
 
 
 ### Installation (from Kefir or other builds)
-Perform a clean install
+Perform a [clean install](#clean-installation-also-known-as-a-clean-reinstall)
 
 ### Update (transition from previous versions)
 1. Install **4IFIR** through **AiO Updater**
