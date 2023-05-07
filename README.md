@@ -1,8 +1,9 @@
-# 4IFIR 1.5
+ # 4IFIR 1.5
 
 [ENGLISH GUIDE](README_ENG.md)
 
 **Автор проекта @Cooler3D**
+[Группа в телеграме](https://t.me/kefir_switch/48074)
 
 ![](https://gbatemp.net/attachments/1_done-png.358918/)
 
