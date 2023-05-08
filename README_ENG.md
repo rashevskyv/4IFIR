@@ -3,6 +3,7 @@
 [ИНСТРУКЦИЯ НА РУССКОМ](README.md)
 
 **Project's author is @Cooler3D**
+
 [Telegram](https://t.me/kefir_switch/48074)
 
 Translated from Russian to English using the generative model GPT-4. Please report any inaccuracies in Issues and make Pull Requests.
