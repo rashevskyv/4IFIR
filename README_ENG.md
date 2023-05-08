@@ -7,7 +7,7 @@
 
 Translated from Russian to English using the generative model GPT-4. Please report any inaccuracies in Issues and make Pull Requests.
 
-![](https://gbatemp.net/attachments/1_done-png.358918/)
+![](https://gbatemp.net/attachments/1_done-png.359267/)
 
 **ATTENTION! The guide is still a work in progress! Pull requests with corrections and additions are welcome.**
 
@@ -29,7 +29,7 @@ In the case of 4IFIR, overclocking does not mean unlocking frequencies within st
    * [Enabling and disabling modules](#enabling-and-disabling-modules)
    * [Managing Console Operation Mode (portable \ dock, ReverseNX-RT)](#managing-console-operation-mode-portable--dock-reversenx-rt)
    * [Overclocking](#overclocking)
-      * [Frequency and governor settings (4FIR Kraken)](#frequency-settings-and-governor-4fir-kraken)
+      * [Frequency and governor settings (4IFIR Kraken)](#frequency-settings-and-governor-4ifir-kraken)
       * [STAGE (Self-Torture by Aggressive Generation of Explosions)](#stage-self-torture-by-aggressive-generation-of-explosions)
    * [Squeeze more - cheats and patches for graphics improvement](#squeeze-more---cheats-and-patches-for-graphics-improvement)
       * [Cheats](#cheats)
@@ -78,7 +78,6 @@ In the case of 4IFIR, overclocking does not mean unlocking frequencies within st
    * [Daybreak](https://github.com/Atmosphere-NX/Atmosphere/tree/0.14.1/troposphere/daybreak) - a program for updating system software.
    * [DBI](https://github.com/rashevskyv/dbi) - a potentially better file manager, save manager, and program installer for the console.
    * [Fizeau](https://github.com/averne/Fizeau) - a program that allows you to change color display settings on the screen.
-   * [Battery Desync Fix NX](https://github.com/CTCaer/battery_desync_fix_nx) - a program for fixing battery desync. Use only when the battery discharges to 1% in 5 minutes and then works for two hours. Use strictly according to the instructions in the program repository if you do not want to lose the full capacity potential of your battery. **Do not use unless necessary!**
    * [SysDVR](https://cloud.sintez.io/s/4IFIR), a fork of [SysDVR](https://github.com/exelix11/SysDVR) - a program for wireless transmission of images from the console to a PC or other device.
    * [sys-ftpd](https://cloud.sintez.io/s/4IFIR), a fork of [sys-ftpd](https://github.com/cathery/sys-ftpd) - an FTP server running in the background.
 6. Installed modules. Modules are additional components that work within Atmosphere and allow you to do cool things like using Xbox-compatible controllers, amiibo emulation, overclocking, and more.
@@ -107,7 +106,7 @@ In the case of 4IFIR, overclocking does not mean unlocking frequencies within st
 Versioning of the chip is very conditional (it's simpler to say, it's completely absent), so many updates can be released without changing the version of the chip at all. You can follow the new versions in the [chip chat](https://t.me/kefir_switch/48074), or on [this page](https://github.com/rashevskyv/4ifir-checker), where it will be shown when a new version is released and what specifically has changed in it. Updating from current 4ifir installation possibly over [AIO](#update-transition-from-previous-versions)
 
 ### Clean installation (also known as a clean reinstall)
-1. Remove everything from the memory card except the Nintendo and emummc folders (if any)
+1. Remove everything from the memory card except the Nintendo and emummc folders (if any) (The folder with backups of saves, for example JKSV, should not be deleted either)
    * The card should be in [FAT32](https://format.customfw.xyz)
    * Modify data on memory card should be done over card reader, to avoid problems with switch file management specific.
 2. Unpack [4IFIR](https://sintez.io/4IFIR.zip) onto your card
@@ -115,11 +114,10 @@ Versioning of the chip is very conditional (it's simpler to say, it's completely
 
 
 ### Installation (from Kefir or other builds)
-Perform a clean install
+Perform a [clean install](#clean-installation-also-known-as-a-clean-reinstall)
 
 ### Update (transition from previous versions)
-1. Install **4IFIR** through **AiO Updater**
-1. Wait for the internet connection and launch [**Homebrew Launcher**](https://switch.customfw.xyz/hbl) > **All in One Updater**
+1. Launch [**Homebrew Launcher**](https://switch.customfw.xyz/hbl) > **All in One Updater**
    * If you get a black screen instead of launching the app, download the app manually from its [repository](https://github.com/HamletDuFromage/aio-switch-updater) and manually enter this address `https://sintez.io/aio.zip` in Custom downloads > Add custom link, then restart the app
 1. Go to **Custom Downloads** > **4IFIR 1.5** > **Continue**, choose **Yes** when asked to overwrite `ini`, choose **No** when asked to reinstall hekate, the console will reboot
 1. Restart the console
@@ -134,11 +132,10 @@ After simultaneous pressing of these three buttons, the Tesla menu with the foll
 * **InfoNX** - module showing extended information about console power consumption
 * **QuickNTP** - module for clock synchronization via internet, since the built-in synchronization method in kefir is disabled
 * **ReverseNX-RT** - module allowing to forcibly choose console operation mode (portable or docked)
-* **Status Monitor PRO** - module displaying system metrics in real time over the screen, without taking away control from the game. There are many operating modes, including a mode that allows you to display frequency and FPS counters in the upper left corner of the screen.
+* **Status Monitor** - module displaying system metrics in real time over the screen, without taking away control from the game. There are many operating modes, including a mode that allows you to display frequency and FPS counters in the upper left corner of the screen.
 * **EdiZone** - module for cheat management
 * **Sysmodules** - module for managing modules. Allows you to enable/disable installed modules
-* **4FIR Kraken** - module for managing overclocking profiles
-* **sys-ftpd-ovl** - module showing current IP address for establishing FTP connection
+* **4IFIR Kraken** - module for managing overclocking profiles
 * **SysDVR Overlay** - module controlling streaming of console image to PC via WiFi or cable
 
 Pressing **(A)** on a item will open its personal menu.
@@ -164,13 +161,13 @@ In chifir, overclocking is achieved through deep optimizations of HOS components
 
 For stable overclocking, you need to select the stage at which your console can work, and then the operating frequencies for the CPU\GPU\Memory and other settings. All this is done experimentally and individually for each specific console and, moreover, for each specific game.
 
-#### Frequency Settings and Governor (4FIR Kraken)
+#### Frequency Settings and Governor (4IFIR Kraken)
 
-Overclocking is configured through the 4FIR Kraken overlay module.
+Overclocking is configured through the 4IFIR Kraken overlay module.
 
 The header contains the following parameters:
 * **App ID** - displays the titleid of the running game
-* **Profile** - a parameter synchronized with ReverseNX-RT settings and shows the current console mode (**Docked** - dock mode, **Handheld** - portable)
+* **Profile** - a parameter synchronized with ReverseNX-RT settings (if the corresponding setting is enabled in the parameters) and shows the current console mode (**Docked** - dock mode, **Handheld** - portable)
 * **CPU** - the current processor frequency
 * **GPU** - the current video processor core frequency
 * **MEM** - the current memory frequency
@@ -181,7 +178,7 @@ The header contains the following parameters:
 * **Enable** - responsible for activating overclocking. On - enabled, Off - disabled
 * **Edit app Profile** - overclocking profile settings for the running application. The specified settings will be automatically applied when the application is launched. They have medium priority.
 
-* Advance
+* Advanced
    * **Temporary overrides** - overclocking settings for all applications. The specified settings apply to all launched applications and are valid until the console is rebooted. They have the highest priority.
    * **Global profile** - overclocking settings for all applications. The specified settings apply to all launched applications. They have the lowest priority.
    * **Miscellaneous** - additional console settings, such as charge voltage limitation, auto boost, charge percentage limitation, and others. More details will be covered separately.
@@ -196,7 +193,7 @@ Overclocking is done by changing the maximum frequency for CPU/GPU/Memory throug
 
 Profiles also have their own priority. From highest to lowest: **Docked** -> **Official Charging** / **USB Charger** -> **Charging** -> **Handheld**. The application principle is exactly the same. **Docked** mode has the highest priority and overwrites the values of lower priority profiles. **Official Charging** or **USB Charger** have the same priority and overwrite the values of **Charging** and **Handheld** profiles, and so on.
 
-**Docked** and **Handheld** profiles are synchronized with Reverse-NX settings (can be disabled in **Miscellaneous** of **4FIR Kraken** module) and depend on the console mode (dock/portable). The **Charging** profile is activated when any charger is connected to the console. The **Official Charger** profile is activated when connecting the original charger, or any other charger with Power Delivery support. The **USB Charger** profile is activated when connecting any other charger. That is, you can set up a separate overclocking profile for charging from any source and separately for powerful or low-power sources, with the latter having a higher priority.
+**Docked** and **Handheld** profiles are synchronized with Reverse-NX settings (can be disabled in **Miscellaneous** of **4IFIR Kraken** module) and depend on the console mode (dock/portable). The **Charging** profile is activated when any charger is connected to the console. The **Official Charger** profile is activated when connecting the original charger, or any other charger with Power Delivery support. The **USB Charger** profile is activated when connecting any other charger. That is, you can set up a separate overclocking profile for charging from any source and separately for powerful or low-power sources, with the latter having a higher priority.
 
 **Edit app Profile** contains governor management.
 
@@ -236,7 +233,7 @@ Each of the profiles contains separate items for overclocking **CPU**, **GPU**, 
 
 #### STAGE (Self-Torture by Aggressive Generation of Explosions)
 
-The higher the STAGE, the more aggressive the optimization of timings/undervolting values. The faster and more energy-efficient the gaming console. The stock 4IFIR should work on any console and its performance is equivalent to STAGE 5+. The probability of ST6 and higher working for you depends on the [luck of the CPU binning process](https://www.computerra.ru/285384/dzhekpot-kremnievoj-loterei-chto-takoe-binning-protsessory/) of your specific console.
+The higher the STAGE, the more aggressive the optimization of timings/undervolting values. The faster and more energy-efficient the gaming console. The stock 4IFIR 1.5 should work on any console and its performance is equivalent to STAGE 6+. The probability of ST7 and higher working for you depends on the [luck of the CPU binning process](https://www.computerra.ru/285384/dzhekpot-kremnievoj-loterei-chto-takoe-binning-protsessory/) of your specific console.
 
 The selection of stages is done in **AiO Updater**, in the **Custom Downloads** menu. After selecting the stage, the console must be restarted.
 
@@ -245,7 +242,7 @@ To choose a stable stage, test the console as follows:
 **WARNING!!!** If at any stage during stage testing there is a freeze, or the game freezes, or artifacts appear on the screen, or any unexpected console behavior occurs, lower the stage. Your current console can't handle it!
 
 1. Select the maximum available stage in AiO, restart
-1. Disable governors (**4FIR Kraken** > **Frequency Governor (Experimental)** > **Off**)
+1. Disable governors (**4IFIR Kraken** > **Frequency Governor (Experimental)** > **Off**)
 1. Select the maximum available memory frequency.
 1. If the console doesn't freeze, select the maximum available GPU frequency
 1. If the console doesn't freeze, select the maximum available CPU frequency
@@ -317,7 +314,7 @@ A load above 15 watts (approximately; exact current limit values for different c
 
 #### Battery drains from 100% to 1% within minutes, but it works fine at 1% for several hours
 
-The power controller is designed for a peak power consumption of approximately 15W. If exceeded, the console will activate emergency protection and shut down. You need to reduce the demands, as this affects the controller's calibration data. The console may think that the battery cannot handle the load and lower its estimated residual capacity by 1% with each failure. This can cause the console's charge indicator to instantly drop to 1% charge when the battery is under load. To solve this problem, the 4IFIR package includes the [Battery Desync Fix NX](https://github.com/CTCaer/battery_desync_fix_nx) program.
+The power controller is designed for a peak power consumption of approximately 15W. If exceeded, the console will activate emergency protection and shut down. You need to reduce the demands, as this affects the controller's calibration data. The console may think that the battery cannot handle the load and lower its estimated residual capacity by 1% with each failure. This can cause the console's charge indicator to instantly drop to 1% charge when the battery is under load. To solve this problem, exists the [Battery Desync Fix NX](https://github.com/CTCaer/battery_desync_fix_nx) program.
 
 **WARNING!!!** Do not run [Battery Desync Fix NX](https://github.com/CTCaer/battery_desync_fix_nx) if you don't have battery problems, or else they will appear! You will need to perform separate calibrations for stock and each of your emuNANDs separately, as calibration data is stored separately in each!
 
@@ -366,7 +363,7 @@ Your game may not be compatible with **SaltyNX**, which is responsible for these
 **A**: Refer to the Problems and Solutions section above.
 
 **Q**: No governor            
-**A**: Enable **4FIR Kraken** > **Miscellaneous** > **Frequency Governor (Experimental)**, then both governors will appear in **4FIR Kraken** > **Edit app Profile**.
+**A**: Enable **4IFIR Kraken** > **Miscellaneous** > **Frequency Governor (Experimental)**, then both governors will appear in **4IFIR Kraken** > **Edit app Profile**.
 
 **Q**: Frequencies are jumping            
 **A**: This is normal when the governor is working.
