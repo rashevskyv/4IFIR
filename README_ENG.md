@@ -118,8 +118,8 @@ Versioning of the chip is very conditional (it's simpler to say, it's completely
 1. Go to **Custom Downloads** > **4IFIR 1.5** > **Continue**, choose **Yes** when asked to overwrite `ini`, choose **No** when asked to reinstall hekate, the console will reboot
 
 ### Additional methods
-   * Fresh installation is needed _only_ for those who don't have any system installed at all, but already have the ability to launch it from a memory card (for example, if a chip is installed).
-   * Debug installation is a method that should be used _only_ if you understand what you're doing or if you have been asked to do so by a [competent person](https://t.me/Cooler3D).
+* Fresh installation is needed _only_ for those who don't have any system installed at all, but already have the ability to launch it from a memory card (for example, if a chip is installed).
+* Debug installation is a method that should be used _only_ if you understand what you're doing or if you have been asked to do so by a [competent person](https://t.me/Cooler3D).
    
 #### Fresh installation
 1. Unzip [4IFIR](https://sintez.io/4IFIR.zip) to the console's memory card
@@ -128,7 +128,7 @@ Versioning of the chip is very conditional (it's simpler to say, it's completely
 1. Insert the card into the console and turn it on
 
 #### Debug installation
-   * Perform only in case of problems with the above methods
+**Perform only in case of problems with the above methods**
 1. Remove everything from the memory card except for the Nintendo and emummc (if any) folders (the folder with save backups, such as JKSV, should not be deleted either)
    * The card must be in [FAT32](https://format.customfw.xyz)
    * It is recommended to work with the memory card through a card reader, not through the console.
