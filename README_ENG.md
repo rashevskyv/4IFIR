@@ -116,7 +116,6 @@ Versioning of the chip is very conditional (it's simpler to say, it's completely
 1. Launch [**Homebrew Launcher**](https://switch.customfw.xyz/hbl) > **All in One Updater**
    * If you get a black screen instead of launching the app, download the app manually from its [repository](https://github.com/HamletDuFromage/aio-switch-updater) and manually enter this address `https://sintez.io/aio.zip` in Custom downloads > Add custom link, then restart the app
 1. Go to **Custom Downloads** > **4IFIR 1.5** > **Continue**, choose **Yes** when asked to overwrite `ini`, choose **No** when asked to reinstall hekate, the console will reboot
-1. Restart the console
 
 ### Additional methods
    * Fresh installation is needed _only_ for those who don't have any system installed at all, but already have the ability to launch it from a memory card (for example, if a chip is installed).
