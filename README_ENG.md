@@ -137,7 +137,10 @@ Versioning of the chip is very conditional (it's simpler to say, it's completely
 
 ## How to use 4IFIR
 
-All settings are made through the Tesla menu, which is called by the key combination (L) + (R3) + (▼), where (L) is the upper bumper of the left joy-con, (R3) is the press on the right stick, and (▼) is the down button on the "D-pad". 
+All settings are made through the Tesla menu, which is called by the key combination (L) + (R) + (▲), where (L) is the upper bumper of the left joy-con, (R) is the upper bumper of the right joy-con, and (▲) is the up button on the "D-pad". 
+
+**You can set any combination in the `/config/tesla/config.ini` file or simply delete it, in which case the default combination will be restored.**
+
 After simultaneous pressing of these three buttons, the Tesla menu with the following items will appear: 
 
 * **FPSLocker** - module for locking frame rates in games
