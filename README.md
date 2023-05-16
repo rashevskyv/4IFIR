@@ -1,7 +1,6 @@
  # 4IFIR 1.5
 
-[ENGLISH GUIDE](README_ENG.md)
-[Рекомендуемые параметры разгона](OPTIMAL_OVERCLOCKING.md)
+[ENGLISH GUIDE](README_ENG.md) | [Рекомендуемые параметры разгона](OPTIMAL_OVERCLOCKING.md)
 
 **Автор проекта @Cooler3D**
 

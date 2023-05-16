@@ -1,7 +1,6 @@
 # 4IFIR 1.5
 
-[ИНСТРУКЦИЯ НА РУССКОМ](README.md)
-[OPTIMAL OVERCLOCKING SETTINGS](OPTIMAL_OVERCLOCKING.md)
+[ИНСТРУКЦИЯ НА РУССКОМ](README.md) | [OPTIMAL OVERCLOCKING SETTINGS](OPTIMAL_OVERCLOCKING.md)
 
 **Project's author is @Cooler3D**
 
