@@ -354,7 +354,7 @@ First, try removing the game's profile from FPSLocker. You may have disabled Syn
 
 #### Witcher 3 won't start
 
-Delete the folder `atmosphere/exefs_patches/am` and restart the console. These are patches for sys-dvr that enable screen recording, and consequently, game streaming for any game. By deleting these patches, you will lose this ability. However, if you don't plan to stream the game to your PC, it doesn't matter.
+**HB Menu** > **SysDVR** > **DVR-Patches** > **Uninstall** > **Reboot**
 
 #### FPS in-game always shows 0\254 \ ReverseNX does not switch modes
 
