@@ -1,10 +1,6 @@
-# 4IFIR 1.5
+# 4IFIR 1.5 by **[Cooler3D](https://github.com/Cooler3D)**
 
-[ИНСТРУКЦИЯ НА РУССКОМ](README.md) | [OPTIMAL OVERCLOCKING SETTINGS](OPTIMAL_OVERCLOCKING.md)
-
-**Project's author is @Cooler3D**
-
-[Telegram](https://t.me/kefir_switch/48074)
+[ИНСТРУКЦИЯ НА РУССКОМ](README.md) | [OPTIMAL OVERCLOCKING SETTINGS](OPTIMAL_OVERCLOCKING.md) | [Telegram](https://t.me/kefir_switch/48074)
 
 Translated from Russian to English using the generative model GPT-4. Please report any inaccuracies in Issues and make Pull Requests.
 
@@ -340,7 +336,7 @@ To reset battery statistics:
 3. Press (B) to exit the application
 4. Reboot the console into the official firmware
 5. Fully discharge the console twice and fully charge it
-   * Full discharge means discharging to a red battery state and HOS shutdown due to low discharge. The console itself remains on and wakes up when connected to a charger
+   * Full discharge is defined as a battery level within the range of 3205-3210mV, which can be checked in InfoNX ([learn more..](https://t.me/kefir_switch/48074/172575))
    * Do not reboot the console until you have done this
    * If the console goes to sleep due to low charge, wake it up until you see the red battery icon
    * If the console turns off due to low battery (stops waking up when pressing the power button), connect it to a charger. If the console hangs on a black screen with a battery icon after this, disconnect/connect the charger. Do this until you can enter the firmware again and charge the console to 100% within the firmware, then repeat the discharge/charge cycle once more
@@ -383,6 +379,9 @@ Your game may not be compatible with **SaltyNX**, which is responsible for these
 
 **Q**: Frequencies are jumping            
 **A**: This is normal when the governor is working.
+
+**Q**: Cannot remove account            
+**A**: **DBI** > **Tools** > **Delete account...**
 
 ## Licenses
 
