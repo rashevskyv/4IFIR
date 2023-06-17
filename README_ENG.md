@@ -383,6 +383,9 @@ Your game may not be compatible with **SaltyNX**, which is responsible for these
 **Q**: Cannot remove account            
 **A**: **DBI** > **Tools** > **Delete account...**
 
+**В**: What are **4MODS** and **4BRICK**?
+**О**: **4MODS** is a small collection of graphics and FPS mods for games, as well as patches for FPS lockers. **4BRICK** is a debugging stage where various things are always available (you need to pay attention to Cooler3D's words)
+
 ## Licenses
 
 Listed below are the licenses for the programs that have been modified specifically for 4IFIR. In accordance with these licenses, all code in the modifications is distributed under the same license.
