@@ -39,7 +39,7 @@ In the case of 4IFIR, overclocking does not mean unlocking frequencies within st
       * [When playing with overclocking enabled, the empty battery icon appears after a while](#when-playing-with-overclocking-enabled-the-empty-battery-icon-appears-after-a-while)
       * [The game stopped running and started crashing](#the-game-stopped-running-and-started-crashing)
       * [Witcher 3 won't start](#witcher-3-wont-start)
-      * [FPS in-game always shows 0\254 \ ReverseNX does not switch modes](#fps-in-game-always-shows-0254--reversenx-does-not-switch-modes)
+      * [FPS in-game always shows 0/254 or ReverseNX does not switch modes](#fps-in-game-always-shows-0254-or-reversenx-does-not-switch-modes)
 1. [FAQ](#faq)
 1. [Licenses](#licenses)
 1. [Acknowledgments](#acknowledgements)
@@ -356,7 +356,7 @@ First, try removing the game's profile from FPSLocker. You may have disabled Syn
 
 **HB Menu** > **SysDVR** > **DVR-Patches** > **Uninstall** > **Reboot**
 
-#### FPS in-game always shows 0\254 \ ReverseNX does not switch modes
+#### FPS in-game always shows 0/254 or ReverseNX does not switch modes
 
 Your game may not be compatible with **SaltyNX**, which is responsible for these functions. The list of incompatible games can be found [here](https://github.com/masagrator/SaltyNX#list-of-titles-not-compatible-with-pluginspatches)
 
