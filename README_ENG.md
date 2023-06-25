@@ -104,14 +104,14 @@ In the case of 4IFIR, overclocking does not mean unlocking frequencies within st
 Versioning of the chip is very conditional (it's simpler to say, it's completely absent), so many updates can be released without changing the version of the chip at all. You can follow the new versions in the [chip chat](https://t.me/kefir_switch/48074), or on [this page](https://github.com/rashevskyv/4ifir-checker), where it will be shown when a new version is released and what specifically has changed in it. Updating from current 4ifir installation possibly over [AIO](#update-transition-from-previous-versions)
 
 ### Installation (with kefir or other build)
-1. Unzip the [All in One Updater with 4IFIR's config](https://github.com/rashhttps://github.com/rashevskyv/4IFIR/releases/latest/download/aio.zip) to the console memory card
+1. Unzip the [All in One Updater with 4IFIR's config](https://github.com/rashevskyv/4IFIR/releases/latest/download/aio.zip) to the console memory card
 1. Launch [**Homebrew Launcher**](https://switch.customfw.xyz/hbl) > **All in One Updater**
-   * If you get a black screen instead of launching the app, download the app manually from its [repository](https://github.com/HamletDuFromage/aio-switch-updater) and manually enter this address `https://github.com/rashhttps://github.com/rashevskyv/4IFIR/releases/latest/download/aio.zip` in Custom downloads > Add custom link, then restart the app
+   * If you get a black screen instead of launching the app, download the app manually from its [repository](https://github.com/HamletDuFromage/aio-switch-updater) and manually enter this address `https://github.com/rashevskyv/4IFIR/releases/latest/download/aio.zip` in Custom downloads > Add custom link, then restart the app
 1. Go to **Custom Downloads** > **4IFIR 1.6** > **Continue**, choose **Yes** when asked to overwrite `ini`, choose **No** when asked to reinstall hekate, the console will reboot
 
 ### Update (transition from previous versions), clean reinstallation
 1. Launch [**Homebrew Launcher**](https://switch.customfw.xyz/hbl) > **All in One Updater**
-   * If you get a black screen instead of launching the app, download the app manually from its [repository](https://github.com/HamletDuFromage/aio-switch-updater) and manually enter this address `https://github.com/rashhttps://github.com/rashevskyv/4IFIR/releases/latest/download/aio.zip` in Custom downloads > Add custom link, then restart the app
+   * If you get a black screen instead of launching the app, download the app manually from its [repository](https://github.com/HamletDuFromage/aio-switch-updater) and manually enter this address `https://github.com/rashevskyv/4IFIR/releases/latest/download/aio.zip` in Custom downloads > Add custom link, then restart the app
 1. Go to **Custom Downloads** > **4IFIR 1.6** > **Continue**, choose **Yes** when asked to overwrite `ini`, choose **No** when asked to reinstall hekate, the console will reboot
 
 ### Additional methods
@@ -119,7 +119,7 @@ Versioning of the chip is very conditional (it's simpler to say, it's completely
 * Debug installation is a method that should be used _only_ if you understand what you're doing or if you have been asked to do so by a [competent person](https://t.me/Cooler3D).
    
 #### Fresh installation
-1. Unzip [4IFIR](https://github.com/rashhttps://github.com/rashevskyv/4IFIR/releases/latest/download/4IFIR.zip) to the console's memory card
+1. Unzip [4IFIR](https://github.com/rashevskyv/4IFIR/releases/latest/download/4IFIR.zip) to the console's memory card
    * The card must be in [FAT32](https://format.customfw.xyz)
    * It is recommended to work with the memory card through a card reader, not through the console.
 1. Insert the card into the console and turn it on
@@ -129,7 +129,7 @@ Versioning of the chip is very conditional (it's simpler to say, it's completely
 1. Remove everything from the memory card except for the Nintendo and emummc (if any) folders (the folder with save backups, such as JKSV, should not be deleted either)
    * The card must be in [FAT32](https://format.customfw.xyz)
    * It is recommended to work with the memory card through a card reader, not through the console.
-1. Unzip [4IFIR](https://github.com/rashhttps://github.com/rashevskyv/4IFIR/releases/latest/download/4IFIR.zip) to the console's memory card
+1. Unzip [4IFIR](https://github.com/rashevskyv/4IFIR/releases/latest/download/4IFIR.zip) to the console's memory card
 1. Insert the card into the console and turn it on
 
 ## How to use 4IFIR

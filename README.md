@@ -102,14 +102,14 @@
 Версирование чифира очень условное (проще сказать, отсутствует вообще), поэтому множество обновлений может выходить при этом не меняя версии чифира вообще. Следить за новыми версиями можно в [чате чифира](https://t.me/kefir_switch/48074), или на [этой странице](https://github.com/rashevskyv/4ifir-checker), где будет показано когда вышла новая версия и что конкретно в ней изменилось. [Обновление же производится через AIO](#обновление-переход-с-предыдущих-версий).
 
 ### Установка (с кефира или другой сборки)
-1. Распакуйте [All in One Updater с конфигом 4IFIR'а](https://github.com/rashhttps://github.com/rashevskyv/4IFIR/releases/latest/download/aio.zip) на карту памяти консоли
+1. Распакуйте [All in One Updater с конфигом 4IFIR'а](https://github.com/rashevskyv/4IFIR/releases/latest/download/aio.zip) на карту памяти консоли
 1. Запустите [**Homebrew Launcher**](https://switch.customfw.xyz/hbl) > **All in One Updater**
-   * Если вместо запуска приложения вы получаете черный экран, перекачайте приложение вручную из его [репозитория](https://github.com/HamletDuFromage/aio-switch-updater) и вручную пропишите в Custom downloads > Add custom link этот адрес `https://github.com/rashhttps://github.com/rashevskyv/4IFIR/releases/latest/download/aio.zip`, после чего перезапустите приложение
+   * Если вместо запуска приложения вы получаете черный экран, перекачайте приложение вручную из его [репозитория](https://github.com/HamletDuFromage/aio-switch-updater) и вручную пропишите в Custom downloads > Add custom link этот адрес `https://github.com/rashevskyv/4IFIR/releases/latest/download/aio.zip`, после чего перезапустите приложение
 1. Перейдите в **Custom Downloads** > **4IFIR 1.6** > **Continue**, на запрос о перезаписи `ini`, выберите **Yes**, на запрос о переустановке hekate выберите **No**, консоль перезагрузится
 
 ### Обновление (переход с предыдущих версий), переустановка начисто 
 1. Запустите [**Homebrew Launcher**](https://switch.customfw.xyz/hbl) > **All in One Updater**
-   * Если вместо запуска приложения вы получаете черный экран, перекачайте приложение вручную из его [репозитория](https://github.com/HamletDuFromage/aio-switch-updater) и вручную пропишите в Custom downloads > Add custom link этот адрес `https://github.com/rashhttps://github.com/rashevskyv/4IFIR/releases/latest/download/aio.zip`, после чего перезапустите приложение
+   * Если вместо запуска приложения вы получаете черный экран, перекачайте приложение вручную из его [репозитория](https://github.com/HamletDuFromage/aio-switch-updater) и вручную пропишите в Custom downloads > Add custom link этот адрес `https://github.com/rashevskyv/4IFIR/releases/latest/download/aio.zip`, после чего перезапустите приложение
 1. Перейдите в **Custom Downloads** > **4IFIR 1.6** > **Continue**, на запрос о перезаписи `ini`, выберите **Yes**, на запрос о переустановке hekate выберите **No**, консоль перезагрузится
 
 ### Дополнительные методы
@@ -117,7 +117,7 @@
 * **Отладочная установка** это метод, который следует использовать _только_ тогда, когда понимаете, что делаете, или если об этом вас попросил [компетентный человек](https://t.me/Cooler3D).
    
 #### Установка с нуля
-1. Распакуйте [4IFIR](https://github.com/rashhttps://github.com/rashevskyv/4IFIR/releases/latest/download/4IFIR.zip) на карту памяти консоли
+1. Распакуйте [4IFIR](https://github.com/rashevskyv/4IFIR/releases/latest/download/4IFIR.zip) на карту памяти консоли
    * Карта должна быть в [FAT32](https://format.customfw.xyz)
    * Работать с картой памяти рекомендуется через картридер, не через консоль.
 1. Вставить карту в консоль и включить
@@ -127,7 +127,7 @@
 1. Удалите с карты памяти всё, кроме папки Nintendo и emummc (если есть) (Папку с бекапами сохранений, например JKSV, тоже не стоит удалять)
    * Карта должна быть в [FAT32](https://format.customfw.xyz)
    * Работать с картой памяти рекомендуется через картридер, не через консоль.
-2. Распакуйте [4IFIR](https://github.com/rashhttps://github.com/rashevskyv/4IFIR/releases/latest/download/4IFIR.zip) на карту памяти консоли
+2. Распакуйте [4IFIR](https://github.com/rashevskyv/4IFIR/releases/latest/download/4IFIR.zip) на карту памяти консоли
 3. Вставить карту в консоль и включить
 
 ## Как использовать 4IFIR 
