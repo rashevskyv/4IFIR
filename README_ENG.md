@@ -257,8 +257,8 @@ To choose a stable stage, test the console as follows:
 1. Select the maximum available stage in AiO, restart
 1. Disable governors (**4IFIR Unreal** > **Frequency Governor (Experimental)** > **Off**)
 1. Select the maximum available memory frequency.
-1. If the console doesn't freeze, select the maximum available GPU frequency
-1. If the console doesn't freeze, select the maximum available CPU frequency
+1. If the console doesn't freeze, select the maximum available GPU frequency in **Temporary overrides**
+1. If the console doesn't freeze, select the maximum available CPU frequency in **Temporary overrides**
 1. If the console doesn't freeze, launch any heavy game and test it for 10-15 minutes.
 1. If no glitches/freezes/artifacts are detected, congratulations, your console has won the silicon lottery.
 
