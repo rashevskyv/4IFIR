@@ -129,7 +129,7 @@ Versioning of the chip is very conditional (it's simpler to say, it's completely
 1. Remove everything from the memory card except for the Nintendo and emummc (if any) folders (the folder with save backups, such as JKSV, should not be deleted either)
    * The card must be in [FAT32](https://format.customfw.xyz)
    * It is recommended to work with the memory card through a card reader, not through the console.
-1. Unzip [4IFIR](https://sintez.io/4IFIR.zip) to the console's memory card
+1. Unzip [4IFIR](https://sintez.io/4IFIR+.zip) to the console's memory card
 1. Insert the card into the console and turn it on
 
 ## How to use 4IFIR
