@@ -104,7 +104,7 @@
 ### Установка (с кефира или другой сборки)
 1. Распакуйте [All in One Updater с конфигом 4IFIR'а](https://sintez.io/AIOB.zip) на карту памяти консоли
 1. Запустите [**Homebrew Launcher**](https://switch.customfw.xyz/hbl) > **All in One Updater**
-   * Если вместо запуска приложения вы получаете черный экран, перекачайте приложение вручную из его [репозитория](https://github.com/HamletDuFromage/aio-switch-updater) и вручную пропишите в Custom downloads > Add custom link этот адрес `https://sintez.io/AIO.zip`, после чего перезапустите приложение
+   * Если вместо запуска приложения вы получаете черный экран, перекачайте приложение вручную из его [репозитория](https://github.com/HamletDuFromage/aio-switch-updater) и вручную пропишите в Custom downloads > Add custom link этот адрес `https://sintez.io/AIOB.zip`, после чего перезапустите приложение
 1. Перейдите в **Custom Downloads** > **4IFIR 1.7** > **Continue**, на запрос о перезаписи `ini`, выберите **Yes**, на запрос о переустановке hekate выберите **No**, консоль перезагрузится
 
 ### Обновление (переход с предыдущих версий), переустановка начисто 
