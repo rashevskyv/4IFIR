@@ -48,7 +48,7 @@ In the case of 4IFIR, overclocking does not mean unlocking frequencies within st
 ## What can 4IFIR do?
 
 * Overclocking up to 2500+ Mhz for CPU, 1305 Mhz for GPU, 28xx Mhz for RAM (the precise limit varies for each console)
-* Automatic overvolting
+* Automatic undervolting/overvolting
 * Automatic boost on game launch
 * Support for governors - reducing resource consumption when the console is idle
 * Video recording without restrictions in all games except a few unsupported ones
