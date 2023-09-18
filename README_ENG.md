@@ -13,7 +13,7 @@ The guide is extensive. Use the search function to use it successfully.
 
 This is a collection of modified components designed to maximize the overclocking of the Nintendo Switch and improve the user experience through additional functionality. The modification is intended for those who would like to get the most out of their console, achieve graphics on par with the PS4 (recommended to be used in conjunction with mods by [ECLIPSE00074](https://4pda.to/forum/index.php?showuser=176532)), unlock 60fps, speed up loading times, fix the native resolution, emulate PS2 at full speed (if an emulator for Switch is available, of course), reduce cooling system noise, etc.
 
-In the case of 4IFIR, overclocking does not mean unlocking frequencies within stock tables, but rather overclocking that includes overvolting of each overclocked component. By installing the modification without theoretical preparation, you remove the author's responsibility for any possible consequences, including console failure, and fully assume the risks yourself. According to my circuit calculations, if they are correct, no problems should arise. Currently, there have been no incidents of console failure. However, your console could be the first, as safe overclocking is impossible by definition. I have warned you. To prevent potential software issues, use EmuNand, FAT32, and have backups. To avoid conflicts, it is recommended to perform a clean installation.
+In the case of 4IFIR, overclocking does not mean unlocking frequencies within stock tables, but rather overclocking that includes undervolting/overvolting of each overclocked component. By installing the modification without theoretical preparation, you remove the author's responsibility for any possible consequences, including console failure, and fully assume the risks yourself. According to my circuit calculations, if they are correct, no problems should arise. Currently, there have been no incidents of console failure. However, your console could be the first, as safe overclocking is impossible by definition. I have warned you. To prevent potential software issues, use EmuNand, FAT32, and have backups. To avoid conflicts, it is recommended to perform a clean installation.
 
 ## Table of Contents
 
@@ -47,7 +47,7 @@ In the case of 4IFIR, overclocking does not mean unlocking frequencies within st
 
 ## What can 4IFIR do?
 
-* Overclocking up to 2397 Mhz for CPU, 1536 Mhz for GPU, 24xx Mhz for RAM (the precise limit varies for each console)
+* Overclocking up to 2500+ Mhz for CPU, 1305 Mhz for GPU, 28xx Mhz for RAM (the precise limit varies for each console)
 * Automatic overvolting
 * Automatic boost on game launch
 * Support for governors - reducing resource consumption when the console is idle
