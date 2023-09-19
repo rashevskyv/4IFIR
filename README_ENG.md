@@ -7,7 +7,7 @@ Translated from Russian to English using the generative model GPT-4. Please repo
 
 ![](https://gbatemp.net/attachments/1_done-png.359267/)
 
-**ATTENTION! The guide is still a work in progress! Pull requests with corrections and additions are welcome.**
+**ATTENTION! The guide is still a work in progress! Pull requests with corrections and additions are welcome. Mac OS users, in case of problems - read [guide](https://gbatemp.net/threads/macos-fix-archive-attributes-for-switch-sd-card.545560/)**
 
 The guide is extensive. Use the search function to use it successfully.
 
