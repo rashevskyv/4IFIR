@@ -249,7 +249,7 @@ Each of the profiles contains separate items for overclocking **CPU**, **GPU**, 
 
 **4IFIR Wizard** is a package that allows you to fine-tune parameters for your console. If 4IFIR is unstable or if you want to increase the performance of the console, 4IFIR Wizard is your indispensable assistant.
 
-To get to the 4IFIR Wizard, open the Tesla menu with the combination **(L)+(R)+(▲)**, then press **(▶)** to get to the Packages menu and select 4IFIR Wizard.
+To get to the 4IFIR Wizard, open the Tesla menu with the combination **(L)+(R)+(▲)**, then press **(►)** to get to the Packages menu and select 4IFIR Wizard.
 
 The following menus are available inside:
 * **Configure** - main configuration menu.
