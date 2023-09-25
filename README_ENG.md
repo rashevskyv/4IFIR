@@ -28,6 +28,7 @@ In the case of 4IFIR, overclocking does not mean unlocking frequencies within st
    * [Managing Console Operation Mode (portable \ dock, ReverseNX-RT)](#managing-console-operation-mode-portable--dock-reversenx-rt)
    * [Overclocking](#overclocking)
       * [Frequency and governor settings (4IFIR Placebo)](#frequency-settings-and-governor-4ifir-placebo)
+      * [4IFIR Wizard Configurator](#4ifir-wizard-configurator)
       * [STAGE (Self-Torture by Aggressive Generation of Explosions)](#stage-self-torture-by-aggressive-generation-of-explosions)
    * [Squeeze more - cheats and patches for graphics improvement](#squeeze-more---cheats-and-patches-for-graphics-improvement)
       * [Cheats](#cheats)
@@ -243,6 +244,48 @@ Each of the profiles contains separate items for overclocking **CPU**, **GPU**, 
       * **CPU Volt** - CPU voltage
       * **GPU Volt** - GPU voltage
       * **DRAM Volt** - memory voltage
+
+#### 4IFIR Wizard Configurator
+
+**4IFIR Wizard** is a package that allows you to fine-tune parameters for your console. If 4IFIR is unstable or if you want to increase the performance of the console, 4IFIR Wizard is your indispensable assistant.
+
+To get to the 4IFIR Wizard, open the Tesla menu with the combination **(L)+(R)+(▲)**, then press **(▶)** to get to the Packages menu and select 4IFIR Wizard.
+
+The following menus are available inside:
+* **Configure** - main configuration menu.
+* **Backup** - menu for creating and managing backups.
+* **About** - menu containing information about the package and the current configuration.
+
+In any menu in which **🅨 Help** is displayed at the bottom of the screen, help is available - a short description of the purpose of this menu.
+
+Within the Configure menu there are three main sections:
+* **CPU** - processor settings:
+    * **Priority Mode** - setting performance priority. You can choose from a GPU mode that prioritizes performance in games, and a CPU mode that prioritizes performance in synthetic tests.
+    * **CPU Voltage Limit** - setting the maximum allowable CPU voltage. The higher the power, the higher the maximum available processor frequency, but the higher the consumption. It is recommended to increase it if there is a lack of maximum frequency for processor-intensive games.
+* **GPU** - video core settings:
+    * **GPU Undervolt Mode** - the setting that allows you to set global power parameters for the video core. There are three modes:
+       * Overvolt - increased video core power consumption. Allows you to achieve stability at higher GPU/RAM frequencies, but reduces battery life.
+       * Base - standard 4IFIR mode.
+       * Undervolt - economical power consumption mode for the video core. Increases battery life, but may be unstable on some consoles.
+    * **Advanced settings** - section that presents all GPU frequencies available in 4IFIR Overlay. When choosing a frequency, you will be given a selection of voltages for this frequency. This setting allows you to fine-tune power consumption at specific frequencies, giving you the opportunity to reduce consumption at lower frequencies or increase voltage if your console lacks the standard 4IFIR power settings.
+    **IMPORTANT:** when setting a fixed voltage for a frequency, GPU Undervolt Mode will not be applicable to this frequency.
+    Within each frequency there is a Base menu item (in case of exceptions, the standard setting is marked with the Base tag), allowing you to reset the settings to default values. At the bottom of the list there is also an **Reset all to [...]** menu item, which allows you to reset all frequencies.
+* **RAM** - memory settings:
+    * **RAM MHz** - setting the maximum memory frequency. When changing this parameter, the frequency set by the 4IFIR Maximized will be replaced with the selected one. The higher the frequency, the higher the performance, however, higher frequencies can lead to artifacts and crashes if the related parameters are incorrectly configured.
+    * **RAM Vddq** - primary memory voltage. Higher values can improve stability at high frequencies while having minimal impact on power consumption.
+    * **RAM Vdd2** - secondary memory voltage. Higher values can also improve stability at high frequencies while having minimal impact on power consumption.
+    * **EMC DVB Table** - memory controller power table. Unlike the voltage of the memory itself, it has a significant impact on power consumption, guaranteeing increased stability at high memory frequencies. The higher the value, the higher the consumption. It is recommended to increase it last, after first trying to solve the problem by adjusting other parameters.
+    * **Core Timings [1-6]** - timing settings. Each Core Timings item is responsible for its own set of timings, allowing for individual adjustment. The higher the value, the better the performance, however, too high values can lead to crashes depending on the memory model. For fine tuning, lower all values to 1, then increase each parameter by one (followed by a reboot), checking stability. In case of crashes or artifacts, lower this value by 1 and move to the next Core Timings item.
+    Sometimes you may see timings notation like this: 365532 or 3-6-5-5-3-2. Each number corresponds to a Core Timings setting. For example, for the case above: Core Timings 1 is set to 3, Core Timings 2 is set to 6 and so on.
+
+**IMPORTANT:** To apply the changes, select **Complete [Reboot]** from the Configure menu or manually reboot your console.
+
+The 4IFIR Wizard provides a mechanism for creating backups of your configurations. In order to manage backups, select Backup in the main menu.
+There are two options available inside:
+* **Create backup** - allows you to create a new backup from the current configuration. Backups are located at */atmosphere/kips/.bak*. New backups are generated with a number in the name for ease of use and do not replace existing ones.
+* **Manage backups** - menu for managing backups. When you enter it, a list of your backups will be displayed. When selecting a backup, you will see its configuration and can apply or delete it.
+   **IMPORTANT:** after applying the backup, select **Complete [Reboot]** in the Configure menu or manually reboot the console to apply the changes.
+
 
 #### STAGE (Self-Torture by Aggressive Generation of Explosions)
 
