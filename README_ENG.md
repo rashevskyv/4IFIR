@@ -281,10 +281,10 @@ Within the Configure menu there are three main sections:
 **IMPORTANT:** To apply the changes, select **Complete [Reboot]** from the Configure menu or manually reboot your console.
 
 The 4IFIR Wizard provides a mechanism for creating backups of your configurations. In order to manage backups, select Backup in the main menu.
-There are two options available inside:
-* **Create backup** - allows you to create a new backup from the current configuration. Backups are located at */atmosphere/kips/.bak*. New backups are generated with a number in the name for ease of use and do not replace existing ones.
-* **Manage backups** - menu for managing backups. When you enter it, a list of your backups will be displayed. When selecting a backup, you will see its configuration and can apply or delete it.
-   **IMPORTANT:** after applying the backup, select **Complete [Reboot]** in the Configure menu or manually reboot the console to apply the changes.
+There are three options available inside:
+* **Create backup** - allows you to create a new backup from the current configuration. Backups are located along the path */atmosphere/kips/.bak*. The new backup replaces the previous one.
+* **Restore Backup** - restore the configuration from a backup.
+* **Delete Backup** - delete the backup file.
 
 
 #### STAGE (Self-Torture by Aggressive Generation of Explosions)
