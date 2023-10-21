@@ -462,4 +462,4 @@ No license:
 * RetroNX team
 * ChanseyIsTheBest
 * 4PDA
-* Hanai3bi/Meha
+* Hanai3Bi/Meha
