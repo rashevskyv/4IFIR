@@ -441,6 +441,7 @@ ERISTA, внезапно, оснащена более мощным контро�
   * [Tesla Overlay Menu](https://github.com/WerWolv/Tesla-Menu/)
   * [Status-Monitor-Overlay](https://github.com/masagrator/Status-Monitor-Overlay)
   * [Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite)
+
 [GPL 3.0](https://github.com/masagrator/ReverseNX-Tool/blob/master/LICENSE): 
   * [ReverseNX-Tool](https://github.com/masagrator/ReverseNX-Tool)
   * [sys-ftpd](https://github.com/cathery/sys-ftpd)
