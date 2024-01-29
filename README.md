@@ -1,8 +1,8 @@
 # 4IFIR 1.9 by **[Cooler3D](https://github.com/Cooler3D)**
 
-[ENGLISH GUIDE](README_ENG.md) | [Рекомендуемые параметры разгона](OPTIMAL_OVERCLOCKING.md) | [Группа в телеграме](https://t.me/kefir_switch/48074) | [Бот, следящий за обновлениями](https://ibb.co/1dpNhVQ)
+[ENGLISH GUIDE](README_ENG.md) | [Рекомендуемые параметры разгона](OPTIMAL_OVERCLOCKING.md) | [Группа в телеграме](https://t.me/kefir_switch/48074) | [Бот, следящий за обновлениями](https://t.me/kefir_switch/98339)
 
-![](https://gbatemp.net/attachments/1_done-png.359267/)
+![](https://ibb.co/1dpNhVQ)
 
 **ВНИМАНИЕ! В данный момент 4IFIR не поддерживает HOS17, если у вас приставка на этой версии, то необходимо произвести откат на версию HOS 16.1(Её можно скачать в AIO, а потом установить через Daybreak).
 Над инструкцией все еще ведется работа! Пулреквесты с исправлениями и дополнениями приветствуются. Пользователям Mac OS, в случае возникновения проблем - прочитать [гайд](https://gbatemp.net/threads/macos-fix-archive-attributes-for-switch-sd-card.545560/)** 
