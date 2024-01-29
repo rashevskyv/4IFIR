@@ -2,7 +2,8 @@
 
 [ENGLISH GUIDE](README_ENG.md) | [Рекомендуемые параметры разгона](OPTIMAL_OVERCLOCKING.md) | [Группа в телеграме](https://t.me/kefir_switch/48074) | [Бот, следящий за обновлениями](https://t.me/kefir_switch/98339)
 
-![](https://ibb.co/1dpNhVQ)
+<img width="923" alt="4ifir" src="https://github.com/kapez92/4IFIR_1.9/assets/63586742/84ea9c93-73e1-4b05-8ec0-14b1dc1c87a6">
+
 
 **ВНИМАНИЕ! В данный момент 4IFIR не поддерживает HOS17, если у вас приставка на этой версии, то необходимо произвести откат на версию HOS 16.1(Её можно скачать в AIO, а потом установить через Daybreak).
 Над инструкцией все еще ведется работа! Пулреквесты с исправлениями и дополнениями приветствуются. Пользователям Mac OS, в случае возникновения проблем - прочитать [гайд](https://gbatemp.net/threads/macos-fix-archive-attributes-for-switch-sd-card.545560/)** 
@@ -26,9 +27,8 @@
    * [Включение и отключение модулей](#включение-и-отключение-модулей)
    * [Управление режимом работы консоли (портатив \ докстанция, ReverseNX-RT)](#управление-режимом-работы-консоли-портатив--докстанция-reversenx-rt)
    * [Разгон](#разгон)
-      * [Настройки частот и говернор (governor) (4IFIR RatTest)](#настройки-частот-и-говернор-governor-4ifir-RatTest)
-      * [Конфигуратор 4IFIR Wizard](#конфигуратор-4ifir-wizard)
-      * [STAGE (Self-Torture by Aggressive Generation of Explosions)](#stage-self-torture-by-aggressive-generation-of-explosions)
+      * [Настройки частот и говернор (governor) (4IFIR RatTest)](#настройки-частот-и-говернор-(governor)-(4IFIR-RatTest))
+      * [Конфигуратор 4IFIR Wizard version 2.0.9](#конфигуратор-4ifir-wizard-version-2.0.9)
    * [Выжимаем больше - читы и патчи на улучшение графики](#выжимаем-больше---читы-и-патчи-на-улучшение-графики)
       * [Читы](#читы)
       * [Модификации](#модификации)
