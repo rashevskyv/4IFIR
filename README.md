@@ -335,27 +335,27 @@
 
 Состав настроек в **Full Assist** идентичен настройкам из **Quick Setup**, за исключением пары пунктов, которые в данный момент доступны только в ассистенте (Доработка запланирована). Некоторые пункты ассистента имеют отличное наименование от Quick Setup, в будущем поправится. Поэтому описание параметров смотрите выше в разделе Quick Setup.
 
-4IFIR RAM Mode (4IFIR RAM Mode в Quick Setup)
-CPU Max freq (CPU Boost Mode в Quick Setup)
-CPU max Volt (CPU VMAX Mode в Quick Setup)
-RAM EMV (VDD2 Mode в Quick Setup)
-RAM EMQ Mode (VDDQ Mode в Quick Setup)
-CPU Low Undervolt (CPU Low Undervolt Mode в Quick Setup)
-GPU Undervolt (GPU Eco Mode в Quick Setup)
-CPU MinVolt (CPUv Mode в Quick Setup)
-GPU Under Mode (GPUv Mode в Quick Setup)
-RAM DVB Mode (RAM DVB Mode в Quick Setup)
-Timings Preset 1
-Timings Preset 2
-Timings Preset 3
-Timings Preset 4
-Timings Preset 5
-Timings Preset 6
-Timings Preset 7
-Speed Shift – отсутствует в Quick Setup, выбирайте Default и переходите к следующему параметру.
-CPU High mHz Undervolt (CPU High Undervolt Mode в Quick Setup)
-GPU Overvolt(GPU Over Mode) отсутствует в Quick Setup, выбирайте Default и переходите к следующему параметру.
-CPU Min-High Voltage(dCPUv в Quick Setup) 
+* 4IFIR RAM Mode (4IFIR RAM Mode в Quick Setup)
+* CPU Max freq (CPU Boost Mode в Quick Setup)
+* CPU max Volt (CPU VMAX Mode в Quick Setup)
+* RAM EMV (VDD2 Mode в Quick Setup)
+* RAM EMQ Mode (VDDQ Mode в Quick Setup)
+* CPU Low Undervolt (CPU Low Undervolt Mode в Quick Setup)
+* GPU Undervolt (GPU Eco Mode в Quick Setup)
+* CPU MinVolt (CPUv Mode в Quick Setup)
+* GPU Under Mode (GPUv Mode в Quick Setup)
+* RAM DVB Mode (RAM DVB Mode в Quick Setup)
+* Timings Preset 1
+* Timings Preset 2
+* Timings Preset 3
+* Timings Preset 4
+* Timings Preset 5
+* Timings Preset 6
+* Timings Preset 7
+* Speed Shift – отсутствует в Quick Setup, выбирайте Default и переходите к следующему параметру.
+* CPU High mHz Undervolt (CPU High Undervolt Mode в Quick Setup)
+* GPU Overvolt(GPU Over Mode) отсутствует в Quick Setup, выбирайте Default и переходите к следующему параметру.
+* CPU Min-High Voltage(dCPUv в Quick Setup) 
 
 После прохождения вам будет предоставлен выбор: Don’t backup, Backup as 4IFIR ECO, Backup as 4IFIR Default, Backup as 4IFIR SPORT
 
