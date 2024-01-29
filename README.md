@@ -1,6 +1,6 @@
 # 4IFIR 1.9 by **[Cooler3D](https://github.com/Cooler3D)**
 
-[ENGLISH GUIDE](README_ENG.md) | [Рекомендуемые параметры разгона](OPTIMAL_OVERCLOCKING.md) | [Группа в телеграме](https://t.me/kefir_switch/48074) | [Бот, следящий за обновлениями](https://t.me/kefir_switch/98339)
+[ENGLISH GUIDE](README_ENG.md) | [Рекомендуемые параметры разгона](OPTIMAL_OVERCLOCKING.md) | [Группа в телеграме](https://t.me/kefir_switch/48074) | [Бот, следящий за обновлениями](https://ibb.co/1dpNhVQ)
 
 ![](https://gbatemp.net/attachments/1_done-png.359267/)
 
