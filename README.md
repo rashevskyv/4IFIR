@@ -5,7 +5,7 @@
 <img width="923" alt="4ifir" src="https://github.com/kapez92/4IFIR_1.9/assets/63586742/84ea9c93-73e1-4b05-8ec0-14b1dc1c87a6">
 
 
-**ВНИМАНИЕ! На данный момент 4IFIR не работает на ERISTA (первой ревизии консолей), можно скачать [последнюю стабильную версия для ERISTA](https://github.com/rashevskyv/4ifir-checker/raw/a0bca770c3b9afa36f1f99f01cd5f343fd4d76cb/github/4IFIR.zip). Над инструкцией все еще ведется работа! Пулреквесты с исправлениями и дополнениями приветствуются. Пользователям Mac OS, в случае возникновения проблем - прочитать [гайд](https://gbatemp.net/threads/macos-fix-archive-attributes-for-switch-sd-card.545560/)** 
+**ВНИМАНИЕ! На данный момент 4IFIR не работает на ERISTA (первой ревизии консолей), можно скачать [последнюю стабильную версию для ERISTA](https://github.com/rashevskyv/4ifir-checker/raw/a0bca770c3b9afa36f1f99f01cd5f343fd4d76cb/github/4IFIR.zip). Над инструкцией все еще ведется работа! Пулреквесты с исправлениями и дополнениями приветствуются. Пользователям Mac OS, в случае возникновения проблем - прочитать [гайд](https://gbatemp.net/threads/macos-fix-archive-attributes-for-switch-sd-card.545560/)** 
 
 Инструкция обширная. Используйте поиск для того, чтобы успешно ей пользоваться. 
 
