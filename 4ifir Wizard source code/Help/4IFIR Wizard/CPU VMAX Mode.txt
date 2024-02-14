@@ -1,0 +1,5 @@
+CPU VMAX mode controls the max voltage available to the CPU by the system.
+
+The higher the stage - the more power can be drawn by the CPU, and the higher frequencies it can reach.
+
+To test this setting - run the CPU-heavy game and see if the performance is goodon the max CPU load.

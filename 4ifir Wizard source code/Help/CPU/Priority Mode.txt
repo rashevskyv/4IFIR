@@ -1,0 +1,3 @@
+This menu allows you to set the performance priority mode.
+
+You can choose from a GPU mode that prioritizes performance in games, and a CPU mode that prioritizes performance in synthetic tests.

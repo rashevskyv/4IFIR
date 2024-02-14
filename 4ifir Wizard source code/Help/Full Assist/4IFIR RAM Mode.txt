@@ -1,0 +1,13 @@
+Welcome to Full Assist.
+
+This parameter controls the frequency of RAM in 4IFIR.
+
+There are different modes for different scenarios:
+
+ECO (low frequency) - Suitable for most games. Optimal option in terms of performance/energy consumption ratio.
+Default (medium frequency) - For games with graphic mods and 60fps.
+SPORT (high frequency) - For enthusiasts who want to squeeze all the juice out of the console.
+
+To test this setting, select 4IFIR Optimized in 4IFIR Shaitan/Temporary overrides/Memory/4IFIR Optimized and play a few games.
+
+If you see artifacts or glitches, go back and lower the setting in Wizard.

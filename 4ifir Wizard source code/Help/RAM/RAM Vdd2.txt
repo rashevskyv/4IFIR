@@ -1,0 +1,3 @@
+VDD2 is a secondary voltage supply for specific components. 
+
+Higher values might improve stabilty.

@@ -1,0 +1,51 @@
+[
+    {
+        "name": "`Low Freq"
+    },
+    {
+        "name": "1600Mhz - SYK-LOH",
+        "hex": "006a18"
+    },
+    {
+        "name": "1734Mhz - ECO ST3",
+        "hex": "00771a"
+    },        
+    {
+        "name": "1862Mhz - ECO ST2",
+        "hex": "006B1C"
+    },
+    {
+        "name": "1996Mhz - ECO ST1",
+        "hex": "00781E"
+    },
+    {
+        "name": "`Medium Freqs"
+    },
+    {
+        "name": "2131Mhz - ST1",
+        "hex": "008520"
+    },
+    {
+        "name": "2265Mhz - ST2",
+        "hex": "009222"
+    },
+    {
+        "name": "2400Mhz - ST3",
+        "hex": "009F24"
+    },
+    {
+        "name": "`High freqs"
+    },
+    {
+        "name": "2550Mhz - SPR1",
+        "hex": "80ea26"
+    },
+    {
+        "name": "2665Mhz - SPR2",
+        "hex": "80AC28"
+    },
+    {
+        "name": "2780Mhz - SPR3",
+        "hex": "806e2a"
+    }
+]

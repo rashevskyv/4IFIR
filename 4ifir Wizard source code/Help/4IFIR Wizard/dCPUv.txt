@@ -1,0 +1,3 @@
+The CPUv Mode controls the median voltage available for CPU.
+
+The higher the Stage - the lower the minimal CPU voltage used by the system.
