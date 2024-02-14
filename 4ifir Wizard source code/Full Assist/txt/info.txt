@@ -1,0 +1,9 @@
+Full Assist mode allows you to set-up the main 4IFIR parameters to ensure that your console gets the full overclocking experience.
+
+For every parameter - there is a help available by pressing the Y button. Make sure to read it to understand the impact of your actions.
+
+After selecting a value the console will reboot. 
+
+Return to the 4IFIR Wizard after the reboot to continue the process.
+
+Select with your brain. Test with yout heart.

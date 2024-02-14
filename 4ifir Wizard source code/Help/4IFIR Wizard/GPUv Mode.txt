@@ -1,0 +1,8 @@
+The GPUv Mode allows for automatic adjustments of GPU voltages based on the current RAM frequency.
+
+The higher the Stage - the lower the minimal GPU voltage used by the system, but it can cause unstable operation of the console.
+
+Set overclocking to 4IFIR Shaitan/Temporary overrides for GPU and Memory according to the selected frequency at the 4IFIR Ram Mode stage. 
+For Low Frequency select Gpu/4IFIR Optimized E, for Medium Frequency select Gpu/4IFIR Optimized, 
+for High Frequency select Gpu/4IFIR Optimized S. 
+And check in games, if everything is stable, then proceed to the next step

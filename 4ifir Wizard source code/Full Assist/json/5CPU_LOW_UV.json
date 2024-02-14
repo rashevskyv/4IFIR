@@ -1,0 +1,31 @@
+[
+    {
+        "name": "`CPU Low Undervolt"
+    },
+    {
+        "name": "Default - 0",
+        "hex": "00"
+    },
+    {
+        "name": "1 - 1 level",
+        "hex": "01"
+    },
+    {
+        "name": "2 - 2 level",
+        "hex": "02"
+    
+    },
+    {
+        "name": "3 - 3 level",
+        "hex": "03"
+    },    
+    {
+        "name": "4 - 4 level",
+        "hex": "04"
+    
+    },
+    {
+        "name": "5 - 5 level",
+        "hex": "05"
+    }
+]

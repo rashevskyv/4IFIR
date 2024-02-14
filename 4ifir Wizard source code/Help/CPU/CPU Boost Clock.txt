@@ -1,0 +1,1 @@
+CPU Boost Mode controls the maximum possible CPU frequency, used by system in boost mode (game loadings, tinfoil downloads, etc.)

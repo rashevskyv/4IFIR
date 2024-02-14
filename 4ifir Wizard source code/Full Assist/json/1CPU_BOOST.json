@@ -1,0 +1,21 @@
+[
+    {
+        "name": "`CPU Max freq"
+    },
+    {
+        "name": "1581 mHz",
+        "hex": "C81F18"
+    },
+    {
+        "name": "1785 mHz",
+        "hex": "A83C1B"
+    },
+    {
+        "name": "2397 mHz",
+        "hex": "489324"
+    },
+    {
+        "name": "3090 mHz",
+        "hex": "E8E92D"
+    }
+]

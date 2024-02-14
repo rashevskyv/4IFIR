@@ -1,0 +1,5 @@
+This menu allows you to set the maximum allowable CPU voltage. 
+
+The higher the voltage, the higher the maximum available processor frequency, but the higher the consumption. 
+
+It is recommended to increase it if there is a lack of maximum frequency for processor-intensive games.

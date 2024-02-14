@@ -1,0 +1,8 @@
+CPU Boost Mode controls the maximum possible CPU frequency, used by system in boost mode (game loadings, tinfoil downloads, etc.)
+
+The higher the Stage - the higher the max frequency. Combined with VMAX settings, this allows to achieve the perfect power consumption in all scenarios.
+
+1 - 1581 Mhz
+2 - 1785 Mhz
+3 - 2397 Mhz
+4 - 3090 MHz

@@ -1,0 +1,163 @@
+[
+    {
+        "name": "1600Mhz - SYK-LOH",
+        "hex": "006a18"
+    },
+    {
+        "name": "1734Mhz - ECO ST3",
+        "hex": "00771a"
+    },        
+    {
+        "name": "1862Mhz - ECO ST2",
+        "hex": "006B1C"
+    },
+    {
+        "name": "1900Mhz",
+        "hex": "00011D"
+    },
+    {
+        "name": "1939Mhz",
+        "hex": "00971D"
+    },
+    {
+        "name": "1977Mhz",
+        "hex": "002D1E"
+    },
+    {
+        "name": "1996Mhz - ECO ST1",
+        "hex": "00781e"
+    },    
+    {
+        "name": "2016Mhz",
+        "hex": "00C31E"
+    },
+    {
+        "name": "2054Mhz",
+        "hex": "00591F"
+    },
+    {
+        "name": "2092Mhz",
+        "hex": "00EF1F"
+    },
+    {
+        "name": "2131Mhz - ST1",
+        "hex": "008520"
+    },
+    {
+        "name": "2169Mhz",
+        "hex": "001B21"
+    },
+    {
+        "name": "2208Mhz",
+        "hex": "00B121"
+    },
+    {
+        "name": "2246Mhz",
+        "hex": "004722"
+    },
+    {
+        "name": "2265Mhz - ST2",
+        "hex": "009222"
+    },    
+    {
+        "name": "2284Mhz",
+        "hex": "00DD22"
+    },
+    {
+        "name": "2300Mhz",
+        "hex": "601823"
+    },
+    {
+        "name": "2323Mhz",
+        "hex": "007323"
+    },
+    {
+        "name": "2361Mhz",
+        "hex": "000924"
+    },
+    {
+        "name": "2400Mhz - ST3",
+        "hex": "009F24"
+    },
+    {
+        "name": "2438Mhz",
+        "hex": "003525"
+    },
+    {
+        "name": "2476Mhz",
+        "hex": "00CB25"
+    },
+    {
+        "name": "2500Mhz",
+        "hex": "A02526"
+    },
+    {
+        "name": "2515Mhz",
+        "hex": "006126"
+    },
+    {
+        "name": "2550Mhz - SPR1",
+        "hex": "80ea26"
+    },
+
+    {
+        "name": "2553Mhz",
+        "hex": "00F726"
+    },
+    {
+        "name": "2592Mhz",
+        "hex": "008D27"
+    },
+    {
+        "name": "2630Mhz",
+        "hex": "002328"
+    },
+    {
+        "name": "2665Mhz - SPR2",
+        "hex": "80ac28"
+    },
+    {
+        "name": "2668Mhz",
+        "hex": "00B928"
+    },
+    {
+        "name": "2707Mhz",
+        "hex": "004F29"
+    },
+    {
+        "name": "2745Mhz",
+        "hex": "00E529"
+    },
+    {
+        "name": "2780Mhz - SPR3",
+        "hex": "806e2a"
+    },
+    {
+        "name": "2784Mhz",
+        "hex": "007B2A"
+    },
+    {
+        "name": "2822Mhz",
+        "hex": "00112B"
+    },
+    {
+        "name": "2860Mhz",
+        "hex": "00A72B"
+    },
+    {
+        "name": "2899Mhz",
+        "hex": "003D2C"
+    },
+    {
+        "name": "2937Mhz",
+        "hex": "00D32C"
+    },
+    {
+        "name": "2976Mhz",
+        "hex": "00692D"
+    },
+    {
+        "name": "3000Mhz",
+        "hex": "C0C62D"
+    }
+]
