@@ -1,0 +1,52 @@
+[
+	{
+		"name": "> Kip Version",
+		"offset": "4",
+		"length": "3"
+	},
+	{
+		"name": "",
+		"state": "filler"
+	},
+	{
+		"name": "> CPU Settings",
+		"state": "filler"
+	},
+	{
+		"name": "CPU Voltage Limit",
+		"offset": "20",
+		"length": "4",
+		"extent": " mV"
+	},
+	{
+		"name": "CPU Priority Mode",
+		"offset": "40",
+		"length": "1"
+	},
+	{
+		"name": "> RAM Settings",
+		"state": "filler"
+	},
+	{
+		"name": "RAM MHz",
+		"offset": "24",
+		"length": "4",
+		"extent": " MHz"
+	},
+	{
+		"name": "RAM Vdd2",
+		"offset": "16",
+		"length": "4",
+		"extent": " mV"
+	},
+	{
+		"name": "EMC DVB Table",
+		"offset": "48",
+		"length": "1"
+	},
+	{
+		"name": "Core Timings",
+		"offset": "60,64,68,72,76,80,84",
+		"length": "1"
+	}
+]

@@ -1,0 +1,142 @@
+[
+	{
+		"name": "> Kip Version",
+		"offset": "4",
+		"length": "3"
+	},
+	{
+		"name": "---CPU Settings---",
+		"state": "filler"
+	},
+	{
+		"name": "CPU Minimum Voltage",
+		"offset": "48",
+		"length": "3",
+		"extent": " mV"
+	},
+	{
+		"name": "CPU Maximum Voltage",
+		"offset": "28",
+		"length": "4",
+		"extent": " mV"
+	},
+	{
+		"name": "dCPUv",
+		"offset": "12348",
+		"length": "4",
+		"extent": " mV"
+	},
+	{
+		"name": "CPU Boost Clock",
+		"offset": "12",
+		"length": "4",
+		"extent": " MHz"
+	},
+	{
+		"name": "Low MHz Undervolt Mode",
+		"offset": "40",
+		"length": "1"
+	},
+	{
+		"name": "High MHz Undervolt Mode",
+		"offset": "12340",
+		"length": "1"
+	},
+	{
+		"name": "Speedshift",
+		"offset": "12336",
+		"length": "3"
+	},
+	{
+		"name": "",
+		"state": "filler"
+	},
+	{
+		"name": "---RAM Settings---",
+		"state": "filler"
+	},
+	{
+		"name": "RAM MHz",
+		"offset": "32",
+		"length": "4",
+		"extent": " MHz"
+	},
+	{
+		"name": "RAM Vddq",
+		"offset": "36",
+		"length": "3",
+		"extent": " mV"
+	},
+	{
+		"name": "RAM Vdd2",
+		"offset": "16",
+		"length": "4",
+		"extent": " mV"
+	},
+	{
+		"name": "EBalog",
+		"offset": "12352",
+		"length": "4",
+		"extent": "",
+		"state": "check_extent"
+	},
+	{
+		"name": "EMC DVB Mode",
+		"offset": "56",
+		"length": "4",
+		"extent": " mV"
+	},
+	{
+		"name": "Core Timings",
+		"offset": "60,64,68,72,76,80,84,12356",
+		"length": "1"
+	},
+	{
+		"name": "Eba-shift",
+		"offset": "12360",
+		"length": "1"
+	},
+	{
+		"name": "pMEH",
+		"offset": "12364,12368,12372,12376,12380,12384,12388,12392,12396,12400,12404,12408,12412,12416",
+		"length": "2"
+	},
+	{
+		"name": "sMEH",
+		"offset": "12460,12464,12468,12472,12476,12480,12484,12488,12492,12496,12500",
+		"length": "2"
+	},
+	{
+		"name": "",
+		"state": "filler"
+	},
+	{
+		"name": "---GPU Settings---",
+		"state": "filler"
+	},
+	{
+		"name": "GPU Eco Mode",
+		"offset": "44",
+		"length": "1"
+	},
+	{
+		"name": "GPUv",
+		"offset": "52",
+		"length": "3",
+		"extent": " mV"
+	},
+	{
+		"name": "GPU Over Mode",
+		"offset": "12344",
+		"length": "4",
+		"extent": " mV"
+	},
+	{
+		"name": "",
+		"state": "filler"
+	},
+	{
+		"name": "",
+		"state": "filler"
+	}
+]
