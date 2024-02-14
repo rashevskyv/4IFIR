@@ -1,0 +1,26 @@
+[
+    {
+        "name": "0 - Reserved",
+        "hex": "00"
+    },
+    {
+        "name": "1 - SYK-LOH",
+        "hex": "01"
+    },
+    {
+        "name": "2 - ECO ST1",
+        "hex": "02"
+    },
+    {
+        "name": "3 - Default",
+        "hex": "03"
+    },
+    {
+        "name": "4 - SPR STG1",
+        "hex": "04"
+    },
+    {
+        "name": "5 - SPR STG2",
+        "hex": "05"
+    }     
+]
