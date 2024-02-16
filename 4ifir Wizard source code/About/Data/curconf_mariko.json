@@ -42,7 +42,7 @@
 		"name": "",
 		"state": "filler"
 	},
-     {
+        {
 		"name": "GPU Eco Mode",
 		"offset": "44",
 		"length": "1"
@@ -58,6 +58,10 @@
 		"offset": "12344",
 		"length": "4",
 		"extent": " mV"
+	},
+	{
+		"name": "",
+		"state": "filler"
 	},
 	{
 		"name": "RAM MHz",
