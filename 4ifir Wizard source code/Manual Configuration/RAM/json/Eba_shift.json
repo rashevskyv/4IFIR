@@ -14,5 +14,13 @@
     {
         "name": "3 - Reserved ",
         "hex": "03"
+    },
+    {
+        "name": "4 - Reserved ",
+        "hex": "04"
+    },
+    {
+        "name": "5 - LOH-C4C ",
+        "hex": "05"
     }
 ]
