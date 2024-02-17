@@ -5,7 +5,7 @@
 <img width="923" alt="4ifir" src="./4mosphere.png">
 
 
-**ВНИМАНИЕ! На данный момент 4IFIR не работает на ERISTA (первой ревизии консолей), можно скачать [последнюю стабильную версию для ERISTA](https://github.com/rashevskyv/4ifir-checker/raw/a0bca770c3b9afa36f1f99f01cd5f343fd4d76cb/github/4IFIR.zip) – 1.9 BETA, не работает на HOS17+.**
+**ВНИМАНИЕ! На данный момент 4IFIR не работает на ERISTA (первой ревизии консолей), можно скачать [последнюю стабильную версию для ERISTA](https://github.com/rashevskyv/4ifir-checker/raw/a0bca770c3b9afa36f1f99f01cd5f343fd4d76cb/github/4IFIR.zip) – 1.9 BETA, работает на HOS16.1.**
 
 **4IFIR 2.1 Поддерживает HOS17+**
 
