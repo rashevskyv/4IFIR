@@ -1,4 +1,4 @@
-# 4IFIR 2.1 by **[Cooler3D](https://github.com/Cooler3D)**
+# 4IFIR 2.1 by **[Cooler3D](https://t.me/Cooler3D)**
 
 [ENGLISH GUIDE](README_ENG.md) | [Рекомендуемые параметры разгона](OPTIMAL_OVERCLOCKING.md) | [Группа в телеграме](https://t.me/kefir_switch/48074) | [Бот, следящий за обновлениями](https://t.me/kefir_switch/98339)
 
