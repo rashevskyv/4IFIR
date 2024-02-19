@@ -1,5 +1,9 @@
 [
 	{
+		"name": "> ERISTA kip",
+		"state": "filler"
+	},
+	{
 		"name": "> Kip Version",
 		"offset": "4",
 		"length": "3"
@@ -19,11 +23,6 @@
 		"extent": " mV"
 	},
 	{
-		"name": "CPU Priority Mode",
-		"offset": "40",
-		"length": "1"
-	},
-	{
 		"name": "> RAM Settings",
 		"state": "filler"
 	},
@@ -40,13 +39,38 @@
 		"extent": " mV"
 	},
 	{
-		"name": "EMC DVB Table",
-		"offset": "48",
-		"length": "1"
+		"name": "EMC Balance",
+		"offset": "12352",
+		"length": "4",
+		"extent": "",
+		"state": "check_extent"
 	},
 	{
 		"name": "Core Timings",
-		"offset": "60,64,68,72,76,80,84",
+		"offset": "60,64,68,72,76,80,84,12356",
 		"length": "1"
+	},
+	{
+		"name": "Eba-shift",
+		"offset": "12360",
+		"length": "1"
+	},
+	{
+		"name": "",
+		"state": "filler"
+	},
+	{
+		"name": "pMEH",
+		"offset": "12364,12368,12372,12376,12380,12384,12388,12392,12396,12400,12404,12408,12412,12416,12420",
+		"length": "2"
+	},
+	{
+		"name": "sMEH",
+		"offset": "12460,12464,12468,12472,12476,12480,12484,12488,12492,12496,12500",
+		"length": "2"
+	},
+	{
+		"name": "",
+		"state": "filler"
 	}
 ]
