@@ -1,2 +1,5 @@
 the lower the eBal, the better Core Timings(1-8).
 the higer the eBal, the higher the frequency can be taken.
+
+pMeh15 only Erista. 
+by default Erista has eBal = 4, if pMeh is switched to 0, then eBAL = 3.
