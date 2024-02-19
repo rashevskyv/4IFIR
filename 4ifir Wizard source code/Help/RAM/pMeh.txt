@@ -1,0 +1,2 @@
+the lower the eBal, the better Core Timings(1-8).
+the higer the eBal, the higher the frequency can be taken.
