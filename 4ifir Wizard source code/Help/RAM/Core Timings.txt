@@ -10,3 +10,8 @@ You may see a notation like this:
 Each number coresponds to the Core Timings setting. 
 For example, 3 - Core Timings 1;
 6 - Core Timings 2, etc.
+
+0 timing values are for debugging. 
+If in some scenario 0 works stably, but 1 does not work, 
+this is a reason to report the combination of parameters,
+memory chips, etc.
