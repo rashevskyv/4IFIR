@@ -1,29 +1,12 @@
 [
 	{
-		"name": "> ERISTA kip",
-		"state": "filler"
-	},
-	{
-		"name": "> Kip Version",
-		"offset": "4",
-		"length": "3"
-	},
-	{
-		"name": "",
-		"state": "filler"
-	},
-	{
-		"name": "> CPU Settings",
-		"state": "filler"
-	},
-	{
 		"name": "CPU Voltage Limit",
 		"offset": "20",
 		"length": "4",
 		"extent": " mV"
 	},
 	{
-		"name": "> RAM Settings",
+		"name": "",
 		"state": "filler"
 	},
 	{
