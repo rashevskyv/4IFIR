@@ -3,7 +3,7 @@
         "name": "`RAM DVB Mode"
     },
     {
-        "name": "1 - Auto",
+        "name": "3 - Auto",
         "hex": "030000"
     },
     {
@@ -11,11 +11,11 @@
         "hex": "020000"
     },
     {
-        "name": "3 - Eco ST2",
+        "name": "1 - Eco ST2",
         "hex": "010000"
     },
     {
-        "name": "3 - Eco ST3",
+        "name": "0 - Eco ST3",
         "hex": "000000"
     }
 ]

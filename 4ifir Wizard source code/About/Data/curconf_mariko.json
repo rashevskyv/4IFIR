@@ -92,7 +92,7 @@
 		"name": "EMC DVB Mode",
 		"offset": "56",
 		"length": "4",
-		"extent": " mV"
+		"extent": ""
 	},
 	{
 		"name": "Core Timings",
