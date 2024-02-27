@@ -1,0 +1,30 @@
+name: "Wizard Update"
+
+on:
+  push:
+    branches:
+      - "main"
+  workflow_dispatch:
+
+jobs:
+  Wizard-Update:
+    name: "Release"
+    runs-on: "ubuntu-latest"
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Build
+        run: sed -i "s/;version='[0-9.]*'/;version='$(date "+%y.%m.%d.%H")'/g" 4ifir\ Wizard\ source\ code/config.ini && rm 4IFIR-Wizard-update/4IFIR\ Wizard/files.zip && cd 4ifir\ Wizard\ source\ code/ && zip -r ../4IFIR-Wizard-update/4IFIR\ Wizard/files.zip ./* && cd ../4IFIR-Wizard-update && zip -r "4IFIR-Wizard-update-$(date "+%y.%m.%d.%H").zip" ./4IFIR\ Wizard && mv "4IFIR-Wizard-update-$(date "+%y.%m.%d.%H").zip" ../
+      - id: tag_name
+        run: echo "version=$(date "+%y.%m.%d.%H")" >> "$GITHUB_OUTPUT"
+        env:
+          TAG_NAME: test
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          draft: true
+          tag_name: ${{ steps.tag_name.outputs.version }}
+          generate_release_notes: true
+          files: 4IFIR-Wizard-update-*.zip
