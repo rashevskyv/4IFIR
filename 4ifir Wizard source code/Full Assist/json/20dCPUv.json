@@ -4,18 +4,18 @@
     },
     {
         "name": "Default - 0",
-        "hex": "00"
+        "hex": "000000"
     },
     {
         "name": "1 - ECO ST 1",
-        "hex": "01"
+        "hex": "010000"
     },
     {
         "name": "2 - ECO ST 2",
-        "hex": "02"
+        "hex": "020000"
     },
     {
         "name": "3 - ECO ST 3",
-        "hex": "03"
+        "hex": "030000"
     }
 ]
