@@ -15,7 +15,8 @@
 		"name": "dCPUv",
 		"offset": "12348",
 		"length": "4",
-		"extent": ""
+		"extent": " mV",
+		"state": "check_extent"
 	},
 	{
 		"name": "CPU Boost Clock",
@@ -92,7 +93,8 @@
 		"name": "EMC DVB Mode",
 		"offset": "56",
 		"length": "4",
-		"extent": ""
+		"extent": " mV",
+		"state": "check_extent"
 	},
 	{
 		"name": "Core Timings",
