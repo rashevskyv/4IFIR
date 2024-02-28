@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build
-        run: sed -i "s/;version='[0-9.]*'/;version='$(date "+%y.%m.%d.%H")'/g" 4ifir\ Wizard\ source\ code/config.ini && cd 4ifir\ Wizard\ source\ code/ && zip -r ../4IFIR-Wizard-update/4IFIR\ Wizard/files.zip ./* && cd ../4IFIR-Wizard-update && zip -r "4IFIR-Wizard-update-$(date "+%y.%m.%d.%H").zip" ./4IFIR\ Wizard
+        run: sed -i "s/;version='[0-9.]*'/;version='$(date "+%y.%m.%d.%H")'/g" 4ifir\ Wizard\ source\ code/config.ini && sed -i "s/;version='[0-9.]*'/;version='$(date "+%y.%m.%d.%H")'/g" 4ifir\ Wizard\ source\ code/Full\ Assist/inis/Start.ini && cd 4ifir\ Wizard\ source\ code/ && zip -r ../4IFIR-Wizard-update/4IFIR\ Wizard/files.zip ./* && cd ../4IFIR-Wizard-update && zip -r "4IFIR-Wizard-update-$(date "+%y.%m.%d.%H").zip" ./4IFIR\ Wizard
       - id: tag_name
         run: echo "version=$(date "+%y.%m.%d.%H")" >> "$GITHUB_OUTPUT"
         env:
