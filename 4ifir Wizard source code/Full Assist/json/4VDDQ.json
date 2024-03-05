@@ -1,15 +1,15 @@
 [
     {
         "name": "`RAM Vddq"
-    },
+    },    
+    {
+        "name": "ECO - 500mv",
+        "hex": "20a107"
+    },    
     {
         "name": "Default - 650mv",
         "hex": "10EB09"
-    },
-    {
-        "name": "ECO - 550mv",
-        "hex": "706408"
-    },
+    }, 
     {
         "name": "Sport - 750mv",
         "hex": "b0710b"

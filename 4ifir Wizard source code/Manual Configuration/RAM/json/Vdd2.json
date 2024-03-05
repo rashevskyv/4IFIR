@@ -12,11 +12,11 @@
         "hex": "308C11"
     },
     {
-        "name": "1175 mV",
+        "name": "1175 mV - Eco",
         "hex": "D8ED11"
     },
     {
-        "name": "1200 mV - Base",
+        "name": "1200 mV",
         "hex": "804F12"
     },
     {
@@ -28,7 +28,7 @@
         "hex": "D01213"
     },
     {
-        "name": "1275 mV",
+        "name": "1275 mV - Default",
         "hex": "787413"
     },
     {
@@ -44,9 +44,8 @@
         "hex": "709914"
     },
     {
-        "name": "1375 mV - Unstable",
-        "hex": "18FB14",
-        "color": "Orange"
+        "name": "1375 mV - SPR",
+        "hex": "18FB14"
     },
     {
         "name": "1387 mV - Unstable",
