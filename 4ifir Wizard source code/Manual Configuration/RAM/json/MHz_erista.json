@@ -1,10 +1,18 @@
 [
     {
+        "name": "1600 - SYK-LOH eb2",
+        "hex": "006a18"
+    },    
+    {
+        "name": "1734 - ECO ST2 eb3",
+        "hex": "00771a"
+    },
+    {
         "name": "1862MHz",
         "hex": "006B1C"
     },
     {
-        "name": "1868MHz - ECO",
+        "name": "1868MHz - ECO ST1 eb3",
         "hex": "00841c"
     },
     {
@@ -32,7 +40,7 @@
         "hex": "002D1E"
     },
     {
-        "name": "1996MHz - Default",
+        "name": "1996MHz - ST1 eb4",
         "hex": "00781E"
     },
     {
@@ -60,7 +68,7 @@
         "hex": "003A20"
     },
     {
-        "name": "2131MHz - SPR 1",
+        "name": "2131MHz - ST2 eb4",
         "hex": "008520"
     },
     {
@@ -88,7 +96,7 @@
         "hex": "004722"
     },
     {
-        "name": "2265MHz - SPR 2",
+        "name": "2265MHz - SPR 2 eb5",
         "hex": "009222"
     },
     {
@@ -108,7 +116,7 @@
         "hex": "00BE23"
     },
     {
-        "name": "2361MHz",
+        "name": "2361MHz - L-C4C eb5",
         "hex": "000924"
     },
     {
