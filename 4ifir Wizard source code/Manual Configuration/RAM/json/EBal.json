@@ -1,6 +1,6 @@
 [
     {
-        "name": "0 - Reserved",
+        "name": "0 - eBAMATIC",
         "hex": "00"
     },
     {
@@ -16,11 +16,11 @@
         "hex": "03"
     },
     {
-        "name": "4 - SPR STG1",
+        "name": "4 - SPR ST1",
         "hex": "04"
     },
     {
-        "name": "5 - SPR STG2",
+        "name": "5 - SPR ST2",
         "hex": "05"
     }     
 ]
