@@ -55,11 +55,17 @@
         "hex": "B84C0A"
     },
     {
-        "name": "700 mV - SPR",
+        "name": "700 mV - SRT",
         "hex": "60AE0A"
     },
     {
-        "name": "750 mV",
-        "hex": "b0710b"
+        "name": "750 mV - Unstable",
+        "hex": "B0710B",
+        "color": "Orange"
+    },
+    {
+        "name": "800 mV - Unstable",
+        "hex": "00350C",
+        "color": "Orange"
     }
 ]
