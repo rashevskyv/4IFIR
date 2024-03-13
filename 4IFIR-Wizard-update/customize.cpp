@@ -15,6 +15,7 @@
  */
 
 #include "customize.hpp"
+#include "mtc_timing_value.hpp"
 
 namespace ams::ldr::oc {
 
@@ -27,20 +28,20 @@ volatile CustomizeTable C = {
 .commonCpuBoostClock = 3000000,
 
 // RAM VDD MODE // 1175'000 ECO // 1275'000 DEFAULT // 1375'000 SRT // 950'000-1400'000 MANUAL 12'500uV STEP 
-.commonEmcMemVolt  = 1175'000,
+.commonEmcMemVolt  = 1350'000,
 
 // ERISTA CPU VMAX MODE // 1200 ECO // 1250-1350 STAGE 1-3 // 1180-1350 MANUAL 5mV STEP
 .eristaCpuMaxVolt  = 1235,
 
 // 4IFIR MODE / eBAMATIC STAGE 0-1-2-3
-// S-LOH 1600 / 1600000 / eBAL 2 2 1 1
-// E ST2 1733 / 1734400 / eBAL 3 2 2 1
+// S-LOH 1600 / 1600000 / eBAL 2 2 2 2
+// E ST2 1733 / 1734400 / eBAL 3 2 2 2
 // E ST1 1866 / 1868800 / eBAL 3 3 2 2
-// D ST1 2000 / 1996800 / eBAL 4 3 3 2
-// D ST2 2133 / 2131200 / eBAL 4 4 3 3
-// S ST1 2266 / 2265600 / eBAL 5 4 4 3
-// L-C4C 2366 / 2361600 / eBAL 5 5 4 4
-.eristaEmcMaxClock = 2131200,
+// D ST1 2000 / 1996800 / eBAL 3 3 3 2
+// D ST2 2133 / 2131200 / eBAL 3 4 3 3
+// S ST1 2266 / 2265600 / eBAL 4 4 4 3
+// L-C4C 2366 / 2361600 / eBAL 4 4 4 4
+.eristaEmcMaxClock = 2124800, // 2278400 2240000 2201600 2163200 2124800
 // 1600000-2366000 MANUAL 38.4MHz STEP
 
 // MARIKO CPU VMAX MODE // 1150 ECO // 1180-1250 STAGE 1-3 // 1130-1280 MANUAL 5mV STEP
@@ -49,7 +50,7 @@ volatile CustomizeTable C = {
 // 4IFIR MODE / eBAMATIC STAGE 0-1-2-3
 // S-LOH 1600 / 1600000 / eBAL 1 1 1 1
 // E ST3 1733 / 1734400 / eBAL 1 1 1 1
-// E ST2 1866 / 1862400 / eBAL 2 1 1 1
+// E ST2 1866 / 1868800 / eBAL 2 1 1 1
 // E ST1 2000 / 1996800 / eBAL 2 2 1 1
 // D ST1 2133 / 2131200 / eBAL 2 2 2 1
 // D ST2 2266 / 2265600 / eBAL 2 2 2 2
@@ -58,47 +59,48 @@ volatile CustomizeTable C = {
 // S ST2 2666 / 2665600 / eBAL 4 3 3 2
 // S ST3 2800 / 2800000 / eBAL 4 4 3 3
 // L-C4C 2933 / 2934400 / eBAL 5 4 4 3
-.marikoEmcMaxClock = 2534400,
+.marikoEmcMaxClock = 2534400, // MICRON E/H eBAL 4 < 3.8GHz // SAMSUNG B eBAL 4 < 3.9GHz // HYNIX CJR/DJR eBAL 4 < 3.8GHz
 // 1333000-2733000 MANUAL 38.4MHz STEP
 
 // RAM VDDQ MODE // 500'000 ECO // 650'000 DEFAULT // 700'000 SRT // 300'000-800'000 MANUAL
 .marikoEmcVddqVolt = 650'000,
 
-// CPU-LOW ECO LOGIC // 0 DEFAULT // 1 ECO ST1 // 3 ECO ST2 // 5 ECO ST3 // 1-6 MANUAL
+// CPU-LOW ECO LOGIC // 0 ECO ALT-MODE (low=0 & high=0) // 1 AUTO ECO ST1 // 3 AUTO ECO ST2 // 5 AUTO ECO ST3 // 1-6 MANUAL
 .marikoCpuUV = 0,
 
-// GPU ECO LOGIC // 0 ECO ST1 // 1 ECO ST2 // 2 ECO ST3 // 3 MANUAL ( -75mV << marikoGpuVoltArray ECO ST2 >> +75mV ) 5mV STEP
+// GPU ECO LOGIC // 0 AUTO ECO ST1 // 1 AUTO ECO ST2 // 2 AUTO ECO ST3
 .marikoGpuUV = 0,
-// ERISTA = eristaGpuDvfsTable uV - (12500 uV * marikoGpuUV)
+ // 3 MANUAL ( -75mV << marikoGpuVoltArray ECO ST2 >> +75mV ) 5mV STEP // ERISTA = eristaGpuDvfsTable uV - (12500 uV * marikoGpuUV)
 
-// CPU UNDER MODE // MARIKO CPU VOLT MIN = CPUv // ERISTA CPU VOLT MIN = CPUv + 205mV
-.CPUv = 620,
-// 620 DEFAULT // 590 ECO ST1 // 560 ECO ST2 (4IFIR E or D only) // 530 ECO ST3 (4IFIR E only) // 430-670 MANUAL 5-10mV STEP
+// CPU UNDER LOGIC // 3 AUTO ECO ST1 // 2 AUTO ECO ST2 // 1 AUTO ECO ST3 // 430-670 MANUAL 5-10mV STEP
+.CPUv = 3,
+// 620mV DEFAULT // MARIKO CPU VOLT MIN = CPUv, ERISTA CPU VOLT MIN = CPUv + 205mV
 
-// GPU UNDER LOGIC // 3 AUTO ECO ST1 // 2 AUTO ECO ST2 // 1 AUTO ECO ST3 // 430-770 MANUAL mV 5-10mV STEP
+// GPU UNDER LOGIC // 3 AUTO ECO ST1 // 2 AUTO ECO ST2 // 1 AUTO ECO ST3 // 430-970 MANUAL mV 5-10mV STEP
 .GPUv = 3,
+// 610mV DEFAULT // MARIKO GPU VOLT MIN = CPUv, ERISTA GPU VOLT MIN = CPUv + 100mV
 
 // EMB ECO LOGIC // 3 AUTO // 2 AUTO ECO ST1 // 1 AUTO ECO ST2 // 0 AUTO ECO ST3 // 300-1150 MANUAL mV 
 .marikoEmcDvbShift = 3,
 
-// DERIVATIVE TIMINGS ORCHESTRATORs
-.drochr01 = 1, // 0 DEBUG // 1 AUTO DEFAULT // 2-9 AUTO ST2-9
-.drochr02 = 1, // 0 DEBUG // 1 AUTO DEFAULT // 2-8 AUTO ST2-8 // 9 ALT LOGIC
-.drochr03 = 1, // 0 DEBUG // 1 AUTO DEFAULT // 2-9 AUTO ST2-9 // 10 ALT LOGIC
-.drochr04 = 1, // 0 DEBUG // 1 AUTO DEFAULT // 2-9 AUTO ST2-9
-.drochr05 = 1, // 0 DEBUG // 1 AUTO DEFAULT // 2-9 AUTO ST2-9
-.drochr06 = 1, // 0 DEBUG // 1 AUTO DEFAULT // 2-14 AUTO ST2-14
-.drochr07 = 1, // 0 DEBUG // 1 AUTO DEFAULT // 2-10 AUTO ST2-10
+// DERIVATIVE TIMINGS ORCHESTRATORs // SAMSUNG D/E 2666 eBAL 2 RCD 12
+.drochr01 = 1, // 0 DEBUG // 1 AUTO SAFE // 2-9 AUTO STAGE
+.drochr02 = 1, // 0 DEBUG // 1 AUTO SAFE // 2-8 AUTO STAGE // 9 ALT LOGIC
+.drochr03 = 1, // 0 DEBUG // 1 AUTO SAFE // 2-9 AUTO STAGE // 10 ALT LOGIC
+.drochr04 = 1, // 0 DEBUG // 1 AUTO SAFE // 2-9 AUTO STAGE
+.drochr05 = 1, // 0 DEBUG // 1 AUTO SAFE // 2-9 AUTO STAGE // ! drochr05 = drochr01 + drochr05
+.drochr06 = 1, // 0 DEBUG // 1 AUTO SAFE // 2-14 AUTO STAGE
+.drochr07 = 1, // 0 DEBUG // 1 AUTO SAFE // 2-10 AUTO STAGE
 
 .marikoGpuVoltArray = {395, 420, 445, 470, 495, 520, 545, 570, 595, 620, 645, 670, 695, 720, 750, 780, 810, 840, 870, 900, 930, 960, 990, 1020},
 
 .eristaCpuDvfsTable = {
-	{  408000, {  786986 }, {} },
-	{  510000, {  819932 }, {} },
-	{  612000, {  852878 }, {} },
-	{  714000, {  885824 }, {} },
-	{  816000, {  918770 }, {} },
-	{  918000, {  951716 }, {} },
+    {  408000, {  786986 }, {} },
+    {  510000, {  819932 }, {} },
+    {  612000, {  852878 }, {} },
+    {  714000, {  885824 }, {} },
+    {  816000, {  918770 }, {} },
+    {  918000, {  951716 }, {} },
     { 1020000, {  984662 }, { -2875621,  358099, -8585 } },
     { 1122000, { 1017608 }, {   -52225,  104159, -2816 } },
     { 1224000, { 1050554 }, {  1076868,    8356,  -727 } },
@@ -111,10 +113,10 @@ volatile CustomizeTable C = {
     { 1963500, { 1235000 }, {  5100873, -279186,  4747 } },
     { 2091000, { 1235000 }, {  5100873, -279186,  4747 } },
     { 2193000, { 1235000 }, {  5100873, -279186,  4747 } },
-    { 2296000, { 1240000 }, {  5100873, -279186,  4747 } },
-    { 2397000, { 1262000 }, {  5100873, -279186,  4747 } },
-    { 2499000, { 1298000 }, {  5100873, -279186,  4747 } },
-    { 2602000, { 1358000 }, {  5100873, -279186,  4747 } },
+    { 2295000, { 1235000 }, {  5100873, -279186,  4747 } },
+    { 2397000, { 1235000 }, {  5100873, -279186,  4747 } },
+    { 2499000, { 1235000 }, {  5100873, -279186,  4747 } },
+    { 2602000, { 1235000 }, {  5100873, -279186,  4747 } },
     //{ 2703000, { 1358000 }, {  5100873, -279186,  4747 } },
 },
 
@@ -185,33 +187,33 @@ volatile CustomizeTable C = {
 .eristaGpuDvfsTable = {
 	// Freq KHz  	// Volt uV
 	//{  192000, {}, {  687500, } },
-	{  230400, {}, {  700000, } },
-	{  268800, {}, {  712500, } },
-	{  307200, {}, {  725000, } },
-	{  345600, {}, {  737500, } },
-	{  384000, {}, {  750000, } },
-	{  422400, {}, {  762500, } },
-	{  460800, {}, {  775000, } },
-	{  499200, {}, {  787500, } },
-	{  537600, {}, {  800000, } },
-	{  576000, {}, {  812500, } },
-	{  614400, {}, {  825000, } },
-	{  652800, {}, {  837500, } },
-	{  691200, {}, {  850000, } },
-	{  729600, {}, {  862500, } },
-	{  768000, {}, {  875000, } },
-	{  806400, {}, {  887500, } },
-	{  844800, {}, {  900000, } },
+	{  230400, {}, {  687500, } },
+	{  268800, {}, {  700000, } },
+	{  307200, {}, {  712500, } },
+	{  345600, {}, {  725000, } },
+	{  384000, {}, {  737500, } },
+	{  422400, {}, {  750000, } },
+	{  460800, {}, {  762500, } },
+	{  499200, {}, {  775000, } },
+	{  537600, {}, {  787500, } },
+	{  576000, {}, {  800000, } },
+	{  613400, {}, {  812500, } },
+	{  652800, {}, {  825000, } },
+	{  691200, {}, {  837500, } },
+	{  729600, {}, {  850000, } },
+	{  768000, {}, {  862500, } },
+	{  806400, {}, {  875000, } },
+	{  840800, {}, {  887500, } },
 	{  883200, {}, {  912500, } },
 	{  921600, {}, {  925000, } },
-	{  960000, {}, {  937500, } },
-	{  998400, {}, {  950000, } },
-	{ 1036800, {}, {  962500, } },
-	{ 1075200, {}, {  975000, } },
-	{ 1113600, {}, { 1000000, } },
-	{ 1152000, {}, { 1037500, } },
-	{ 1190400, {}, { 1062500, } },
-	{ 1228800, {}, { 1100000, } },
+	{  960000, {}, {  950000, } },
+	{  998400, {}, {  962500, } },
+	{ 1036800, {}, {  975000, } },
+	{ 1074200, {}, { 1000000, } },
+	{ 1113600, {}, { 1037500, } },
+	{ 1152000, {}, { 1062500, } },
+	{ 1190400, {}, { 1100000, } },
+	{ 1228800, {}, { 1125000, } },
 	{ 1267200, {}, { 1150000, } },
 },
 
@@ -301,23 +303,24 @@ volatile CustomizeTable C = {
 
 // SPEEDSHIFT ECO LOGIC // 0 DEFAULT // 50 AUTO SRT // 100 AUTO ECO ST1 // 125 AUTO ECO ST2 // 150 AUTO ECO ST3 // 1-200 MANUAL
 .SpeedShift = 0,
+// Ov << 100 >> uV
 
-// MARIKO CPU-HI ECO LOGIC // 0 DEFAULT // 1 AUTO ECO ST1 // 3 AUTO ECO ST2 // 5 AUTO ECO ST3 // 1-7 MANUAL
-.marikoCpuHUV = 0,
+// MARIKO CPU-HI ECO LOGIC // 0 ECO ALT-MODE (low=0 & high=0) // 1 AUTO ECO ST1 // 3 AUTO ECO ST2 // 5 AUTO ECO ST3 // 1-7 MANUAL
+.marikoCpuHUV = 1,
 
-// MARIKO GPU OVER MODE // 800 ECO ST2 // 925 ECO ST1 // 1050 DEFAULT SRT // 750-1200 MANUAL
-.hGPUv = 1050,
+// GPU OVER LOGIC // 0 AUTO // MARIKO: 750-1200 MANUAL // ERISTA: 850-1300 MANUAL
+.hGPUv = 0,
 
-// MARIKO CPU MIN-HIGH LOGIC // 0 DEFAULT // 1 AUTO ECO ST1 // 2 AUTO ECO ST2 // 3 AUTO ECO ST3 // 750-850 MANUAL
+// MARIKO CPU MIN-HIGH LOGIC // 0 AUTO // 1 AUTO ECO ST1 // 2 AUTO ECO ST2 // 3 AUTO ECO ST3 // 750-850 MANUAL
 .dCPUv = 0,
 
 // EMC BALLANCE ADVANCED LOGIC // 0 eBAMATIC // 1 SYK-LOH // 2 ECO ST1 // 3 DEFAULT // 4 SRT ST1 // 5 SRT ST2
-.eBAL = 4,
+.eBAL = 0,
 // TRADE MAX FREQ FOR EFFICIENCY // EFFICIENCY << PRIORITY >> FREQUENCY
 
-.drochr08 = 1, // 0 SAFE DEBUG // 1 AUTO DEFAULT // 2-18 AUTO ST2-18
+.drochr08 = 1, // 0 DEBUG // 1 AUTO DEFAULT // 2-12 AUTO
 
-// EBA-SHIFT // 0 DEFAULT // 1 ECO ST1 // 2 SYK-LOH // 3 RESERVED // 4 RESERVED // 5 LOH-C4C
+// EBA-SHIFT // 0 DEFAULT // 1 AUTO ST1 // 2 SYK-LOH // 3 AUTO ST3 // 4 AUTO ST4 // 5 LOH-C4C
 .eBAS = 0,
 // TRADE MAX FREQ FOR EFFICIENCY // FREQUENCY << PRIORITY >> EFFICIENCY
 
@@ -325,23 +328,23 @@ volatile CustomizeTable C = {
 // 3 eBAW Shift 0-4		// 4 eBAR Shift 0-4     // 5 RTW Crement 0-4	 // 6 WTR Crement 0-4 	   // 7 WTP Crement 0-4
 // 8 RCD Decret 0-4 	// 9 RP Decret 0-4      // 10 RAS Decret 0-8	 // 11 SRPD 0-15 		   // 12 E-Enhance P 0-1
 // 13 DR Debug 0-5		// 14 GameChanger 0-24	// 15 Eri-Bump 0-1		 // 16 lovec 0-1		   // 17 DBI 0-3
-// 18 eBAMATIC ST 0-3
-.pMEH = { 0, 2, 0, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0 },
-// DEF =  0  2  0  2  2  0  0  0  0  0  0  0  0  0  0  0  0  3  0  >> RESERVED >>
+// 18 eBAMATIC ST 0-3	// 19 vMINetune ST 0-5
+.pMEH = { 0, 2, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0 },
+// DEF =  0  2  0  2  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  3  >> RESERVED >>
 // NUM =  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
 
 // SECONDARY MICRO-ENHANCE LOGIC (SAFE)	// 0 ARB-Boost 1-9		// 1 ARB-BCD 0-4	// 2 ARB-BRP 0-4	// 3 ARB-RTR 0-4
 // 4 ARB-RTW 0-4	// 5 ARB-WTR 0-4	// 6 eZQ Override 0-7	// 7 trDVFS 0-1		// 8 E-Boost 0-1	// 9 SSC Logic 0-1
-// 10 Latent 0-8  	// 11 CP-THM 0-4	// 12 Clatok 0-1
-.sMEH = { 4, 2, 2, 2, 2, 2, 0, 1, 0, 1, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
-// DEF =  4  2  2  2  2  2  0  1  0  1  0  2  0  >> RESERVED >>
+// 10 Latent 0-8  	// 11 FEH-NEH 0-4	// 12 Clatok 0-1		// 13 CPriora 0-1
+.sMEH = { 4, 2, 2, 2, 2, 2, 0, 1, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+// DEF =  4  2  2  2  2  2  0  1  0  1  0  2  0  0  >> RESERVED >>
 // NUM =  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
 
-// Secret Hardware Assisted Integration Tool for Advanced Necessities (UNSAFE)
-// SPELL = [ SLOT1 ][ SLOT2 ][ SLOT3 ][ SLOT4 ][S][RP]
-.SHAITAN = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 13},
-// Magic numbers, the right combination adds functionality from the future
-
+// Secret Hardware Assisted Integration Tool 4 Advanced Necessities
+// SPELL = [S][   SLOT1   ][   SLOT2   ][   SLOT3   ][R]
+.SHAITAN = {0, 13,13,13,13, 13,13,13,13, 13,13,13,13, 0}, //!DANGER
+// NUM 	 =  0   1  2  3  4   5  6  7  8   9 10 11 12 13
+// Magic numbers - right combination adds feautures from the future
 };
 
 }
