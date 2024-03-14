@@ -60,7 +60,7 @@
         "color":"Orange"
     },
     {
-        "name": "1100mV  - Eco",
+        "name": "1100mV",
         "hex": "E0C810"
     },
     {
@@ -84,7 +84,7 @@
         "hex": "04BD11"
     },
     {
-        "name": "1175mV",
+        "name": "1175mV  - Eco",
         "hex": "D8ED11"
     },
     {
