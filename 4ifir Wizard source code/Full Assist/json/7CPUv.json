@@ -3,19 +3,15 @@
         "name": "`CPU MinVolt"
     },
     {
-        "name": "620 - Default",
-        "hex": "6C02"
+        "name": "ECO ST1 - Default",
+        "hex": "030000"
     },
     {
-        "name": "590 - RAM 1996Mhz",
-        "hex": "4E02"
+        "name": "ECO ST2",
+        "hex": "020000"
     },
     {
-        "name": "560 - RAM 1862Mhz",
-        "hex": "3002"
-    },
-    {
-        "name": "530 - RAM <= 1734Mhz",
-        "hex": "1202"
+        "name": "ECO ST3",
+        "hex": "010000"
     }
 ]

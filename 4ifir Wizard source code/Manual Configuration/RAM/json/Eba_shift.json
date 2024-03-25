@@ -12,15 +12,15 @@
         "hex": "02"
     },
     {
-        "name": "3 - Reserved ",
+        "name": "3 - ST3",
         "hex": "03"
     },
     {
-        "name": "4 - Reserved ",
+        "name": "4 - ST4",
         "hex": "04"
     },
     {
-        "name": "5 - LOH-C4C ",
+        "name": "5 - LOH-C4C",
         "hex": "05"
     }
 ]

@@ -27,5 +27,10 @@
         "name": "Level 5",
         "hex": "05",
         "color": "Orange"
+    },
+    {
+        "name": "Level 6",
+        "hex": "06",
+        "color": "Orange"
     }
 ]

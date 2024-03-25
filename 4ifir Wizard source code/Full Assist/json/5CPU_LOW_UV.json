@@ -18,14 +18,5 @@
     {
         "name": "3 - 3 level",
         "hex": "03"
-    },    
-    {
-        "name": "4 - 4 level",
-        "hex": "04"
-    
-    },
-    {
-        "name": "5 - 5 level",
-        "hex": "05"
     }
 ]
