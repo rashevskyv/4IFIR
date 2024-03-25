@@ -4,6 +4,10 @@
         "hex": "00"
     },
     {
+        "name": "Auto",
+        "hex": "01"
+    },
+    {
         "name": "Sport",
         "hex": "32"
     },
