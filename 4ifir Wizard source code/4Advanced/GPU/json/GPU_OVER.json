@@ -1,0 +1,61 @@
+[
+    {
+        "name": "`GPU Overvolt"
+    },
+    {
+        "name": "Auto",
+        "hex": "000000"
+    },
+    {
+        "name": "750mV",
+        "hex": "ee02"
+    },    
+    {
+        "name": "800mV - ECO ST2",
+        "hex": "2003"
+    },
+    {
+        "name": "850mV",
+        "hex": "5203"
+    },
+    {
+        "name": "900mV",
+        "hex": "8403"
+    }, 
+    {
+        "name": "925mV - ECO ST2",
+        "hex": "9d03"
+    },
+    {
+        "name": "950mV",
+        "hex": "b603"
+    },
+    {
+        "name": "1000mV",
+        "hex": "E803"
+    },
+    {
+        "name": "1050mV - Default/SPR",
+        "hex": "1a04"
+    },
+    {
+        "name": "1100mV",
+        "hex": "4C04"
+    },
+    {
+        "name": "1150mV",
+        "hex": "7e04"
+    },
+    {
+        "name": "1200mV",
+        "hex": "b004"
+    },
+    {
+        "name": "1250mV",
+        "hex": "e204"
+    },
+    {
+        "name": "1300mV",
+        "hex": "1405"
+    }
+]
