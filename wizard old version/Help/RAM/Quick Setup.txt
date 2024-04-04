@@ -1,0 +1,7 @@
+This menu allows you to quickly setup all RAM parameters given your RAM model.
+
+After selecting a model, you will see what settings will be set and can either apply them or go back.
+
+Please note, that these values are not universal, meaning that your console can accept higher or lower values.
+
+Manual adjustments might be required to improve stability and performance.

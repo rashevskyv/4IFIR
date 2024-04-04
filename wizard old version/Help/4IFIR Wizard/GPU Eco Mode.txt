@@ -1,0 +1,5 @@
+GPU Eco Mode controls the power consumption on the GPU.
+
+The higher the level, the less energy the GPU will consume.
+
+NOTE: This parameter is overriden when setting the GPU voltage manually via Advanced Settings.

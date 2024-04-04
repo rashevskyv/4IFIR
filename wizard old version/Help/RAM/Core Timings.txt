@@ -1,0 +1,17 @@
+Core Timings for RAM allow for independent fine-tuning of specific timing parameters.
+Core Timings do not affect each other.
+
+Tune each parameter individually to achieve maximum stable performance.
+
+You may see a notation like this:
+
+3-6-6-5-5-5-3-4 or 36655534
+
+Each number coresponds to the Core Timings setting. 
+For example, 3 - Core Timings 1;
+6 - Core Timings 2, etc.
+
+0 timing values are for debugging. 
+If in some scenario 0 works stably, but 1 does not work, 
+this is a reason to report the combination of parameters,
+memory chips, etc.

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "`CPU MinVolt"
+    },
+    {
+        "name": "ECO ST1 - Default",
+        "hex": "030000"
+    },
+    {
+        "name": "ECO ST2",
+        "hex": "020000"
+    },
+    {
+        "name": "ECO ST3",
+        "hex": "010000"
+    }
+]

@@ -1,0 +1,4 @@
+Timings Presets for RAM allow for independent fine-tuning of specific timing parameters.
+Timings Presets do not affect each other.
+
+Tune each parameter individually to achieve maximum stable performance.

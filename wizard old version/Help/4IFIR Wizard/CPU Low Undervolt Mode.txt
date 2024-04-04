@@ -1,0 +1,8 @@
+This setting contols the Undervolt logic in 4IFIR for frequencies up to 16XX MHz.
+
+The higher the level, the lower the consumption at frequencies below 16xx Mhz.
+
+To test the stability:
+1. Set the minimal available CPU frequency.
+2. Turn off the Governor (4IFIR Shaitan/Miscellaneous/Frequency Governor).
+3. Run some games.

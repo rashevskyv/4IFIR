@@ -1,0 +1,8 @@
+VDD2 is a secondary voltage supply for specific components. 
+Higher values might improve stabilty.
+
+Recommendations for Erista:
+4IFIR E   1868Mhz - RAM VDD2 1150mv
+4IFIR D   1996Mhz - RAM VDD2 1250mv
+4IFIR S   2131Mhz - RAM VDD2 1350mv
+4IFIR S   2265Mhz - RAM VDD2 1350mv

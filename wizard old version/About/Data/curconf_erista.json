@@ -1,0 +1,69 @@
+[
+	{
+		"name": "CPU Voltage Limit",
+		"offset": "20",
+		"length": "4",
+		"extent": " mV"
+	},
+	{
+		"name": "",
+		"state": "filler"
+	},
+	{
+		"name": "RAM MHz",
+		"offset": "24",
+		"length": "4",
+		"extent": " MHz"
+	},
+	{
+		"name": "RAM Vdd2",
+		"offset": "16",
+		"length": "4",
+		"extent": " mV"
+	},
+	{
+		"name": "EMC Balance",
+		"offset": "12352",
+		"length": "4",
+		"extent": "",
+		"state": "check_extent"
+	},
+	{
+		"name": "Core Timings",
+		"offset": "60,64,68,72,76,80,84,12356",
+		"length": "1"
+	},
+	{
+		"name": "Eba-shift",
+		"offset": "12360",
+		"length": "1"
+	},
+	{
+		"name": "",
+		"state": "filler"
+	},
+	{
+		"name": "pMEH(0-11)",
+		"offset": "12364,12368,12372,12376,12380,12384,12388,12392,12396,12400,12404,12408",
+		"length": "2"
+	},
+	{
+		"name": "pMEH(12-21)",
+		"offset": "12412,12416,12420,12424,12428,12432,12436,12440,12444,12448",
+		"length": "2"
+	},	
+	{
+		"name": "sMEH(0-11)",
+		"offset": "12460,12464,12468,12472,12476,12480,12484,12488,12492,12496,12500,12504",
+		"length": "2"
+	},
+	{
+		"name": "sMEH(12-13)",
+		"offset": "12508,12512",
+		"length": "2"
+	},
+	{
+		"name": "",
+		"state": "filler"
+	}
+]
