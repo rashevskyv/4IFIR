@@ -6,4 +6,4 @@ Whether you're a novice or an enthusiast, it simplifies the overclocking process
 
 This is the version for 4IFIR 2.2.
 
-Authors: Efosamark, Serj K, Nick Alutis, Andrej, Vlad, Kir Kapez
+Authors: Efosamark, Serj K, Nick Alutis, Andrej, Vlad, Kir Kapez, Loudmannn
