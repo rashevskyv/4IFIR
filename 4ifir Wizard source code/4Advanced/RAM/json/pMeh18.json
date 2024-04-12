@@ -4,15 +4,15 @@
         "hex": "00"
     },
     {
-        "name": "1",
+        "name": "Stage 1",
         "hex": "01"
     },
     {
-        "name": "2",
+        "name": "Stage 2",
         "hex": "02"
     },
     {
-        "name": "3",
+        "name": "Stage 3",
         "hex": "03"
     }
 ]
