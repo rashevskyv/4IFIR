@@ -26,7 +26,13 @@
 		"offset": "12352",
 		"length": "4",
 		"extent": "",
-		"state": "check_extent"
+		"state": "no_skip"
+	},
+	{
+		"name": "  eBm ST",
+		"offset": "12436",
+		"length": "4",
+		"extent": ""
 	},
 	{
 		"name": "Core Timings",
