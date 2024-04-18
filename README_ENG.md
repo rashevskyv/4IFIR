@@ -1,6 +1,6 @@
 # 4IFIR 2.2 by **[Cooler3D](https://t.me/Cooler3D)**
 
-[RUSSIAN GUIDE](README.md) | [Recommended Overclocking Settings](OPTIMAL_OVERCLOCKING.md) | [Telegram Group](https://t.me/kefir_switch/48074) | [Update Tracking Bot](https://t.me/kefir_switch/98339)
+[RUSSIAN GUIDE](README.md) | [Recommended Overclocking Settings](OPTIMAL_OVERCLOCKING.md) | [Telegram Group](https://t.me/kf4fr/48074) | [Update Tracking Bot](https://t.me/kf4fr/98339)
 
 <img width="923" alt="4ifir" src="./4mosphere.png">
 
@@ -111,9 +111,9 @@ In the case of 4IFIR, overclocking refers not to unlocking frequencies within st
 
 **IMPORTANT! Strictly follow the instructions and do not deviate from them. In case of problems, refer back to the instructions and reinstall 4IFIR from scratch.**
 
-Some Switch models on version 4IFIR 1.9 have a sleep issue, please refer to the [help chat](https://t.me/kef4ir/205364) (there's a workaround that solves the problem: *when asked about reinstalling hekate, select **Yes***, the project's author is aware of the issue, and it's being worked on). In the latest version, 4IFIR 2.2, the issue has been largely resolved, and the workaround from the previous version works.
+Some Switch models on version 4IFIR 1.9 have a sleep issue, please refer to the [help chat](https://t.me/kf4fr/205364) (there's a workaround that solves the problem: *when asked about reinstalling hekate, select **Yes***, the project's author is aware of the issue, and it's being worked on). In the latest version, 4IFIR 2.2, the issue has been largely resolved, and the workaround from the previous version works.
 
-The versioning of 4IFIR is very conditional (to put it simply, it doesn't really exist), so many updates can be released without changing the version of 4IFIR at all. You can follow new versions in the [4IFIR chat](https://t.me/kef4ir/48074), or on [this page](https://github.com/rashevskyv/4ifir-checker), which will show when a new version was released and what specifically has changed. [The update is done through AIO](#updating-transitioning-from-previous-versions).
+The versioning of 4IFIR is very conditional (to put it simply, it doesn't really exist), so many updates can be released without changing the version of 4IFIR at all. You can follow new versions in the [4IFIR chat](https://t.me/kf4fr/48074), or on [this page](https://github.com/rashevskyv/4ifir-checker), which will show when a new version was released and what specifically has changed. [The update is done through AIO](#updating-transitioning-from-previous-versions).
 
 ### Installation (from Kefir or another build)
 1. Unzip [All in One Updater with 4IFIR's config](https://sintez.io/AIO.zip) to the console's memory card
@@ -454,7 +454,7 @@ To reset the battery statistics:
    * *You can just continue playing at this stage if you do not plan to play on stock.* In this case, do not reboot the console to stock.
 1. Reboot the console to the official firmware
 1. Fully discharge the console twice and fully charge it
-   * Full discharge means the battery charge level is within 3205-3210mV, which can be checked in InfoNX ([more details..](https://t.me/kefir_switch/48074/172575))
+   * Full discharge means the battery charge level is within 3205-3210mV, which can be checked in InfoNX ([more details..](https://t.me/kf4fr/48074/172575))
    * Do not reboot the console until you do this
    * If the console goes to sleep due to low charge, wake it up until you see the red battery icon
    * If the console turns off due to low battery (stops waking up from pressing the power button), connect it to a charger. If the console then hangs on a black screen with a battery icon, disconnect/connect the charger. Do this until you can enter the firmware again and charge the console to 100% there, then repeat the discharge/charge cycle again
