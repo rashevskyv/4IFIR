@@ -1,0 +1,2 @@
+sMeh13
+CPU priority. Reduces performance by one megahertz for the GPU, in favor of the CPU.
