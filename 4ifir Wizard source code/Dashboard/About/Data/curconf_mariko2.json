@@ -1,8 +1,8 @@
 [
 	{
 		"name": "TABLE_BASE",
-		"base": "88,7160,8896,10632",
-        "base_increment": "4,56,56,56"
+		"base": "7160,8896,10632,88",
+        "base_increment": "56,56,56,4"
 	},
 	{
 		"name": "> GPU Voltage Table",
