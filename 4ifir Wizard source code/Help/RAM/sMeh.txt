@@ -1,2 +1,11 @@
+Experimental settings that provide additional performance
+
+sMeh1-5
+allow, without affecting stability, in certain combinations of timings, eBALs and frequencies, where 4IFIR was not included algorithmically with 100% arbitration timings by memory controllers, to adjust them manually.
+
+sMeh6 
+By setting the value to 1, you can get an additional increase in power.
+
 sMeh13
 CPU priority. Reduces performance by one megahertz for the GPU, in favor of the CPU.
+
