@@ -24,7 +24,8 @@
 		"name": "CPU Boost Clock",
 		"offset": "12",
 		"length": "4",
-		"extent": " MHz"
+		"extent": " MHz",
+		"state": "check_extent"
 	},
 	{
 		"name": "Low MHz Undervolt Mode",
@@ -136,8 +137,8 @@
 		"length": "2"
 	},
 	{
-		"name": "sMEH(12-13)",
-		"offset": "12508,12512",
+		"name": "sMEH(12-16)",
+		"offset": "12508,12512,12516,12520,12524",
 		"length": "2"
 	},
 	{

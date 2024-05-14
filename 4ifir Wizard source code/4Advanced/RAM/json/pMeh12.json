@@ -1,10 +1,14 @@
 [
     {
-        "name": "0 - Default",
+        "name": "0",
         "hex": "00"
     },
     {
         "name": "1",
         "hex": "01"
+    },
+    {
+        "name": "2 - Default",
+        "hex": "02"
     }
 ]
