@@ -13,9 +13,5 @@
     {
         "name": "Eco ST3",
         "hex": "02"
-    },
-    {
-        "name": "Manual",
-        "hex": "03"
     }
 ]
