@@ -168,5 +168,31 @@
         "length": "4",
         "extent": "mV",
         "state": "no_skip"
+    },
+    {
+        "name": "1152mhz",
+        "offset": "6824",
+        "length": "4",
+        "extent": "mV"
+    },
+    {
+        "name": "1190mhz",
+        "offset": "6880",
+        "length": "4",
+        "extent": "mV",
+        "state": "no_skip"
+    },
+    {
+        "name": "1228mhz",
+        "offset": "6936",
+        "length": "4",
+        "extent": "mV"
+    },
+    {
+        "name": "1266mhz",
+        "offset": "6992",
+        "length": "4",
+        "extent": "mV",
+        "state": "no_skip"
     }
 ]
