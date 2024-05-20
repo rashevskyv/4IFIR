@@ -3,8 +3,8 @@
         "name": "`CPU High mHz Undervolt"
     },
     {
-        "name": "Default - 0",
-        "hex": "00"
+        "name": "eBamatic",
+        "hex": "000000"
     },
     {
         "name": "1 level",

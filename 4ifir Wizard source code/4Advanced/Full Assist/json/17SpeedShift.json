@@ -1,10 +1,10 @@
 [
     {
-        "name": "Default",
-        "hex": "00"
+        "name": "eBamatic",
+        "hex": "000000"
     },
     {
-        "name": "Auto",
+        "name": "D",
         "hex": "01"
     },
     {

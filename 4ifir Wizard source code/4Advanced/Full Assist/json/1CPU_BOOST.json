@@ -3,7 +3,7 @@
         "name": "`CPU Max freq"
     },
     {
-        "name": "AUTO ST1",
-        "hex": "01"
+        "name": "eBamatic",
+        "hex": "00"
     }
 ]

@@ -1,6 +1,6 @@
 [
     {
-        "name": "eBamatic  - Default",
+        "name": "eBamatic",
         "hex": "000000"
     },
     {
@@ -38,9 +38,5 @@
     {
         "name": "9",
         "hex": "09"
-    },
-    {
-        "name": "10 - ALT Logic",
-        "hex": "0a0000"
     }
 ]

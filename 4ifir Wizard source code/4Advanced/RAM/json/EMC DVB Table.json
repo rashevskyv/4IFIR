@@ -1,5 +1,9 @@
 [
     {
+        "name": "eBamatic",
+        "hex": "000000"
+    },
+    {
         "name": "250mV",
         "hex": "FA0000"
     },

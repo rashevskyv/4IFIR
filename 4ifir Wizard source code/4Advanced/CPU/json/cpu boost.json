@@ -1,5 +1,9 @@
 [
     {
+        "name": "eBAMATIC",
+        "hex": "000000"
+    },
+    {
         "name": "1400MHz",
         "hex": "C05C15"
     },

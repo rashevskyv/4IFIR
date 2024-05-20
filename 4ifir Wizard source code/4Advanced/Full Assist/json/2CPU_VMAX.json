@@ -3,6 +3,10 @@
         "name": "`CPU max Volt"
     },
     {
+        "name": "eBamatic",
+        "hex": "000000"
+    },    
+    {
         "name": "1150 mV - Eco",
         "hex": "7E0400"
     },
