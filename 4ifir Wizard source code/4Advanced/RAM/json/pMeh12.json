@@ -4,11 +4,7 @@
         "hex": "00"
     },
     {
-        "name": "1",
+        "name": "1 - Default",
         "hex": "01"
-    },
-    {
-        "name": "2 - Default",
-        "hex": "02"
     }
 ]
