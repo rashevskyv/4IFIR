@@ -3,7 +3,7 @@
         "name": "`CPU Min-High Voltage(dCPUv)"
     },
     {
-        "name": "Default - 0",
+        "name": "eBamatic",
         "hex": "000000"
     },
     {
