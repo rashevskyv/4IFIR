@@ -1,0 +1,39 @@
+[
+    {
+        "name": "`Low Freq MHz"
+    },
+    {
+        "name": "1600 - SYK-LOH",
+        "hex": "006a18"
+    },
+    {
+        "name": "1734 - ECO ST2",
+        "hex": "00771a"
+    },        
+    {
+        "name": "1862 - ECO ST1",
+        "hex": "006B1C"
+    },
+    {
+        "name": "`Medium Freqs MHz"
+    },
+    {
+        "name": "1996 - D ST1",
+        "hex": "00781E"
+    },
+    {
+        "name": "2131 - D ST2",
+        "hex": "008520"
+    },
+    {
+        "name": "`High freqs MHz"
+    },
+    {
+        "name": "2265 - S ST1",
+        "hex": "009222"
+    },
+    {
+        "name": "2366 - L-C4C",
+        "hex": "000924"
+    }
+]

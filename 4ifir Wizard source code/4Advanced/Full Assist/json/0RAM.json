@@ -22,34 +22,34 @@
         "name": "`Medium Freqs MHz"
     },
     {
-        "name": "2131 - ST1 eb2",
+        "name": "2131 - D ST1 eb2",
         "hex": "008520"
     },
     {
-        "name": "2265 - ST2 eb2",
+        "name": "2265 - D ST2 eb2",
         "hex": "009222"
     },
     {
-        "name": "2400 - ST3 eb3",
+        "name": "2400 - D ST3 eb3",
         "hex": "009F24"
     },
     {
         "name": "`High freqs MHz"
     },
     {
-        "name": "2534 - SPR1 eb3",
+        "name": "2534 - S ST1 eb3",
         "hex": "00ac26"
     },
     {
-        "name": "2665 - SPR2 eb4",
+        "name": "2665 - S ST2 eb4",
         "hex": "80AC28"
     },
     {
-        "name": "2800 - SPR3 eb4",
+        "name": "2800 - S ST3 eb5",
         "hex": "80b92a"
     },
     {
-        "name": "2934 - LOH-C4C eb5",
+        "name": "2934 - L_C4C eb5",
         "hex": "80c62c"
     }
 ]
