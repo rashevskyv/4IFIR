@@ -73,7 +73,7 @@
 
 1. **[4efirosphere](https://cloud.sintez.io/s/4IFIR?path=%2FMariko)**, форк [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere), раскрывающий разгонный потенциал консоли
 1. **[Сигпатчи](https://jits.cc/patches)**, раскрывающие игровой потенциал консоли
-1. **[hekate](https://cloud.sintez.io/s/4IFIR)**, форк [hekate](https://github.com/CTCaer/hekate), раскрывающий потенциал разгона памяти консоли
+1. **[4ekate](https://cloud.sintez.io/s/4IFIR)**, форк [hekate](https://github.com/CTCaer/hekate), раскрывающий потенциал разгона памяти консоли
 1. **Установленные пейлоады**:
    * [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM) - программа для дампинга ключей консоли
    * [TegraExplorer](https://github.com/rashevskyv/TegraExplorer/) - низкоуровневый файловый менеджер для работы с системой 
