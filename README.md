@@ -1,6 +1,6 @@
 # 4IFIR 2.3 Miracle by **[Cooler3D](https://t.me/Cooler3D)**
 
-[ENGLISH GUIDE](README_ENG.md) | [Рекомендуемые параметры разгона](OPTIMAL_OVERCLOCKING.md) | [Группа в телеграме](https://t.me/kf4fr/48074) | [Бот, следящий за обновлениями](https://t.me/kf4fr/98339)
+[ENGLISH GUIDE](README_ENG.md) | [Гайд по настройке 4IFIR Wizard](100%_4IFIR.md) | [Рекомендуемые параметры разгона](OPTIMAL_OVERCLOCKING.md) | [Группа в телеграме](https://t.me/kf4fr/48074) | [Бот, следящий за обновлениями](https://t.me/kf4fr/98339)
 
 <img width="923" alt="4ifir" src="./4mosphere.png">
 
