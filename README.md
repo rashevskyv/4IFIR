@@ -41,10 +41,10 @@
 ### **[Разгон](docs/OVERCLOKING.MD)**
  * Работа с разгоном 
 
-### **[Выбор оптимальных частот CPU GPU](docs/SUITABLE_FREQUENCIES.MD)**
+### **[Выбор оптимальных частот CPU GPU](docs/SUITABLE_FREQUENCIES.md)**
  * Методы подбора частот
 
-### **[4IFIR Wizard](docs/4IFIR_WIZARD.MD)**
+### **[4IFIR Wizard](docs/4IFIR_WIZARD.md)**
  * Описание всех пунктов 4IFIR WIZARD
 
 ### **[Гайд по настройке 4IFIR Wizard](docs/WIZARD_GUIDE.MD)**
