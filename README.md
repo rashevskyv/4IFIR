@@ -38,7 +38,7 @@
 ### **[Подготовка консоли и установка 4IFIR](docs/INSTAL_4IFIR.md)**
  * Методы установки и обновления
 
-### **[Разгон](docs/OVERCLOKING.MD)**
+### **[Разгон](docs/OVERCLOKING.md)**
  * Работа с разгоном 
 
 ### **[Выбор оптимальных частот CPU GPU](docs/SUITABLE_FREQUENCIES.md)**
