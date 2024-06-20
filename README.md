@@ -35,25 +35,25 @@
 
 ***
 
-### **[Подготовка консоли и установка 4IFIR](docs/INSTAL_4IFIR)**
+### **[Подготовка консоли и установка 4IFIR](docs/INSTAL_4IFIR.MD)**
  * Методы установки и обновления
 
-### **[Разгон](docs/OVERCLOKING)**
+### **[Разгон](docs/OVERCLOKING.MD)**
  * Работа с разгоном 
 
-### **[Выбор оптимальных частот CPU GPU](docs/SUITABLE_FREQUENCIES)**
+### **[Выбор оптимальных частот CPU GPU](docs/SUITABLE_FREQUENCIES.MD)**
  * Методы подбора частот
 
-### **[4IFIR Wizard](docs/4IFIR_WIZARD)**
+### **[4IFIR Wizard](docs/4IFIR_WIZARD.MD)**
  * Описание всех пунктов 4IFIR WIZARD
 
-### **[Гайд по настройке 4IFIR Wizard](docs/WIZARD_GUIDE)**
+### **[Гайд по настройке 4IFIR Wizard](docs/WIZARD_GUIDE.MD)**
  * Настройка 4IFIR WIZARD
 
-### **[Модули 4IFIR](docs/MODULES_4IFIR)**
+### **[Модули 4IFIR](docs/MODULES_4IFIR.MD)**
  * Описание работы с модулями
 
-### **[Читы и патчи на улучшение графики](docs/CHEATS_AND_PATCHES)**
+### **[Читы и патчи на улучшение графики](docs/CHEATS_AND_PATCHES.MD)**
  * Где их искать и как использовать
 
 ### **[Проблемы и их решения](docs/PROBLEM)**
