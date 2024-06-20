@@ -47,7 +47,7 @@
 ### **[4IFIR Wizard](docs/4IFIR_WIZARD.md)**
  * Описание всех пунктов 4IFIR WIZARD
 
-### **[Гайд по настройке 4IFIR Wizard](docs/WIZARD_GUIDE.MD)**
+### **[Гайд по настройке 4IFIR Wizard](docs/WIZARD_GUIDE.md)**
  * Настройка 4IFIR WIZARD
 
 ### **[Модули 4IFIR](docs/MODULES_4IFIR.MD)**
