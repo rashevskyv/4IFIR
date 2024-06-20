@@ -1,4 +1,9 @@
-# Гайд по тонкой настройке 4IFIR WIZARD
+# Гайд по настройке 4IFIR WIZARD
+
+1. [CPU](#CPU)  
+1. [GPU](#GPU)  
+1. [RAM](#RAM)  
+1. [4ifir Optimised E](#4ifir-Optimised-E)  
 
 ## Советы перед настройкой
 * Используйте EMUNAND
