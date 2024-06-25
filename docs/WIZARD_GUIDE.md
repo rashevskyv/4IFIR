@@ -96,10 +96,10 @@ GPUv Min - зависит от текущей частоты RAM, но так к
 Если выбраная вами частота не заводится - попробуйте вручную повысить eBalance (eBal), чем выше значение eBal, тем выше частоту можно взять.
 ***
 **Переходим в 4advanced - RAM**  
-* RAM Mhz – выбор частоты памяти, которая будет доступна в меню разгона приставки 4IFIR Miracle>Edit app profile/Temporary overrides/Global profile>Memory>4IFIR Optimized.  
+* RAM Mhz – выбор частоты памяти, которая будет доступна в меню разгона приставки 4IFIR Miracle>Edit app profile/Temporary overrides/Global profile>Memory>4IFIR Optimized S.  
 >Выбираем нужную частоту, перезагружаемся (шаг назад, пункт Complete[Reboot])  
 >После загрузки активируем разгон памяти:  
->4IFIR Miracle -> Temporary overrides -> Memory -> 4IFIR Optimized  
+>4IFIR Miracle -> Temporary overrides -> Memory -> 4IFIR Optimized S  
 >Это временный разгон, который слетит после перезагрузки.    
 >В шапке оверлея в графе MEM: *xxxx*MHz должно появиться ваше значение. Если все в порядке и консоль не зависла - идём дальше, если нет - жмём кнопку питания консоли 12 секунд до выключения, грузимся через хекату в сейф-мод и выбираем значение RAM в Wizard на ступень ниже.    
 >Тесты на стабильность: MemBench - прогнать несколько раз и зафиксировать значения  
