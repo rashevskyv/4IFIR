@@ -65,7 +65,7 @@
    >Скачайте [KipTool](https://github.com/kawaii-flesh/KipTool/releases/)  
    >Закиньте файл kiptool.bin в директорию bootloader/payloads  
    >Далее Hekate > payloads > kiptool.bin.  
-   >Там в Kip Wizard - CPU - speedshift поставьте 100 вместо нуля и не забудьте apply changes.  
+   >Далее Kip Wizard - CPU - speedshift поставьте **25 или 100** вместо нуля и не забудьте apply changes.  
    >Перезагрузите консоль  
    >Это может починить запуск в атмосферу    
 1. Не работает семисток на 18.1:
