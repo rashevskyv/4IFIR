@@ -1,3 +1,7 @@
+## Обновление от 01.07.2024    
+1.  Скрыт пункт **4IFIR Miracle > Gamechanger** (Теперь он доступен 4IFIR Miracle > Miscellaneous открыть с помощью "Х")  
+2.  Восстановлена работа Semi-stock на 18.1
+
 ## Обновление от 24.06.2024  
 
 ### В настройки разгона **Edit app Profile**/**Temporary overrides**/**Global profile** добавлены пункты:
