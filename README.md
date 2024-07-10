@@ -5,7 +5,9 @@
 ****
 
 **Всегда свежая версия 4IFIR: [Telegram](https://t.me/kf4fr/98339) | [sintez.io](https://sintez.io/4IFIR.zip) | [Github](https://github.com/rashevskyv/4ifir-checker/raw/main/github/4IFIR.zip)**  
-**Что нового? (только заметные изменения) - [ТУТ](docs/UPDATE.md)** 
+**Что нового? (только заметные изменения) - [ТУТ](docs/UPDATE.md)**  
+**Решение вашей проблемы, скорее всего, есть - [ТУТ](docs/PROBLEM.md)**
+
 ***
 
 **4IFIR 2.3 Поддерживает до HOS 18.1  и все ревизии консолей - [Инструкция по обновлению](docs/OTHER_INSTRUCTION.md)** 
