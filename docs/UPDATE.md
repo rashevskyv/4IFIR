@@ -1,3 +1,12 @@
+## Обновление от 15.08.2024 - 4IFIR 2.4 Gamechanger
+1.  Добавлена автоподстройка чатоты обновления экраная в соответствии с текущим FPS (Аналог VRR)
+> **4IFIR Gamechanger > Edit app Profile**/**Temporary overrides**/**Global profile > LCD Freq Governor**
+2.  В **4IFIR Gamechanger > Miscellaneous** добавлен пункт - NVIDIA PRISM 2 (Hardware Accelerated Display ECO feature)
+3.  Переработаны режимы памяти для **Edit app Profile**/**Temporary overrides**/**Global profile**
+>По задумке, настроив EMC - 4ifir Optimised, автоматически будет настроен и 4ifir Optimised E режим.  
+>Добавлен режим EMC - 4ifir Optimised E+ (1333 MHz)
+4.  Перебаллансирован режим **RAM - EMC Ballance - eBamatic**  
+
 ## Обновление от 16.07.2024 
 1.  Добавлены патчи для уменьшения задержки вывода звука через bluetooth
 2.  Добавлены патчи исправляющие запуск некоторых игр
