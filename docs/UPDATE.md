@@ -1,3 +1,7 @@
+## Обновление от 20.08.2024 - 4IFIR 2.4 Gamechanger
+1.  В сборку добавлен KipTool - это payload-based инструмент, позволяющий редактировать значение параметров в вашем loader.kip файле.  
+>Инструкцию по установке и использованию можно найти на [странице проекта](https://github.com/kawaii-flesh/KipTool)
+
 ## Обновление от 15.08.2024 - 4IFIR 2.4 Gamechanger
 1.  Добавлена автоподстройка чатоты обновления экраная в соответствии с текущим FPS (Аналог VRR)
 > **4IFIR Gamechanger > Edit app Profile**/**Temporary overrides**/**Global profile > LCD Freq Governor**
