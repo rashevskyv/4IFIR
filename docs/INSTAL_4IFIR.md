@@ -52,7 +52,7 @@
    * Некоторые провайдеры в Украине блокируют `sintez.io`, можно использовать [альтернативную ссылку на All in One Updater с конфигом 4IFIR'а с github](https://github.com/rashevskyv/4ifir-checker/raw/main/github/AIO.zip). *Также подходит в случае падения сервера `sintez.io`*.
 1. Запустите [**Homebrew Launcher**](https://switch.customfw.xyz/hbl) > **All in One Updater**
    * Если вместо запуска приложения вы получаете черный экран, перекачайте приложение вручную из его [репозитория](https://github.com/HamletDuFromage/aio-switch-updater) и вручную пропишите в Custom downloads > Add custom link этот адрес `https://sintez.io/AIO.zip`, после чего перезапустите приложение
-1. Перейдите в **Custom Downloads** > **4IFIR 2.3 Miracle** > **Continue**, на запрос о перезаписи `ini`, выберите **Yes**, на запрос о переустановке hekate выберите **No**, консоль перезагрузится
+1. Перейдите в **Custom Downloads** > **4IFIR** > **Continue**, на запрос о перезаписи `ini`, выберите **Yes**, на запрос о переустановке hekate выберите **No**, консоль перезагрузится
 
 
 
@@ -61,14 +61,12 @@
 1. Запустите [**Homebrew Launcher**](https://switch.customfw.xyz/hbl) > **All in One Updater**
    * Если вместо запуска приложения вы получаете черный экран, перекачайте приложение вручную из его [репозитория](https://github.com/HamletDuFromage/aio-switch-updater) и вручную пропишите в Custom downloads > Add custom link этот адрес `https://sintez.io/AIO.zip`, после чего перезапустите приложение
 1. Перейдите в **Custom Downloads** > **Refresh** > **Continue**, на запрос о перезаписи `ini`, выберите **Yes**
-1. Перейдите в **Custom Downloads** > **4IFIR 2.3 Miracle** > **Continue**, на запрос о перезаписи `ini`, выберите **Yes**, на запрос о переустановке hekate выберите **No**, консоль перезагрузится
+1. Перейдите в **Custom Downloads** > **4IFIR** > **Continue**, на запрос о перезаписи `ini`, выберите **Yes**, на запрос о переустановке hekate выберите **No**, консоль перезагрузится
 
 # Возможные проблемы 
 
 1. Черный экран после лого Nintendo:  
-   >Скачайте [KipTool](https://github.com/kawaii-flesh/KipTool/releases/)  
-   >Закиньте файл kiptool.bin в директорию bootloader/payloads  
-   >Далее Hekate > payloads > kiptool.bin.  
+   >Hekate > payloads > kiptool.bin.  
    >Далее Kip Wizard - CPU - speedshift поставьте **25 или 100** вместо нуля и не забудьте apply changes.  
    >Перезагрузите консоль  
    >Это может починить запуск в атмосферу    
