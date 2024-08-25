@@ -3,7 +3,7 @@
 > **4IFIR Gamechanger > Edit app Profile**/**Temporary overrides**/**Global profile > LCD Freq Governor**
 2.  В **4IFIR Gamechanger > Miscellaneous** добавлен пункт - NVIDIA PRISM 2 (Hardware Accelerated Display ECO feature)
 3.  Переработаны режимы памяти для **Edit app Profile**/**Temporary overrides**/**Global profile**
->По задумке, настроив EMC - 4ifir Optimised, автоматически будет настроен и 4ifir Optimised E режим.  
+>Настроив профиль 4ifir Optimised S (Wizard), автоматически будет настроен и 4ifir Optimised режим (1333 или 1600 MHz).  
 >Добавлен режим EMC - 4ifir Optimised E+ (1333 MHz)
 4.  Перебаллансирован режим **RAM - EMC Ballance - eBamatic**  
 
