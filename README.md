@@ -1,7 +1,7 @@
 # **4IFIR 2.4 Gamechanger by [Cooler3D](https://t.me/Cooler3D)**
 
 
-[ENGLISH GUIDE](README_ENG.md) | [Гайд по настройке 4IFIR Wizard](docs/WIZARD_GUIDE.md) | [Группа в телеграме](https://t.me/kf4fr/48074) | [Бот, следящий за обновлениями](https://t.me/kf4fr/98339) 
+[ENGLISH GUIDE](docs_en/README_ENG.MD) | [Гайд по настройке 4IFIR Wizard](docs/WIZARD_GUIDE.md) | [Группа в телеграме](https://t.me/kf4fr/48074) | [Бот, следящий за обновлениями](https://t.me/kf4fr/98339) 
 ****
 
 **Всегда свежая версия 4IFIR: [Telegram](https://t.me/kf4fr/98339) | [sintez.io](https://sintez.io/4IFIR.zip) | [Github](https://github.com/rashevskyv/4ifir-checker/raw/main/github/4IFIR.zip)**  
