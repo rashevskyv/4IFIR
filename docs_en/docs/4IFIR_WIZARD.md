@@ -140,7 +140,7 @@ In particularly tough cases, when you want to combine 300mV/900mV for the middle
 
 ***
 
-### **4ekate** – A free boost (about 200 мб/с) when choosing ST2. (Works not for everyone, there may be problems with the console waking up from sleep)
+### **4ekate** – A free boost (about 200 mb/s) when choosing ST2. (Works not for everyone, there may be problems with the console waking up from sleep)
 
 ***
 
