@@ -1,6 +1,6 @@
-## Лицензии и благодарности
+## Licenses and Acknowledgments
 
-Ниже перечислены лицензии тех программ, которые были модифицированы специально для 4IFIR. Следуя положениям этих лицензий, весь код в модификациях распространяется под той же лицензией
+Below are the licenses of the programs that have been modified specifically for 4IFIR. In accordance with the terms of these licenses, all code in the modifications is distributed under the same license
 
 [GPL 2.0](https://github.com/Atmosphere-NX/Atmosphere/blob/master/LICENSE): 
   * [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere)
@@ -26,7 +26,7 @@
 No license: 
   * [SaltyNX](https://github.com/masagrator/SaltyNX)
 
-## Благодарности 
+## Acknowledgments 
 
 * Atmosphere NX team
 * KymPossibl
@@ -36,7 +36,7 @@ No license:
 * 4PDA
 * Hanai3Bi/Meha
 
-## Редактура
+## Editing
 
 * [rashevskyv](https://github.com/rashevskyv)
 * [Кирилл Капез](https://github.com/kapez92)
