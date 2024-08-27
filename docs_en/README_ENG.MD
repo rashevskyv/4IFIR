@@ -1,5 +1,5 @@
 # **4IFIR 2.4 Gamechanger by [Cooler3D](https://t.me/Cooler3D)**
-_**The English guide is in the process of being translated.**_
+
 
 
 [RUSSIAN GUIDE](../README.md) | [4IFIR Wizard Setup Guide](docs/WIZARD_GUIDE.md) | [Telegram Group](https://t.me/kf4fr/48074) | [Bot that checks updates](https://t.me/kf4fr/98339) 
