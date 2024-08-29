@@ -4,7 +4,7 @@
 1. [CPU](#CPU)  
 1. [GPU](#GPU)  
 1. [RAM](#RAM)  
-1. [4ifir Optimised (ECO режим](#профиль-emc-4ifir-optimised)  
+1. [4ifir Optimised (ECO режим)](#профиль-emc-4ifir-optimised)  
 
 ## Советы перед настройкой
 * Используйте EMUNAND
