@@ -1,9 +1,10 @@
 # 4IFIR WIZARD Setup Guide
 
+1. [Preliminary optimizations](#Preliminary-optimizations)
 1. [CPU](#CPU)  
 1. [GPU](#GPU)  
 1. [RAM](#RAM)  
-1. [4ifir Optimised](#profile-emc-4ifir-optimised)  
+1. [4ifir Optimised (ECO mode)](#profile-emc-4ifir-optimised)  
 
 ## Tips before setup
 * Use EMUNAND
@@ -19,6 +20,14 @@ Installation and usage instructions can be found on the [project page](https://g
 For more load, you can switch the console to docked mode using ReversNX. Each test should last about 15-20 minutes.
 
 ## 4IFIR WIZARD
+
+### Preliminary optimizations
+**Applying these settings can achieve an increase of up to 500 MB/s**
+* **Smart mode - QuickTune - eBamatic - e.BAMATIC Stage** - Selection of the eBamatic optimization level. The higher the value, the more aggressive the optimization.
+>Increase the values one step at a time and test for stability with MemBench + a game  
+* **4advanced-4ekate** – A free performance boost (about 200 MB/s) by selecting ST2. (Works not for everyone, there may be problems with the console waking up from sleep)
+>No need to test; it either works or it doesn't  
+>**IMPORTANT!!!** Currently, enabling ST2 should be done in [KipTool](https://github.com/kawaii-flesh/KipTool/releases/), because enabling ST2 through Wizard causes sleep problems.
 
 ### CPU
 I recommend starting with the CPU settings, as the CPU is independent of RAM and GPU. This means even if you want to create a new kip in the future (more power-efficient or higher-performing), you won't need to reconfigure the CPU section.    
@@ -132,13 +141,6 @@ If the chosen frequency does not work, try manually increasing the eBalance (eBa
 >There are eight timings Core Timings 1–8. Timings do not affect each other. Adjust each parameter individually to achieve maximum stable performance. The higher the value of each timing, the higher the performance.    
 >Start with a test in MemBench - record the result. Move to the first timing, increase it by one step, restart the console, test in MemBench several times, and record the new result. If the MemBench result improves, continue increasing and testing.
 >When you reach a value where the console becomes unstable, freezes, or crashes, return to the previous value and proceed to the game test. There may also be a threshold where further increasing the timing value does not yield any result. A margin of 30-40 MB/s can be ignored, as there could be a situation: at value 4 - 7650 MB/s; at 5 - 7610 MB/s; and at value 6, it might become -7690 MB/s. But, for example, if the values drop to 7100 MB/s at value 5, it makes sense to stay at 4. Once at this value, move to the next timing. The remaining timings are adjusted using the same algorithm.
-
-### Additional Optimizations
-* **Smart mode - QuickTune - eBamatic - e.BAMATIC Stage** - Selection of the eBamatic optimization level. The higher the value, the more aggressive the optimization.
->Increase the values one step at a time and test for stability with MemBench + a game  
-* **4advanced-4ekate** – A free performance boost (about 200 MB/s) by selecting ST2. (Works not for everyone, there may be problems with the console waking up from sleep)
->No need to test; it either works or it doesn't  
->**IMPORTANT!!!** Currently, enabling ST2 should be done in [KipTool](https://github.com/kawaii-flesh/KipTool/releases/), because enabling ST2 through Wizard causes sleep problems.
 
 ### pMeh and sMeh - worth paying attention to
 * pMeh 21 - Adjusts the GPU vMin value for 4ifir Optimized S (The higher the value, the lower the minimum voltage. Use InfoNX to monitor the values.)
