@@ -46,7 +46,7 @@ Those parameters that have the default value - eBamatic can be left as they are,
 >The higher the value, the lower the power consumption at frequencies up to 15ххMHz. Increase it by one step, test in games at frequencies up to 15ххMHz with Governor disabled    
 >4IFIR Gamechanger -> Edit app Profile -> CPU Freq Governor -> Off    
 >Increase until stability is maintained.     
-	* CPU Maximum Voltage – set the upper threshold of processor power consumption.  
+* CPU Maximum Voltage – set the upper threshold of processor power consumption.  
 **It is recommended to leave this value at eBamatic**    
 >Set the value to 1150, test in CPU-intensive games (RDR, Hogwarts Legacy, No Man's Sky)  in 4IFIR Maximized mode for CPU. Continue decreasing until stability is maintained. `
 * dCPUv - adjusts voltages in the frequency range from 12хх to 18хх MHz  
