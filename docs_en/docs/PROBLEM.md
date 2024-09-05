@@ -8,6 +8,16 @@
 
 ## Problems related to 4IFIR
 
+* #### The console freezes after 10-15 minutes of gameplay:    
+>4IFIR WiZard - 4advanced - CPU - Low Mhz undervolt - 1 (or another value other than 0, if you know what this item is responsible for).   
+>If that doesn't help, try:  
+>4IFIR WiZard - 4advanced - CPU - Speedshift - ECO ST1. 
+
+* #### The console freezes almost immediately after startup: 
+>It's likely that the voltages are insufficient for the default mode. To increase the voltage:  
+>Boot into Safe Mode or use Kiptool.       
+>4IFIR WiZard - 4advanced - RAM - pMeh 20 - 4.
+
 * #### Black screen after Nintendo logo:  
 >try making - [Debug installation](INSTAL_4IFIR.md#debug-installation-pc-required)
 
