@@ -1,3 +1,6 @@
+## Update from 13.09.2024 - 4IFIR 2.4 Gamechanger
+1.  Dock mode functionality restored.  
+
 ##  Update from 08.20.2024 - 4IFIR 2.4 Gamechanger
 1.  KipTool has been added to the build - this is a payload-based tool that allows you to edit the value of parameters in your loader.kip file.  
 >Installation and usage instructions can be found on the [project page](https://github.com/kawaii-flesh/KipTool)
