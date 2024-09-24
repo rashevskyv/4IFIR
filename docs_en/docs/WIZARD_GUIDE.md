@@ -30,6 +30,8 @@ For more load, you can switch the console to docked mode using ReversNX. Each te
 >**IMPORTANT!!!** Currently, enabling ST2 should be done in [KipTool](https://github.com/kawaii-flesh/KipTool/releases/), because enabling ST2 through Wizard causes sleep problems.
 
 ### CPU
+>All items in this section test with the EMC - 4IFIR optimized S profile enabled.
+
 I recommend starting with the CPU settings, as the CPU is independent of RAM and GPU. This means even if you want to create a new kip in the future (more power-efficient or higher-performing), you won't need to reconfigure the CPU section.    
 If any of the parameters are "twisted", the console will most likely just freeze after the atmosphere logo. In this case, boot into Safe Mode and revert the parameter to its previous value.  
 `Ideally, only two parameters in this section need adjusting: **CPU Minimal Voltage and Low Mhz Undervolt**  
@@ -69,6 +71,8 @@ Those parameters that have the default value - eBamatic can be left as they are,
 >Increase it by one step, test
 
 ### GPU
+>All items in this section test with the EMC - 4IFIR optimized S profile enabled.
+
 Now, you can proceed to GPU configuration   
 Tests should only be conducted in games since MemBench does not utilize the GPU
 Principle of GPU Voltage Operations:
