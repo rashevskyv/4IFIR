@@ -6,6 +6,7 @@
 2. EMC - Default has become dynamic. EMC - default = the last active EMC mode. If you want the system to switch to EMC - Optimized mode by default on the home screen, set it through Edit Profile for the home screen. If you want it to switch from other modes to Optimized by default for all applications, set it in the Global Overrides profile, and it will be as you want. This will ensure seamless transitions without micro-stutters during in-game loading screens.
 3. 4LOG > OLED:
 The Fast Charge driver has been improved, and the temperature compensation formula now takes into account the PCB sensor temperature, among other factors.
+
 ## Update from 13.09.2024 - 4IFIR 2.4 Gamechanger
 1.  Dock mode functionality restored.  
 
