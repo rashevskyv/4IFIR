@@ -1,3 +1,13 @@
+## Обновление от 12.11.2024 - 4IFIR 2.4 Gamechanger
+1.  В **4IFIR Gamechanger > Miscellaneous** добавлен пункт - **Adaptive EMC Priority**  
+2.  В **4IFIR Gamechanger > Miscellaneous** добавлен пункт - **EMC Magician**  
+>Автоматическая подстройка sMeh/pMeh, для макс. производительности на текущих таймигах (???)
+
+## Обновление от 10.11.2024 - 4IFIR 2.4 Gamechanger
+1. Добавлена автоподстройка частоты монитора/телевизора при игре в док режиме **(Auto Frame Rate)**  
+1.  В **4IFIR Gamechanger > Miscellaneous** добавлен пункт - **Active MC Arbitration**  
+>Динамическое управление таймингами контроллера памяти. (Автоматическая подстройка sMeh/pMeh, для макс. производительности на текущих таймигах (???))
+
 ## Обновление от 24.09.2024 - 4IFIR 2.4 Gamechanger
 1.  В **4IFIR Gamechanger > Miscellaneous** добавлен пункт - TDP Limit
 
