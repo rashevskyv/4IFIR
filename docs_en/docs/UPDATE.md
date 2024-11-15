@@ -1,3 +1,13 @@
+## Update from 12.11.2024 - 4IFIR 2.4 Gamechanger
+1.  In **4IFIR Gamechanger > Miscellaneous** added item - **Adaptive EMC Priority**  
+2.  In **4IFIR Gamechanger > Miscellaneous** added item - **EMC Magician**  
+>Automatic adjustment of sMeh/pMeh for maximum performance at current timings (???)
+
+## Update from 10.11.2024 - 4IFIR 2.4 Gamechanger
+1. Added automatic adjustment of monitor/TV frequency when playing in dock mode **(Auto Frame Rate)**  
+1. In **4IFIR Gamechanger > Miscellaneous** added item - **Active MC Arbitration**  
+>Dynamic memory controller timing management. (Automatic adjustment of sMeh/pMeh for maximum performance at current timings (???))
+
 ## Update from 24.09.2024 - 4IFIR 2.4 Gamechanger
 1. In **4IFIR Gamechanger > Miscellaneous** added item - TDP Limit
 
