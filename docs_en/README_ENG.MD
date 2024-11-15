@@ -20,20 +20,20 @@
 
 **In case with 4IFIR, under overclocking it means not just unlocking frequencies within the standard tables, but rather overclocking, that includes undervolting/overvolting each overclocked component. By installing this modification without theoretical preparation, you relieve author from responsibility for any possible consiquences, including console break down, and take full risks upon yourself. Absolutely safe overclocking cannot be by definition, i have warned you**   
 
->Instruction is still in work! Pullrequests with corrections and additions are welcome. Users of Mac OS, in case of having troubles - read [guide](https://gbatemp.net/threads/macos-fix-archive-attributes-for-switch-sd-card.545560/)
+>Instruction is still in work! Pullrequests with corrections and additions are welcome. 
+>Users of Mac OS, in case of having troubles - read [guide](https://gbatemp.net/threads/macos-fix-archive-attributes-for-switch-sd-card.545560/)
   
 *** 
 
 ## What 4IFIR can do
 * Overclocking up to values 3009 Mhz for CPU, 1612 Mhz for GPU, 3000 Mhz for RAM (the exact maximum value is individual for each console)
 * Automatic undervolting/overvolting
-* Automatic boost when loading the game
 * GOVERNOR support - reducing resource consumption when the console does not need them
 * Real-time automatic display frequency adjustment (analog for VRR)
+* Automatically adjusts monitor/TV frequency when playing in dock mode (Auto Frame Rate)
+* Possibility to set up RAM ECO mode as an additional one
+* Switch between ECO and main RAM profile in real time
 * Changing display refresh rate up to 72 Hz
-* Unlimited screen recording in all games except a few unsupported ones
-* Wireless video streaming with increased bitrate, 60 frames per second, to external monitors - virtually without delays
-* Dock emulation
 * Increased charging speed
 * Lowering the current threshold for Official Charger
 * Radical reduction of cooling system noise
