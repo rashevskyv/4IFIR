@@ -1,0 +1,18 @@
+[
+    {
+        "name": "0 - Default",
+        "hex": "00"
+    },
+    {
+        "name": "Stage 1",
+        "hex": "01"
+    },
+    {
+        "name": "Stage 2",
+        "hex": "02"
+    },
+    {
+        "name": "Stage 3",
+        "hex": "03"
+    }
+]

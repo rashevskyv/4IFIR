@@ -4,6 +4,4 @@ It offers automatic current values detection, extensive help information, and pr
 
 Whether you're a novice or an enthusiast, it simplifies the overclocking process for better performance.
 
-This is the version for 4IFIR 2.2.
-
-Authors: Efosamark, Serj K, Nick Alutis, Andrej, Vlad, Kir Kapez, Loudmannn
+Authors: Efosamark, Serj K, Nick Alutis, Andrej, Vlad, Kir Kapez, Loudmannn, Mestre Yoda Rossi
