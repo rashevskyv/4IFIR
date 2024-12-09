@@ -1,3 +1,6 @@
+## Обновление от 07.12.2024 - 4IFIR 2.4 Gamechanger
+1.  В **4IFIR Gamechanger** добавлен раздел - **EMC Magician** **(В данном разделе можно настроить тайминги в режиме реального времени)**
+   
 ## Обновление от 12.11.2024 - 4IFIR 2.4 Gamechanger
 1.  В **4IFIR Gamechanger > Miscellaneous** добавлен пункт - **Adaptive EMC Priority**  
 2.  В **4IFIR Gamechanger > Miscellaneous** добавлен пункт - **EMC Magician**  
