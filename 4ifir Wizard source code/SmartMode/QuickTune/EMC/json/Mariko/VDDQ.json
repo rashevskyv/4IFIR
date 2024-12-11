@@ -1,0 +1,17 @@
+[
+    {
+        "name": "`VDDQ Voltage"
+    },
+    {
+        "name": "500 mV - ECO",
+        "hex": "20A107"
+    },    
+    {
+        "name": "650 mV - Default",
+        "hex": "10EB09"
+    }, 
+    {
+        "name": "700 mv - SRT",
+        "hex": "60AE0A"
+    }
+]

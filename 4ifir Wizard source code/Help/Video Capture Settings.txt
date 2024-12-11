@@ -1,7 +1,0 @@
-This menu allows you to set the prefered recording bitrate and FPS.
-
-The higher the bitrate - the less will be the length of the video recorded by holding a Screenshot button.
-
-For the higher FPS you need a higher bitrate to improve the quality.
-
-Both options also affect streaming via SysDVR.

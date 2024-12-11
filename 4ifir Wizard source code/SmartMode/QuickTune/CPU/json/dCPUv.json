@@ -1,0 +1,21 @@
+[
+    {
+        "name": "`CPU Median Voltage"
+    },
+    {
+        "name": "eBAMATIC - Recommended",
+        "hex": "0000"
+    },
+    {
+        "name": "ECO ST1",
+        "hex": "0100"
+    },
+    {
+        "name": "ECO ST2",
+        "hex": "0200"
+    },
+    {
+        "name": "ECO ST3",
+        "hex": "0300"
+    }
+]

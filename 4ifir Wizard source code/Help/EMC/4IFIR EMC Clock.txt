@@ -1,0 +1,6 @@
+This setting controls the frequency of EMC in 4IFIR Optimized S.
+
+Higher MHz means faster performance, but excessive values can lead to issues like corrupted data (e.g., emuNAND) and visual artifacts. 
+Ensure compatibility and consider your RAM model when setting.
+
+Also keep in mind that the lower voltages on CPU, GPU, the lower maximum EMC Frequency available.

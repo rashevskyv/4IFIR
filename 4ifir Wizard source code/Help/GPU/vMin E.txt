@@ -1,0 +1,1 @@
+GPU vMin E controls the Dynamic GPU vMin lower bound voltage for 4IFIR Optimized / E.

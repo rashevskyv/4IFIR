@@ -1,0 +1,10 @@
+This menu allows you to control the fan speed at different temperature ranges.
+
+For each range, the fan speed at the left end is the max speed of the previous range 
+(for 16°C - 35°C - it's 0%).
+
+The sliders follow 2 main rules:
+- The max fan speed cannot be lower than the max speed of the previous range.
+- The max fan speed cannot be higher that the max speed of the next range.
+
+Adjustments for both of those rules happen in real-time.
