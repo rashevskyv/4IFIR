@@ -1,0 +1,29 @@
+[
+    {
+        "name": "`EMC Balance Advanced Logic"
+    },
+    {
+        "name": "eBAMATIC - Default",
+        "hex": "00"
+    },
+    {
+        "name": "1 - SYK-LOH",
+        "hex": "01"
+    },
+    {
+        "name": "2 - ECO ST1",
+        "hex": "02"
+    },
+    {
+        "name": "3",
+        "hex": "03"
+    },
+    {
+        "name": "4 - SPR ST1",
+        "hex": "04"
+    },
+    {
+        "name": "5 - SPR ST2",
+        "hex": "05"
+    }     
+]

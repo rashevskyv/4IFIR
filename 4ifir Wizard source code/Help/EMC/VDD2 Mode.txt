@@ -1,0 +1,5 @@
+VDD2 is a secondary voltage supply for specific components. The lower the value, the lower the power consumption. 
+Slightly affects the power consumption. 
+
+Higher values might improve stabilty. 
+Sequentially reduce the values one step at a time and test for stability.

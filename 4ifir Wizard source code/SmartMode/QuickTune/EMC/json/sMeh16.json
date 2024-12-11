@@ -1,0 +1,13 @@
+[
+    {
+        "name": "`E Mode Target Clock (sMeh 16)"
+    },
+    {
+        "name": "1331 MHz - 0",
+        "hex": "00"
+    },
+    {
+        "name": "1600 MHz - Default | 1",
+        "hex": "01"
+    }
+]

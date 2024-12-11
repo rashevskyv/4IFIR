@@ -1,0 +1,5 @@
+This setting controls the lower voltage limit for the RAM.
+
+Select the value according to the frequency selected in step 4IFIR Ram Mode.
+
+To test the stability - set RAM to 4IFIR Optimized and play some games.

@@ -1,0 +1,1 @@
+GPU vMin S controls the Dynamic GPU vMin lower bound voltage for 4IFIR Optimized S.

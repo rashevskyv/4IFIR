@@ -1,1 +1,3 @@
-A set of optimizations for payload.bin, which allows you to get an additional 200-300MB of bandwidth
+A set of optimizations for payload-based files, which allows you to get an additional 200-300MB of bandwidth
+
+If you got problems with console sleep after applying 4ekate settings, try installing 4ekate/4IFIX from AIO

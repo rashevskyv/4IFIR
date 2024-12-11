@@ -1,0 +1,3 @@
+Adjustment of the eBAL mode. 
+
+When set to 2, it allows increasing the value of the 8th timing (not for everyone).
