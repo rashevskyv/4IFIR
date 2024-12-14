@@ -1,3 +1,11 @@
-A set of optimizations for payload-based files, which allows you to get an additional 200-300MB of bandwidth
+4ekate is a set of optimizations for payload-based files, which allows you to get an additional 200-300MB of bandwidth if set to ST2.
 
-If console have issues with sleep mode after applying 4ekate settings, try installing 4ekate / 4IFIX from AIO to solve it.
+If you have issues to set this setting to ST2, make sure that the 4ekate is in the Default ST and there is no 4IFIX installed.
+
+If console do not start or have issues with sleep mode after applying 4ekate settings, try installing 4ekate / 4IFIX from AIO or replace payloads with a new one to solve it.
+
+Directories of payload files:
+/payload.bin
+/atmosphere/reboot_payload.bin
+/bootloader/update.bin
+/bootloader/payloads/fusee.bin
