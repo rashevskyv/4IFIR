@@ -1,3 +1,2 @@
-The dCPUv Mode controls the median voltage available for CPU. 
-
-Not recommended to tune, but if you want, you can still tune it.
+The dCPUv Mode controls the median voltage available for CPU 
+(12хх to 18хх MHz). 

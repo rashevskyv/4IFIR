@@ -1,1 +1,4 @@
-VDDQ/VDD2 for 4ifir Optimised (The higher the value, the higher the voltage, use InfoNX to monitor the values)
+Setting of VDD2-VDDQ 
+for 4IFIR Optimized / E Mode
+
+The higher the value, the higher the voltage.

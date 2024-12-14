@@ -1,5 +1,7 @@
 Speed Shift is the secret component of 4IFIR, that allows you to open the full potential of your console.
+
 Technically has no affect on stability if CPU Minimal Voltage is stable.
 
 The higher the value, the lower the consumption and the less aggressive CPU Governor.
+
 If there's lack of perfomance of the CPU, try to disable CPU Governor or decrease Speed Shift.
