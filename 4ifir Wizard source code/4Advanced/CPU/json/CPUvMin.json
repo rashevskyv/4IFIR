@@ -1,0 +1,124 @@
+[
+    {
+        "name": "`Automatic"
+    },
+    {
+        "name": "eBAMATIC - 0",
+        "hex": "0000"
+    },
+    {
+        "name": "ECO ST1 - Default | 3",
+        "hex": "0300"
+    },
+    {
+        "name": "ECO ST2 - 2",
+        "hex": "0200"
+    },
+    {
+        "name": "ECO ST3 - 1",
+        "hex": "0100"
+    },
+    {
+        "name": "`Manual"
+    },
+    {
+        "name": "430 mV",
+        "hex": "AE01"
+    },
+    {
+        "name": "440 mV",
+        "hex": "B801"
+    },
+    {
+        "name": "450 mV",
+        "hex": "C201"
+    },
+    {
+        "name": "460 mV",
+        "hex": "CC01"
+    },
+    {
+        "name": "470 mV",
+        "hex": "D601"
+    },
+    {
+        "name": "480 mV",
+        "hex": "E001"
+    },
+    {
+        "name": "490 mV",
+        "hex": "EA01"
+    },
+    {
+        "name": "500 mV",
+        "hex": "F401"
+    },
+    {
+        "name": "510 mV",
+        "hex": "FE01"
+    },
+    {
+        "name": "520 mV",
+        "hex": "0802"
+    },
+    {
+        "name": "530 mV",
+        "hex": "1202"
+    },
+    {
+        "name": "540 mV",
+        "hex": "1C02"
+    },
+    {
+        "name": "550 mV",
+        "hex": "2602"
+    },
+    {
+        "name": "560 mV",
+        "hex": "3002"
+    },
+    {
+        "name": "570 mV",
+        "hex": "3A02"
+    },
+    {
+        "name": "580 mV",
+        "hex": "4402"
+    },
+    {
+        "name": "590 mV",
+        "hex": "4E02"
+    },
+    {
+        "name": "600 mV",
+        "hex": "5802"
+    },
+    {
+        "name": "610 mV",
+        "hex": "6202"
+    },
+    {
+        "name": "620 mV",
+        "hex": "6C02"
+    },
+    {
+        "name": "630 mV",
+        "hex": "7602"
+    },
+    {
+        "name": "640 mV",
+        "hex": "8002"
+    },
+    {
+        "name": "650 mV",
+        "hex": "8A02"
+    },
+    {
+        "name": "660 mV",
+        "hex": "9402"
+    },
+    {
+        "name": "670 mV",
+        "hex": "9E02"
+    }
+]

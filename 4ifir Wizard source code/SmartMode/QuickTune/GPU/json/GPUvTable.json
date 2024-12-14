@@ -1,0 +1,17 @@
+[
+    {
+        "name": "`GPU Undervolt Mode"
+    },
+    {
+        "name": "ECO ST1 - Default",
+        "hex": "00"
+    },
+    {
+        "name": "ECO ST2",
+        "hex": "01"
+    },
+    {
+        "name": "ECO ST3",
+        "hex": "02"
+    }
+]
