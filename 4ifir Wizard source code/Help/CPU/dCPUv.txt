@@ -1,1 +1,2 @@
-The CPUv Mode controls the median voltage available for CPU.
+The dCPUv Mode controls the median voltage available for CPU 
+(12хх to 18хх MHz). 

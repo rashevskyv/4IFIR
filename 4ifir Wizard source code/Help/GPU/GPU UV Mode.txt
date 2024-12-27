@@ -1,0 +1,5 @@
+GPU Undervolt Mode - Selects the level of undervolting across the entire frequency range of the graphics card. 
+
+The higher the level, the more aggressive the undervolting.
+
+Test every available GPU frequency for the stability. Recommended to disable GPU Governor via 4IFIR, App Profile during the tests.
