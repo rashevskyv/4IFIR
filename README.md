@@ -1,4 +1,4 @@
-# **4IFIR 2.4 Gamechanger by [Cooler3D](https://t.me/Cooler3D)**
+# **4IFIR Houdini by [Cooler3D](https://t.me/Cooler3D)**
 
 
 [ENGLISH GUIDE](docs_en/README_ENG.MD) | [Гайд по настройке 4IFIR Wizard](docs/WIZARD_GUIDE.md) | [Группа в телеграме](https://t.me/kf4fr/48074) | [Бот, следящий за обновлениями](https://t.me/kf4fr/98339) 
@@ -10,9 +10,9 @@
 
 ***
 
-**4IFIR 2.4 Поддерживает до HOS 18.1  и все ревизии консолей - [Инструкция по обновлению](docs/OTHER_INSTRUCTION.md)** 
+**4IFIR Поддерживает до HOS 19.0.1  и все ревизии консолей - [Инструкция по обновлению](docs/OTHER_INSTRUCTION.md)** 
 
-**ВНИМАНИЕ!: Кипы старых версий не поддерживаются в 4IFIR 2.4 Gamechanger**
+**ВНИМАНИЕ!: Кипы старых версий не поддерживаются в 4IFIR Houdini**
 
 **ВНИМАНИЕ!: От потенциальных программных проблем вас застрахует использование [EmuNand](https://switch.customfw.xyz/emunand), [FAT32](https://customfw.xyz/format_sd) и наличие [бекапов](https://switch.customfw.xyz/backup-nand) (Для перехода по ссылкам из России - нужен VPN). Во-избежание конфликтов, рекомендуется проводить установку начисто.**
 
