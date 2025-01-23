@@ -56,6 +56,7 @@
   * Active MC Arbitration - Автоматическая подстройка sMeh/pMeh, для макс. производительности на текущих таймигах (???)
   * Adaptive EMC Priority - Динамическое управление таймингами контроллера памяти.
   * EMC Magician - Настройка таймингов в реальном времени
+> Подробнее про настройку таймингов через EMC Magician - [**EMC Magician**](EMC_MAGICIAN.md)
 
 ## Установка частот CPU/GPU/EMC(ram)/LCD
   Разгон осуществляется с помощью смены максимальной частоты для CPU/GPU/EMC(Памяти)/LCD(Частоты обновления экрана) через настройки разгона **Edit app Profile**/**Temporary overrides**/**Global profile**.   
