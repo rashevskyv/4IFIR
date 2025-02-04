@@ -1,0 +1,3 @@
+Experimental settings that provide additional tuning
+
+For more information, visit 4IFIR Github

@@ -1,0 +1,14 @@
+[
+    {
+        "name": "0 - Default | eBAL 3",
+        "hex": "00"
+    },
+    {
+        "name": "1 - eBAL 2",
+        "hex": "01"
+    },
+    {
+        "name": "2 - eBAL 1",
+        "hex": "02"
+    }
+]
