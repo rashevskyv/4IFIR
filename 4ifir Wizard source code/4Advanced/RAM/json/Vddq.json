@@ -19,15 +19,22 @@
         "hex": "88f504",
         "color": "Orange"
     },
-    
     {
         "name": "350mV",
         "hex": "305705",
         "color": "Orange"
+    },    
+    {
+        "name": "375mV",
+        "hex": "d8b805"
     },
     {
         "name": "400mV",
         "hex": "801a06"
+    },   
+    {
+        "name": "425mV",
+        "hex": "287c06"
     },
     {
         "name": "450mV",
