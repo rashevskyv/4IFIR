@@ -1,0 +1,6 @@
+Enabling GPU Scheduling creates maximum load limit, decreases some power draw.
+
+Disabling GPU Scheduling removes it, increasing perfomance a little bit (1-2 FPS).
+
+On - ~96.7%
+Off - ~99.7%

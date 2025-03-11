@@ -1,0 +1,21 @@
+[
+    {
+        "name": "`CPU Minimal Voltage"
+    },
+    {
+        "name": "eBAMATIC",
+        "hex": "0000"
+    },
+    {
+        "name": "ECO ST1 - Default",
+        "hex": "0300"
+    },
+    {
+        "name": "ECO ST2",
+        "hex": "0200"
+    },
+    {
+        "name": "ECO ST3",
+        "hex": "0100"
+    }
+]

@@ -1,0 +1,3 @@
+A set of memory optimizations in the ratio of energy efficiency to performance. 
+
+The higher the eBAL, the higher the EMC frequency you can achieve. The lower the eBAL, the more efficient every MHz will be. 

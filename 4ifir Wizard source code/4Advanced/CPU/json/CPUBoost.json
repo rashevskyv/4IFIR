@@ -1,0 +1,85 @@
+[
+    {
+        "name": "`CPU Boost Target Clock"
+    },
+    {
+        "name": "eBAMATIC - Default",
+        "hex": "000000"
+    },
+    {
+        "name": "1400 MHz",
+        "hex": "C05C15"
+    },
+    {
+        "name": "1428 MHz - CPU-HI uV DEBUG",
+        "hex": "20CA15"
+    },
+    {
+        "name": "1500 MHz",
+        "hex": "60E316"
+    },
+    {
+        "name": "1600 MHz",
+        "hex": "006A18"
+    },
+    {
+        "name": "1700 MHz",
+        "hex": "A0F019"
+    },
+    {
+        "name": "1785 MHz - CPU-LOW uV DEBUG",
+        "hex": "A83C1B"
+    },
+    {
+        "name": "1800 MHz",
+        "hex": "40771B"
+    },
+    {
+        "name": "1900 MHz",
+        "hex": "E0FD1C"
+    },
+    {
+        "name": "2000 MHz - E",
+        "hex": "80841E"
+    },
+    {
+        "name": "2100 MHz",
+        "hex": "200B20"
+    },
+    {
+        "name": "2200 MHz",
+        "hex": "C09121"
+    },
+    {
+        "name": "2300 MHz",
+        "hex": "601823"
+    },
+    {
+        "name": "2400 MHz",
+        "hex": "009F24"
+    },
+    {
+        "name": "2500 MHz - D",
+        "hex": "A02526"
+    },
+    {
+        "name": "2600 MHz",
+        "hex": "40AC27"
+    },
+    {
+        "name": "2700 MHz",
+        "hex": "E03229"
+    },
+    {
+        "name": "2800 MHz",
+        "hex": "80B92A"
+    },
+    {
+        "name": "2900 MHz",
+        "hex": "20402C"
+    },
+    {
+        "name": "3000 MHz - S",
+        "hex": "C0C62D"
+    }
+]

@@ -1,0 +1,9 @@
+Memory efficiency stages 
+for 4IFIR Optimized / E Mode. 
+
+The higher the value, the more performance.
+
+If stripes appear on TV screen in Docked mode, its likely the fault of sMeh 8 E-Boost.
+
+To solve it, reset the sMeh 8 to 0
+

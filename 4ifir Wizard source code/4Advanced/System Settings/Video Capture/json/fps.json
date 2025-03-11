@@ -1,0 +1,14 @@
+[
+  {
+    "name": "30 FPS - Default",
+    "hex": "u32!30"
+  },
+  {
+    "name": "45 FPS",
+    "hex": "u32!45"
+  },
+  {
+    "name": "60 FPS",
+    "hex": "u32!60"
+  }
+]

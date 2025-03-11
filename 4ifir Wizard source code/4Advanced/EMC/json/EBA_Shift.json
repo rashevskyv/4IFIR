@@ -1,0 +1,26 @@
+[
+    {
+        "name": "0",
+        "hex": "00"
+    },
+    {
+        "name": "1 - Default | ECO ST1",
+        "hex": "01"
+    },
+    {
+        "name": "2 - SYK-LOH ST2",
+        "hex": "02"
+    },
+    {
+        "name": "3 - ST3",
+        "hex": "03"
+    },
+    {
+        "name": "4 - ST4",
+        "hex": "04"
+    },
+    {
+        "name": "5 - LOH-C4C",
+        "hex": "05"
+    }
+]

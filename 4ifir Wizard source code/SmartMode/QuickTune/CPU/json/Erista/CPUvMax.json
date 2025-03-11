@@ -1,0 +1,21 @@
+[
+    {
+        "name": "`CPU Voltage Limit"
+    },   
+    {
+        "name": "1200 mV - ECO",
+        "hex": "B004"
+    },
+    {
+        "name": "1250 mV - ST1",
+        "hex": "E204"
+    },
+    {
+        "name": "1300 mV - ST2",
+        "hex": "1405"
+    },
+    {
+        "name": "1350 mV - ST3",
+        "hex": "4605"
+    }
+]

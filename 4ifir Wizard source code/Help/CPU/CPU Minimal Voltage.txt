@@ -1,3 +1,0 @@
-The CPUv Mode controls the lowest voltage available for CPU underclocking.
-
-To test this setting - play some games.

@@ -1,0 +1,45 @@
+[
+    {
+        "name": "`GPU Dynamic vMin S (pMeh 21)"
+    },
+    {
+        "name": "+ 10 mV",
+        "hex": "00"
+    },
+    {
+        "name": "+ 5 mV",
+        "hex": "01"
+    },
+    {
+        "name": "0 mV - Default",
+        "hex": "02"
+    },
+    {
+        "name": "- 5 mV",
+        "hex": "03"
+    },
+    {
+        "name": "- 10 mV",
+        "hex": "04"
+    },
+    {
+        "name": "- 15 mV",
+        "hex": "05"
+    },
+    {
+        "name": "- 20 mV",
+        "hex": "06"
+    },
+    {
+        "name": "- 25 mV",
+        "hex": "07"
+    },
+    {
+        "name": "- 30 mV",
+        "hex": "08"
+    },
+    {
+        "name": "- 35 mV",
+        "hex": "09"
+    }
+]

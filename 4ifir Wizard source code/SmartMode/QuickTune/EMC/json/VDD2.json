@@ -1,0 +1,25 @@
+[
+    {
+        "name": "`VDD2 Voltage"
+    },
+    {
+        "name": "1100 mV - SYK-LOH",
+        "hex": "E0C810"
+    },
+    {
+        "name": "1175 mV - ECO",
+        "hex": "D8ED11"
+    },
+    {
+        "name": "1275 mV",
+        "hex": "787413"
+    },
+    {
+        "name": "1350 mV - Default",
+        "hex": "709914"
+    },
+    {
+        "name": "1375 mV - SRT",
+        "hex": "18FB14"
+    }
+]

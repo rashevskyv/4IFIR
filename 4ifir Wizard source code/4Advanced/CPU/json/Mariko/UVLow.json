@@ -1,0 +1,33 @@
+[
+    {
+        "name": "`CPU Low Undervolt Mode"
+    },
+    {
+        "name": "0 - ECO ALT-MODE",
+        "hex": "00"
+    },
+    {
+        "name": "Level 1 - ECO ST1",
+        "hex": "01"
+    },
+    {
+        "name": "Level 2",
+        "hex": "02"
+    },
+    {
+        "name": "Level 3 - ECO ST2",
+        "hex": "03"
+    },
+    {
+        "name": "Level 4",
+        "hex": "04"
+    },
+    {
+        "name": "Level 5 - ECO ST3",
+        "hex": "05"
+    },
+    {
+        "name": "Level 6",
+        "hex": "06"
+    }
+]

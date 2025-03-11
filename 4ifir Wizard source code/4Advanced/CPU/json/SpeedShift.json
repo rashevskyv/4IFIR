@@ -1,34 +1,34 @@
 [
     {
-        "name": "eBAMATIC",
-        "hex": "0000"
+        "name": "eBAMATIC - Default",
+        "hex": "00"
     },
     {
         "name": "Auto",
-        "hex": "0100"
+        "hex": "01"
     },
     {
         "name": "25",
-        "hex": "1900"
+        "hex": "19"
     },
     {
-        "name": "Sport",
-        "hex": "3200"
+        "name": "50 - SRT ST1",
+        "hex": "32"
     },
     {
-        "name": "ECO Stage 1",
-        "hex": "6400"
+        "name": "100 - ECO ST1",
+        "hex": "64"
     },
     {
-        "name": "ECO Stage 2",
-        "hex": "7D00"
+        "name": "125 - ECO ST2",
+        "hex": "7D"
     },
     {
-        "name": "ECO Stage 3",
-        "hex": "9600"
+        "name": "150 - ECO ST3",
+        "hex": "96"
     },
     {
         "name": "175",
-        "hex": "AF00"
+        "hex": "AF"
     }
 ]
