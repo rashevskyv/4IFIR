@@ -20,7 +20,7 @@
 
 ### 1. Обновление 4IFIR до актуальной версии
 1. Запустите [**Homebrew Launcher**](https://switch.customfw.xyz/hbl) > **All in One Updater**
-   * Если вместо запуска приложения вы получаете черный экран, перекачайте приложение вручную из его [репозитория](https://github.com/HamletDuFromage/aio-switch-updater) и вручную пропишите в Custom downloads > Add custom link этот адрес `https://sintez.io/AIO.zip`, после чего перезапустите приложение
+   * Если вместо запуска приложения вы получаете черный экран, перекачайте приложение вручную из его [репозитория](https://github.com/HamletDuFromage/aio-switch-updater) и вручную пропишите в Custom downloads > Add custom link этот адрес `https://github.com/rashevskyv/4ifir-checker/releases/latest/download/AIO.zip`, после чего перезапустите приложение
 1. Перейдите в **Custom Downloads** > **Refresh** > **Continue**, на запрос о перезаписи `ini`, выберите **Yes**
 1. Перейдите в **Custom Downloads** > **4IFIR** > **Continue**, на запрос о перезаписи `ini`, выберите **Yes**, на запрос о переустановке hekate выберите **No**, консоль перезагрузится
 
@@ -70,7 +70,7 @@
 **emuMMC**  
 **Nindendo**  
 **По желанию можно оставить бекапы сохранений и системы**  
-8. Скопировать содержимое архива  [4IFIR.ZIP](https://sintez.io/4IFIR.zip) (не сам архив, а файлы и папки находящиеся в нём) в корень SD карты.
+8. Скопировать содержимое архива  [4IFIR.ZIP](https://github.com/rashevskyv/4ifir-checker/releases/latest/download/4IFIR.zip) (не сам архив, а файлы и папки находящиеся в нём) в корень SD карты.
 9. Сделать безопасное извлечение SD карты на ПК.
 10. На Switch нажать Close.
 11. Отсоединить провод. 
@@ -84,7 +84,7 @@
 **emuMMC**  
 **Nindendo**  
 **По желанию можно оставить бекапы сохранений и системы**   
-6. Скопировать содержимое архива [4IFIR.ZIP](https://sintez.io/4IFIR.zip)(не сам архив, а файлы и папки находящиеся в нём) в корень SD карты.
+6. Скопировать содержимое архива [4IFIR.ZIP](https://github.com/rashevskyv/4ifir-checker/releases/latest/download/4IFIR.zip)(не сам архив, а файлы и папки находящиеся в нём) в корень SD карты.
 7. Сделать безопасное извлечение SD карты на ПК.
 8. Извлечь картридер из ПК, извлечь SD карту из картридера и вставить SD карту в консоль.
 9. Включить консоль
