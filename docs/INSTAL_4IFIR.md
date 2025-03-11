@@ -11,7 +11,7 @@
 # Установка 4IFIR на чистую SD
 
 ### Подготовка Micro-SD
-1. Распакуйте [4IFIR](https://sintez.io/4IFIR.zip) на карту памяти консоли
+1. Распакуйте [4IFIR](https://github.com/rashevskyv/4ifir-checker/releases/latest/download/4IFIR.zip) на карту памяти консоли
 1. Удерживайте (VOL-) на приставке во время появления бутлого, чтобы попасть в hekate
 1. Перейдите в Tools -> Partition SD card, нажмите OK, Next Step -> Start
 1. Ваша карта будет отформатирована специальным образом в FAT32, чтобы дать прирост в скорости на 15%-30%  
@@ -42,16 +42,14 @@
 1. Удалите с карты памяти всё, кроме папки Nintendo и emummc (если есть) (Папку с бекапами сохранений, например JKSV, тоже не стоит удалять)
    * Карта должна быть в [FAT32](https://format.customfw.xyz)
    * Работать с картой памяти рекомендуется через картридер, не через консоль.
-2. Распакуйте [4IFIR](https://sintez.io/4IFIR.zip) на карту памяти консоли
-   * Некоторые провайдеры в Украине блокируют `sintez.io`, можно использовать [альтернативную ссылку на 4IFIR с github](https://github.com/rashevskyv/4ifir-checker/raw/main/github/4IFIR.zip). *Также подходит в случае падения сервера `sintez.io`*.
+2. Распакуйте [4IFIR](https://github.com/rashevskyv/4ifir-checker/releases/latest/download/4IFIR.zip) на карту памяти консоли
 3. Вставить карту в консоль и включить
 
 ### All in One Updater (Если нет ПК)  
 >Могут остаться следы предыдущих сборок (Kefir updater и т. п.)  
-1. Распакуйте [All in One Updater с конфигом 4IFIR'а](https://sintez.io/AIO.zip) на карту памяти консоли
-   * Некоторые провайдеры в Украине блокируют `sintez.io`, можно использовать [альтернативную ссылку на All in One Updater с конфигом 4IFIR'а с github](https://github.com/rashevskyv/4ifir-checker/raw/main/github/AIO.zip). *Также подходит в случае падения сервера `sintez.io`*.
+1. Распакуйте [All in One Updater с конфигом 4IFIR'а](https://github.com/rashevskyv/4ifir-checker/releases/latest/download/AIO.zip) на карту памяти консоли
 1. Запустите [**Homebrew Launcher**](https://switch.customfw.xyz/hbl) > **All in One Updater**
-   * Если вместо запуска приложения вы получаете черный экран, перекачайте приложение вручную из его [репозитория](https://github.com/HamletDuFromage/aio-switch-updater) и вручную пропишите в Custom downloads > Add custom link этот адрес `https://sintez.io/AIO.zip`, после чего перезапустите приложение
+   * Если вместо запуска приложения вы получаете черный экран, перекачайте приложение вручную из его [репозитория](https://github.com/HamletDuFromage/aio-switch-updater) и вручную пропишите в Custom downloads > Add custom link этот адрес `https://github.com/rashevskyv/4ifir-checker/releases/latest/download/AIO.zip`, после чего перезапустите приложение
 1. Перейдите в **Custom Downloads** > **4IFIR** > **Continue**, на запрос о перезаписи `ini`, выберите **Yes**, на запрос о переустановке hekate выберите **No**, консоль перезагрузится
 
 
@@ -59,14 +57,7 @@
 # Обновление (переход с предыдущих версий) 
 
 1. Запустите [**Homebrew Launcher**](https://switch.customfw.xyz/hbl) > **All in One Updater**
-   * Если вместо запуска приложения вы получаете черный экран, перекачайте приложение вручную из его [репозитория](https://github.com/HamletDuFromage/aio-switch-updater) и вручную пропишите в Custom downloads > Add custom link этот адрес `https://sintez.io/AIO.zip`, после чего перезапустите приложение
+   * Если вместо запуска приложения вы получаете черный экран, перекачайте приложение вручную из его [репозитория](https://github.com/HamletDuFromage/aio-switch-updater) и вручную пропишите в Custom downloads > Add custom link этот адрес `https://github.com/rashevskyv/4ifir-checker/releases/latest/download/AIO.zip`, после чего перезапустите приложение
 1. Перейдите в **Custom Downloads** > **Refresh** > **Continue**, на запрос о перезаписи `ini`, выберите **Yes**
 1. Перейдите в **Custom Downloads** > **4IFIR** > **Continue**, на запрос о перезаписи `ini`, выберите **Yes**, на запрос о переустановке hekate выберите **No**, консоль перезагрузится
 
-# Возможные проблемы 
-
-1. Черный экран после лого Nintendo:  
-   >Hekate > payloads > kiptool.bin.  
-   >Далее Kip Wizard - CPU - speedshift поставьте **25 или 100** вместо нуля и не забудьте apply changes.  
-   >Перезагрузите консоль  
-   >Это может починить запуск в атмосферу    
