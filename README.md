@@ -4,8 +4,7 @@
 [ENGLISH GUIDE](docs_en/README_ENG.MD) | [Гайд по настройке 4IFIR Wizard](docs/WIZARD_GUIDE.md) | [Группа в телеграме](https://t.me/kf4fr/48074) | [Бот, следящий за обновлениями](https://t.me/kf4fr/98339) 
 ****
 
-**Всегда свежая версия 4IFIR: [Telegram](https://t.me/kf4fr/98339) | [sintez.io](https://sintez.io/4IFIR.zip) | [Github](https://github.com/rashevskyv/4ifir-checker/raw/main/github/4IFIR.zip)**  
-**Что нового? (только заметные изменения) - [ТУТ](docs/UPDATE.md)**  
+**Всегда свежая версия 4IFIR: [Telegram](https://t.me/kf4fr/98339) | [Github](https://github.com/rashevskyv/4ifir-checker/releases)**    
 **Решение вашей проблемы, скорее всего, есть - [ТУТ](docs/PROBLEM.md)**
 
 ***
@@ -59,6 +58,9 @@
 
 ### **[Гайд по настройке 4IFIR Wizard](docs/WIZARD_GUIDE.md)**
  * Настройка 4IFIR WIZARD
+
+### **[EMC Magician](docs/EMC_MAGICIAN.md)**
+ * Настройка таймингов чрез EMC Magician
 
 ### **[Инструкция по обновлению прошивки](docs/OTHER_INSTRUCTION.md)**
  * Обновление 4IFIR и HOS до актуальных версий
