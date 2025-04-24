@@ -1,0 +1,1 @@
+sMeh 13 CPriora - CPU priority. Reduces performance per megahertz for GPU in favor of CPU. Ideal for emulators.

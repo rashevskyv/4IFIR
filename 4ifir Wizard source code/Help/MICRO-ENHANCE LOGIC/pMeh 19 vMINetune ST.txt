@@ -1,0 +1,1 @@
+pMeh 19 vMINetune - GPU vMin for 4ifir Optimised (The higher the value, the lower the minimum voltage)

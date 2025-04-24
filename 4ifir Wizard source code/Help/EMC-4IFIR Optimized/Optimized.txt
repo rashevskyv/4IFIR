@@ -1,1 +1,0 @@
-Sets the EMC-Optimized value to 1600 MHz.

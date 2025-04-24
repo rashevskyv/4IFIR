@@ -1,0 +1,2 @@
+Help for e.BAMATIC Stage:
+- This option corresponds to the element named "e.BAMATIC Stage".

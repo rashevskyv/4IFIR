@@ -1,0 +1,2 @@
+Help for Core Timings 1:
+- This option corresponds to the element named "Core Timings 1".

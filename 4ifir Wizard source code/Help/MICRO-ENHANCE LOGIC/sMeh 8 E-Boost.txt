@@ -1,0 +1,1 @@
+sMeh 8 E-Boost - Memory efficiency stages in Optimized E mode. The higher the value, the more performance. Because of sMeh 8, the screen may start to stripe in the dock. To solve this problem, reset sMeh 8 to 0.

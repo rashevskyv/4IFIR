@@ -1,6 +1,1 @@
-For value = eBAMATIC, 
-ex:MHz(MARIKO eBAL,ERISTA eBAL)
-
-eBAMATIC MHz = 120(1,1) 133(1,1) 146(1,1) 160(1,1) 173(2,1) 186(2,2) 
-200(2,3) 213(2,4) 226(3,5) 240(3,5) 253(3,5) 266(4,5) 280(4,5) 293(5,5) 
-306(5,-) 320(5,-) 333(5,-) 346(5,-) 360(5,-) 373(5,-)
+EMC Balance – a set of memory optimizations in the ratio of energy efficiency to performance. There is a list of 5 values. 0(eBamatic) – smart mode, automatically selects the appropriate eBal for the selected frequency. 1 – adds performance, requires higher RAM voltages (try on low frequencies), 2 – loses performance (relative to eBal 1) but reduces consumption (try, usually stable on most consoles), 3 – Default , 4 – for high frequencies (for docked mode gaming).

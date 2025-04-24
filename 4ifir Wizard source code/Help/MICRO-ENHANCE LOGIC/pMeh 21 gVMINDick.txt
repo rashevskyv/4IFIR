@@ -1,0 +1,1 @@
+pMeh 21 gVMINDick - GPU vMin for 4ifir Optimised S (The higher the value, the lower the minimum voltage)

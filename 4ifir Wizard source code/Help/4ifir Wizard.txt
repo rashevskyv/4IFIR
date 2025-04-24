@@ -1,0 +1,2 @@
+This is the help file for the 4ifir Wizard package.
+General information about the package goes here.

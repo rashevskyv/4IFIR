@@ -1,0 +1,1 @@
+sMeh 9 SSC Logic - switches between two modes of operation of the RAM clock generator noise suppressor. It can help if something wireless at certain RAM frequencies behaves strangely.

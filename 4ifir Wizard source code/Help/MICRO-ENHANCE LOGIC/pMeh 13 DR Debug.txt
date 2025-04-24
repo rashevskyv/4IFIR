@@ -1,0 +1,1 @@
+pMeh 13 DR Debug - Disables 4ifir optimizations. In the first mode, it eliminates the least critical optimizations from the list of potential culprits for all problems. In the second mode - more critical ones, etc. By identifying the stage at which the problem disappears and including this information in a report when contacting Cooler, you can significantly simplify debugging.

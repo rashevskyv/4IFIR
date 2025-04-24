@@ -1,1 +1,3 @@
-VDDQ/VDD2 for 4ifir Optimised (The higher the value, the higher the voltage, use InfoNX to monitor the values)
+VDDQ/VDD2 for 4ifir Optimised
+
+Carefully! If the value is too low, it may damage the emunand!!

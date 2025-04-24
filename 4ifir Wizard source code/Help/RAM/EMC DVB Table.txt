@@ -1,3 +1,0 @@
-The EMC DVB Table is responsible for managing memory voltage offsets, with a significant impact on power consumption, especially on the memory controller. 
-
-Higher value means higher consumption, but improves stability on the higher RAM frequencies.

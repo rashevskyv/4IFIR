@@ -1,0 +1,2 @@
+Help for e.BAMATIC:
+- This option corresponds to the element named "e.BAMATIC".

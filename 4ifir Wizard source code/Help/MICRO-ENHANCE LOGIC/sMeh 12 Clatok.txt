@@ -1,0 +1,1 @@
+sMeh 12 Clatok - Switches between algorithms for scaling technical, engineering parameters and memory timings, between two principles. Mode 1, in most cases, should give a gain of a couple of FPS under equal conditions. At low frequencies, it may not be compatible with certain memory chips, like eBAL1 on Micron at a frequency of 1600, possibly higher.

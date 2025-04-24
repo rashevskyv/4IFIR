@@ -1,1 +1,0 @@
-A set of optimizations for payload.bin, which allows you to get an additional 200-300MB of bandwidth

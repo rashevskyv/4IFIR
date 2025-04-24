@@ -1,0 +1,1 @@
+sMeh 1 ARB-BCD - Allow, without affecting stability, in certain combinations of timings, eBALs and frequencies, where 4IFIR was not included algorithmically with 100% arbitration timings by memory controllers, to adjust them manually.

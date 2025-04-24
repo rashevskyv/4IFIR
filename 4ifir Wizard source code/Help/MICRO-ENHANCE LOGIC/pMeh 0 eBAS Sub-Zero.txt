@@ -1,0 +1,1 @@
+pMeh 0 eBAS Sub-Zero - Derived from eBAL: eBAS, eBAW and eBAR. eBAS can be increased using the [eba-shift] option. The only way to decrease it is by using — pMeh[0] and only by 1 (when set to pmeh[0]=1)
