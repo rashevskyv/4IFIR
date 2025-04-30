@@ -1,0 +1,161 @@
+[
+    {
+        "name": "RAM",
+        "key": "frequency",
+        "extent": " MHz",
+        "category": "RAM",
+        "state": "no_skip"
+    },
+    {
+        "name": "eBal",
+        "key": "eBAL",
+        "category": "RAM",
+        "state": "no_skip"
+    },
+    {
+        "name": "RP",
+        "key": "sRP",
+        "pair_key": "asRP",
+        "filler_before": "true",
+        "category": "Timings"
+    },
+    {
+        "name": "RCD",
+        "key": "sRCD",
+        "pair_key": "asRCD",
+        "category": "Timings"
+    },
+    {
+        "name": "RC",
+        "key": "sRC",
+        "pair_key": "asRC",
+        "category": "Timings"
+    },
+    {
+        "name": "RAS",
+        "key": "sRAS",
+        "pair_key": "asRAS",
+        "category": "Timings"
+    },
+    {
+        "name": "R2P",
+        "key": "sR2P",
+        "pair_key": "asR2P",
+        "category": "Timings"
+    },
+    {
+        "name": "W2P",
+        "key": "sW2P",
+        "pair_key": "asW2P",
+        "category": "Timings"
+    },
+    {
+        "name": "W2R",
+        "key": "sW2R",
+        "pair_key": "asW2R",
+        "category": "Timings"
+    },
+    {
+        "name": "R2W",
+        "key": "sR2W",
+        "pair_key": "asR2W",
+        "category": "Timings"
+    },
+    {
+        "name": "RFC",
+        "key": "sRFC",
+        "pair_key": "asRFC",
+        "category": "Timings"
+    },
+    {
+        "name": "FAW",
+        "key": "sFAW",
+        "pair_key": "asFAW",
+        "category": "Timings"
+    },
+    {
+        "name": "RRD",
+        "key": "sRRD",
+        "pair_key": "asRRD",
+        "category": "Timings"
+    },
+    {
+        "name": "RCDW",
+        "key": "sRCDW",
+        "pair_key": "asRCDW",
+        "category": "Timings"
+    },
+    {
+        "name": "eRP",
+        "key": "eRP",
+        "pair_key": "aeRP",
+        "filler_before": "true",
+        "category": "Extended Timings"
+    },
+    {
+        "name": "eRCD",
+        "key": "eRCD",
+        "pair_key": "aeRCD",
+        "category": "Extended Timings"
+    },
+    {
+        "name": "eRC",
+        "key": "eRC",
+        "pair_key": "aeRC",
+        "category": "Extended Timings"
+    },
+    {
+        "name": "eRAS",
+        "key": "eRAS",
+        "pair_key": "aeRAS",
+        "category": "Extended Timings"
+    },
+    {
+        "name": "eR2P",
+        "key": "eR2P",
+        "pair_key": "aeR2P",
+        "category": "Extended Timings"
+    },
+    {
+        "name": "eW2P",
+        "key": "eW2P",
+        "pair_key": "aeW2P",
+        "category": "Extended Timings"
+    },
+    {
+        "name": "eW2R",
+        "key": "eW2R",
+        "pair_key": "aeW2R",
+        "category": "Extended Timings"
+    },
+    {
+        "name": "eR2W",
+        "key": "eR2W",
+        "pair_key": "aeR2W",
+        "category": "Extended Timings"
+    },
+    {
+        "name": "eRFC",
+        "key": "eRFC",
+        "pair_key": "aeRFC",
+        "category": "Extended Timings"
+    },
+    {
+        "name": "eFAW",
+        "key": "eFAW",
+        "pair_key": "aeFAW",
+        "category": "Extended Timings"
+    },
+    {
+        "name": "eRRD",
+        "key": "eRRD",
+        "pair_key": "aeRRD",
+        "category": "Extended Timings"
+    },
+    {
+        "name": "eRCDW",
+        "key": "eRCDW",
+        "pair_key": "aeRCDW",
+        "category": "Extended Timings"
+    }
+]
