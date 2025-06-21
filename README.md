@@ -58,6 +58,9 @@
 ### **[4IFIR Wizard](docs/4IFIR_WIZARD.md)**
  * Описание всех пунктов 4IFIR WIZARD
 
+### **[Базовая настройка 4IFIR Wizard](docs/BASE_WIZARD_GUIDE.md)**
+ * Настройка базового Undervolt и доп. оптимизации.
+
 ### **[Гайд по настройке 4IFIR Wizard](docs/WIZARD_GUIDE.md)**
  * Настройка 4IFIR WIZARD
 
