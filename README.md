@@ -61,6 +61,9 @@
 ### **[Базовая настройка 4IFIR Wizard](docs/BASE_WIZARD_GUIDE.md)**
  * Настройка базового Undervolt и доп. оптимизации.
 
+### **[Undervolt 4IFIR Wizard](docs/WIZARD_GUIDE_UV.md)**
+ * Подробная настройка Undervolt для CPU и GPU
+
 ### **[Гайд по настройке 4IFIR Wizard](docs/WIZARD_GUIDE.md)**
  * Настройка 4IFIR WIZARD
 
