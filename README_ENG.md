@@ -72,5 +72,5 @@ _**The English guide is in the process of being translated.**_
 ### **[Problems and their solutions](docs/en/PROBLEM.md)**
  * The most common problems
 
-### **[Licenses and Acknowledgments](docs/en/LICENSES.md)**
+### **[Licenses and Acknowledgments](docs/en/LICENSE.md)**
  * Licenses and Acknowledgments
