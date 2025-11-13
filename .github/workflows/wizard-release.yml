@@ -1,4 +1,4 @@
-name: "Wizard Update"
+name: "4IFIR Wizard Package Release"
 
 on:
   workflow_dispatch:
@@ -12,12 +12,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Build
-        run: sed -i "s/;version='[0-9.]*'/;version='$(date "+%y.%m.%d.%H")'/g" 4ifir\ Wizard\ source\ code/config.ini && sed -i "s/;version='[0-9.]*'/;version='$(date "+%y.%m.%d.%H")'/g" 4ifir\ Wizard\ source\ code/4Advanced/Full\ Assist/inis/Start.ini && cd 4ifir\ Wizard\ source\ code/ && zip -r ../4IFIR-Wizard-update/4IFIR\ Wizard/files.zip ./* && cd ../4IFIR-Wizard-update && zip -r "4IFIR-Wizard-update-$(date "+%y.%m.%d.%H").zip" ./4IFIR\ Wizard
+        run: |
+          sed -i "s/;version='[0-9.]*'/;version='$(date '+%y.%m.%d.%H')'/g" "4IFIR-Wizard/package/config.ini"
+          sed -i "s/;version='[0-9.]*'/;version='$(date '+%y.%m.%d.%H')'/g" "4IFIR-Wizard/package/4Advanced/Full Assist/inis/Start.ini"
+          zip -r "4IFIR-Wizard-update/4IFIR Wizard/files.zip" "4IFIR-Wizard/package/"
+          zip -r "4IFIR-Wizard-update/4IFIR-Wizard-update-$(date '+%y.%m.%d.%H').zip" "4IFIR-Wizard-update/4IFIR Wizard"
       - id: tag_name
-        run: echo "version=$(date "+%y.%m.%d.%H")" >> "$GITHUB_OUTPUT"
+        run: echo "version=$(date '+%y.%m.%d.%H')" >> "$GITHUB_OUTPUT"
         env:
           TAG_NAME: test
+
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
