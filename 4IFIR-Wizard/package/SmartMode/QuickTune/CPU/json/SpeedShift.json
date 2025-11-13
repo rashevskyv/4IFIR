@@ -8,27 +8,19 @@
         "hex": "01"
     },
     {
-        "name": "25",
-        "hex": "19"
-    },
-    {
-        "name": "50 - SRT ST1",
+        "name": "Sport - 50",
         "hex": "32"
     },
     {
-        "name": "100 - ECO ST1",
+        "name": "ECO ST1 - 100",
         "hex": "64"
     },
     {
-        "name": "125 - ECO ST2",
+        "name": "ECO ST2 - 125",
         "hex": "7D"
     },
     {
-        "name": "150 - ECO ST3",
+        "name": "ECO ST3 - 150",
         "hex": "96"
-    },
-    {
-        "name": "175",
-        "hex": "AF"
     }
 ]

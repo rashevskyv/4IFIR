@@ -1,0 +1,25 @@
+[
+    {
+        "name": "`CPU Maximum Voltage"
+    },
+    {
+        "name": "eBAMATIC - Recommended",
+        "hex": "0000"
+    },
+    {
+        "name": "1150 mV - ECO",
+        "hex": "7E04"
+    },
+    {
+        "name": "1180 mV - ST1",
+        "hex": "E204"
+    },
+    {
+        "name": "1200 mV - ST2",
+        "hex": "B004"
+    },
+    {
+        "name": "1250 mV - ST3",
+        "hex": "1405"
+    }
+]

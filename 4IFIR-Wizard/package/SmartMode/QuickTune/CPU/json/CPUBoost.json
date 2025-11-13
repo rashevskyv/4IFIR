@@ -1,0 +1,21 @@
+[
+    {
+        "name": "`CPU Boost Target Clock"
+    },
+    {
+        "name": "eBAMATIC - Default",
+        "hex": "000000"
+    },
+    {
+        "name": "2000 MHz - E",
+        "hex": "80841E"
+    },
+    {
+        "name": "2500 MHz - D",
+        "hex": "A02526"
+    },
+    {
+        "name": "3000 MHz - S",
+        "hex": "C0C62D"
+    }
+]

@@ -1,0 +1,7 @@
+The CPU Minimal Voltage controls the lowest voltage available for CPU underclocking. 
+
+The lower minimal voltage, the lower power consumption and lower Maximum EMC Frequency available
+
+To test it, select the voltage, reboot, then after the reboot set the EMC Frequency to Optimized S on Temp Overrides and set the CPU Frequency to minimum. 
+
+When it frezees, press the console's power button for 12 seconds to shut it down. Boot into the system, set higher minimal voltage and repeat until stable..
