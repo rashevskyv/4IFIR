@@ -1,15 +1,15 @@
 # **4IFIR Houdini by [Cooler3D](https://t.me/Cooler3D)**
 
 
-[ENGLISH GUIDE](docs_en/README_ENG.MD) | [Гайд по настройке 4IFIR Wizard](docs/WIZARD_GUIDE.md) | [Группа в телеграме](https://t.me/kf4fr/48074) | [Бот, следящий за обновлениями](https://t.me/kf4fr/98339) 
+[ENGLISH GUIDE](README_ENG.md) | [Гайд по настройке 4IFIR Wizard](docs/ru/WIZARD_GUIDE.md) | [Группа в телеграме](https://t.me/kf4fr/48074) | [Бот, следящий за обновлениями](https://t.me/kf4fr/98339) 
 ****
 
 **Всегда свежая версия 4IFIR: [Telegram](https://t.me/kf4fr/98339) | [Github](https://github.com/rashevskyv/4ifir-checker/releases)**    
-**Решение вашей проблемы, скорее всего, есть - [ТУТ](docs/PROBLEM.md)**
+**Решение вашей проблемы, скорее всего, есть - [ТУТ](docs/ru/PROBLEM.md)**
 
 ***
 
-**4IFIR Поддерживает до HOS 20.5.х  и все ревизии консолей - [Инструкция по обновлению](docs/OTHER_INSTRUCTION.md)** 
+**4IFIR Поддерживает до HOS 20.5.х  и все ревизии консолей - [Инструкция по обновлению](docs/ru/OTHER_INSTRUCTION.md)** 
 
 **ВНИМАНИЕ!: Кипы старых версий не поддерживаются в 4IFIR Houdini**
 
@@ -42,45 +42,45 @@
 * Над-экранное меню, для управления перечисленными возможностями на лету
 * Фоновый FTP сервер
 * Необходимые для совместной работы всего перечисленного системные модули
-* Системные модули и Homebrew включенные в сборку - **[Состав 4ifir](docs/COMPOSITION_4IFIR.md)**
+* Системные модули и Homebrew включенные в сборку - **[Состав 4ifir](docs/ru/COMPOSITION_4IFIR.md)**
 
 ***
 
-### **[Подготовка консоли и установка 4IFIR](docs/INSTAL_4IFIR.md)**
+### **[Подготовка консоли и установка 4IFIR](docs/ru/INSTAL_4IFIR.md)**
  * Методы установки и обновления
 
-### **[Разгон](docs/OVERCLOKING.md)**
+### **[Разгон](docs/ru/OVERCLOKING.md)**
  * Работа с разгоном 
 
-### **[Выбор оптимальных частот CPU GPU](docs/SUITABLE_FREQUENCIES.md)**
+### **[Выбор оптимальных частот CPU GPU](docs/ru/SUITABLE_FREQUENCIES.md)**
  * Методы подбора частот
 
-### **[4IFIR Wizard](docs/4IFIR_WIZARD.md)**
+### **[4IFIR Wizard](docs/ru/4IFIR_WIZARD.md)**
  * Описание всех пунктов 4IFIR WIZARD
 
-### **[Базовая настройка 4IFIR Wizard](docs/BASE_WIZARD_GUIDE.md)**
+### **[Базовая настройка 4IFIR Wizard](docs/ru/BASE_WIZARD_GUIDE.md)**
  * Настройка базового Undervolt и доп. оптимизации.
 
-### **[Undervolt 4IFIR Wizard](docs/WIZARD_GUIDE_UV.md)**
+### **[Undervolt 4IFIR Wizard](docs/ru/WIZARD_GUIDE_UV.md)**
  * Подробная настройка Undervolt для CPU и GPU
 
-### **[RAM 4IFIR Wizard](docs/WIZARD_GUIDE_RAM.md)**
+### **[RAM 4IFIR Wizard](docs/ru/WIZARD_GUIDE_RAM.md)**
  * Подробная настройка оптимизаций и вольтажей RAM
 
-### **[EMC Magician](docs/EMC_MAGICIAN.md)**
+### **[EMC Magician](docs/ru/EMC_MAGICIAN.md)**
  * Настройка таймингов чрез EMC Magician
 
-### **[Инструкция по обновлению прошивки](docs/OTHER_INSTRUCTION.md)**
+### **[Инструкция по обновлению прошивки](docs/ru/OTHER_INSTRUCTION.md)**
  * Обновление 4IFIR и HOS до актуальных версий
 
-### **[Модули 4IFIR](docs/MODULES_4IFIR.md)**
+### **[Модули 4IFIR](docs/ru/MODULES_4IFIR.md)**
  * Описание работы с модулями
 
-### **[Читы и патчи на улучшение графики](docs/CHEATS_AND_PATCHES.md)**
+### **[Читы и патчи на улучшение графики](docs/ru/CHEATS_AND_PATCHES.md)**
  * Где их искать и как использовать
 
-### **[Проблемы и их решения](docs/PROBLEM.md)**
+### **[Проблемы и их решения](docs/ru/PROBLEM.md)**
  * Наиболее распространенные проблемы
 
-### **[Лицензии и Благодарности](docs/LICENSES.md)**
+### **[Лицензии и Благодарности](docs/ru/LICENSES.md)**
  * Лицензии и благодарности

@@ -2,16 +2,16 @@
 _**The English guide is in the process of being translated.**_
 
 
-[RUSSIAN GUIDE](README.md) | [4IFIR Wizard Setup Guide](docs/WIZARD_GUIDE.md) | [Telegram Group](https://t.me/kf4fr/48074) | [Bot that checks updates](https://t.me/kf4fr/98339) 
+[RUSSIAN GUIDE](README.md) | [4IFIR Wizard Setup Guide](docs/en/WIZARD_GUIDE.md) | [Telegram Group](https://t.me/kf4fr/48074) | [Bot that checks updates](https://t.me/kf4fr/98339) 
 ****
 
 **Always fresh version of 4IFIR: [Telegram](https://t.me/kf4fr/98339) | [sintez.io](https://sintez.io/4IFIR.zip) | [Github](https://github.com/rashevskyv/4ifir-checker/raw/main/github/4IFIR.zip)**  
-**What's new? (only noticeable changes) - [HERE](docs/UPDATE.md)**  
-**Solution for your problem most likely - [HERE](docs/PROBLEM.md)**
+**What's new? (only noticeable changes) - [HERE](docs/en/UPDATE.md)**  
+**Solution for your problem most likely - [HERE](docs/en/PROBLEM.md)**
 
 ***
 
-**4IFIR 2.4 Supports until HOS 18.1  and all console revisions - [Update instrucitons](docs/OTHER_INSTRUCTION.md)** 
+**4IFIR 2.4 Supports until HOS 18.1  and all console revisions - [Update instrucitons](docs/en/OTHER_INSTRUCTION.md)** 
 
 **WARNING!: Kips from previous versions are not supported by 4IFIR 2.4 Gamechanger**
 
@@ -41,36 +41,36 @@ _**The English guide is in the process of being translated.**_
 * An over-the-screen menu for managing the listed features in real-time
 * Background FTP server
 * System modules required for all of the above to work together
-* System modules and Homebrew included in the build - **[Composition of 4ifir](docs/COMPOSITION_4IFIR.md)**
+* System modules and Homebrew included in the build - **[Composition of 4ifir](docs/en/COMPOSITION_4IFIR.md)**
 
 ***
 
-### **[Console preparation and installing 4IFIR](docs/INSTAL_4IFIR.md)**
+### **[Console preparation and installing 4IFIR](docs/en/INSTAL_4IFIR.md)**
  * Installation and update methods
 
-### **[Overclocking](docs/OVERCLOKING.md)**
+### **[Overclocking](docs/en/OVERCLOKING.md)**
  * Working with overclocking 
 
-### **[Selecting optimal frequencies CPU GPU](docs/SUITABLE_FREQUENCIES.md)**
+### **[Selecting optimal frequencies CPU GPU](docs/en/SUITABLE_FREQUENCIES.md)**
  * Frequency selection methods
 
-### **[4IFIR Wizard](docs/4IFIR_WIZARD.md)**
+### **[4IFIR Wizard](docs/en/4IFIR_WIZARD.md)**
  * Description of all items in 4IFIR WIZARD
 
-### **[4IFIR Wizard Setup guide](docs/WIZARD_GUIDE.md)**
+### **[4IFIR Wizard Setup guide](docs/en/WIZARD_GUIDE.md)**
  * 4IFIR WIZARD Setup
 
-### **[Firmware update instructions](docs/OTHER_INSTRUCTION.md)**
+### **[Firmware update instructions](docs/en/OTHER_INSTRUCTION.md)**
  * Updating 4IFIR and HOS to current versions
 
-### **[4IFIR modules](docs/MODULES_4IFIR.md)**
+### **[4IFIR modules](docs/en/MODULES_4IFIR.md)**
  * Description of working with modules
 
-### **[Cheats and patches for graphics improvement](docs/CHEATS_AND_PATCHES.md)**
+### **[Cheats and patches for graphics improvement](docs/en/CHEATS_AND_PATCHES.md)**
  * Where to find them and how to use them
 
-### **[Problems and their solutions](docs/PROBLEM.md)**
+### **[Problems and their solutions](docs/en/PROBLEM.md)**
  * The most common problems
 
-### **[Licenses and Acknowledgments](docs/LICENSES.md)**
+### **[Licenses and Acknowledgments](docs/en/LICENSES.md)**
  * Licenses and Acknowledgments
