@@ -5,4 +5,4 @@ Higher values might improve stabilty.
 
 Sequentially reduce the values one step at a time and test for stability.
 
-If console have issues with sleep mode, you can try to increase VDDQ to solve it.
+If you got console sleep problems, you can increase VDDQ.

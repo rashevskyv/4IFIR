@@ -1,1 +1,3 @@
-EMC Balance – a set of memory optimizations in the ratio of energy efficiency to performance. There is a list of 5 values. 0(eBamatic) – smart mode, automatically selects the appropriate eBal for the selected frequency. 1 – adds performance, requires higher RAM voltages (try on low frequencies), 2 – loses performance (relative to eBal 1) but reduces consumption (try, usually stable on most consoles), 3 – Default , 4 – for high frequencies (for docked mode gaming).
+A set of memory optimizations in the ratio of energy efficiency to performance. 
+
+The higher the eBAL, the higher the EMC frequency you can achieve. The lower the eBAL, the more efficient every MHz will be. 

@@ -1,4 +1,0 @@
-RAM MHz measures your console's memory speed. 
-Higher MHz means faster performance, but excessive values can lead to issues like corrupted data (e.g., emuNAND) and visual artifacts. 
-
-Ensure compatibility and consider your RAM model when setting.

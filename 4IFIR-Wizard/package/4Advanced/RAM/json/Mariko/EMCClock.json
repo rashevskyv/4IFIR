@@ -1,0 +1,202 @@
+[
+    {
+        "name": "`4IFIR EMC Frequency"
+    },
+    {
+        "name": "1600 MHz - SYK-LOH eBAL1",
+        "hex": "006A18"
+    },
+    {
+        "name": "1734 MHz - ECO ST3 eBAL1",
+        "hex": "00771A"
+    },        
+    {
+        "name": "1868 MHz - ECO ST2 eBAL2",
+        "hex": "00841C"
+    },
+    {
+        "name": "1900 MHz",
+        "hex": "00011D"
+    },
+    {
+        "name": "1939 MHz",
+        "hex": "00971D"
+    },
+    {
+        "name": "1977 MHz",
+        "hex": "002D1E"
+    },
+    {
+        "name": "1996 MHz - ECO ST1 eBAL2",
+        "hex": "00781E"
+    },    
+    {
+        "name": "2016 MHz",
+        "hex": "00C31E"
+    },
+    {
+        "name": "2054 MHz",
+        "hex": "00591F"
+    },
+    {
+        "name": "2092 MHz",
+        "hex": "00EF1F"
+    },
+    {
+        "name": "2131 MHz - ST1 eBAL2",
+        "hex": "008520"
+    },
+    {
+        "name": "2169 MHz",
+        "hex": "001B21"
+    },
+    {
+        "name": "2208 MHz",
+        "hex": "00B121"
+    },
+    {
+        "name": "2246 MHz",
+        "hex": "004722"
+    },
+    {
+        "name": "2265 MHz - ST2 eBAL2",
+        "hex": "009222"
+    },    
+    {
+        "name": "2284 MHz",
+        "hex": "00DD22"
+    },
+    {
+        "name": "2300 MHz",
+        "hex": "601823"
+    },
+    {
+        "name": "2323 MHz",
+        "hex": "007323"
+    },
+    {
+        "name": "2361 MHz",
+        "hex": "000924"
+    },
+    {
+        "name": "2400 MHz - ST3 eBAL3",
+        "hex": "009F24"
+    },
+    {
+        "name": "2438 MHz",
+        "hex": "003525"
+    },
+    {
+        "name": "2476 MHz",
+        "hex": "00CB25"
+    },
+    {
+        "name": "2500 MHz",
+        "hex": "A02526"
+    },
+    {
+        "name": "2515 MHz",
+        "hex": "006126"
+    },
+    {
+        "name": "2534 MHz - SPR ST1 eBAL3",
+        "hex": "00AC26"
+    },
+
+    {
+        "name": "2553 MHz",
+        "hex": "00F726"
+    },
+    {
+        "name": "2592 MHz",
+        "hex": "008D27"
+    },
+    {
+        "name": "2630 MHz",
+        "hex": "002328"
+    },
+    {
+        "name": "2665 MHz - SPR ST2 eBAL4",
+        "hex": "80AC28"
+    },
+    {
+        "name": "2668 MHz",
+        "hex": "00B928"
+    },
+    {
+        "name": "2707 MHz",
+        "hex": "004F29"
+    },
+    {
+        "name": "2745 MHz",
+        "hex": "00E529"
+    },
+    {
+        "name": "2784 MHz",
+        "hex": "007B2A"
+    },
+    {
+        "name": "2800 MHz - SPR ST3 eBAL5",
+        "hex": "80B92A"
+    },
+    {
+        "name": "2822 MHz",
+        "hex": "00112B"
+    },
+    {
+        "name": "2860 MHz",
+        "hex": "00A72B"
+    },
+    {
+        "name": "2899 MHz",
+        "hex": "003D2C"
+    },
+    {
+        "name": "2934 MHz - LOH-C4C eBAL5",
+        "hex": "80C62C"
+    },
+    {
+        "name": "2937 MHz",
+        "hex": "00D32C"
+    },
+    {
+        "name": "2976 MHz",
+        "hex": "00692D"
+    },
+    {
+        "name": "3000 MHz",
+        "hex": "C0C62D"
+    },
+    {
+        "name": "3040 MHz",
+        "hex": "C8632E"
+    },
+    {
+        "name": "3078 MHz",
+        "hex": "C8f92E"
+    },
+    {
+        "name": "3117 MHz",
+        "hex": "C88f2F"
+    },
+    {
+        "name": "3155 MHz",
+        "hex": "C82530"
+    },
+    {
+        "name": "3193 MHz",
+        "hex": "C8BB30"
+    },
+    {
+        "name": "3232 MHz",
+        "hex": "C85131"
+    },
+    {
+        "name": "3270 MHz",
+        "hex": "C8E731"
+    },
+    {
+        "name": "3309 MHz",
+        "hex": "C87D32"
+    }
+]

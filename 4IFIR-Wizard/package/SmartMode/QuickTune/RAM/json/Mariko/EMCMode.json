@@ -1,0 +1,55 @@
+[
+    {
+        "name": "`Low Frequencies MHz"
+    },
+    {
+        "name": "1600 MHz - SYK-LOH eBAL1",
+        "hex": "006A18"
+    },
+    {
+        "name": "1734 MHz - ECO ST3 eBAL1",
+        "hex": "00771A"
+    },        
+    {
+        "name": "1868 MHz - ECO ST2 eBAL2",
+        "hex": "00841C"
+    },
+    {
+        "name": "1996 MHz - ECO ST1 eBAL2",
+        "hex": "00781E"
+    },
+    {
+        "name": "`Medium Frequencies MHz"
+    },
+    {
+        "name": "2131 MHz - D ST1 eBAL2",
+        "hex": "008520"
+    },
+    {
+        "name": "2265 MHz - D ST2 eBAL2",
+        "hex": "009222"
+    },
+    {
+        "name": "2400 MHz - D ST3 eBAL3",
+        "hex": "009F24"
+    },
+    {
+        "name": "`High Frequencies MHz"
+    },
+    {
+        "name": "2534 MHz - S ST1 eBAL3",
+        "hex": "00AC26"
+    },
+    {
+        "name": "2665 MHz - S ST2 eBAL4",
+        "hex": "80AC28"
+    },
+    {
+        "name": "2800 MHz - S ST3 eBAL5",
+        "hex": "80B92A"
+    },
+    {
+        "name": "2934 MHz - L_C4C eBAL5",
+        "hex": "80C62C"
+    }
+]

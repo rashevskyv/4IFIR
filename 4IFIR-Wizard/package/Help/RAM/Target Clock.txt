@@ -1,0 +1,1 @@
+Sets the 4IFIR Optimized / E Mode value to 1600 MHz.

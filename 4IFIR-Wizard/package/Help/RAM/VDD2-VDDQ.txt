@@ -1,0 +1,4 @@
+Setting of VDD2-VDDQ 
+for 4IFIR Optimized / E Mode
+
+The higher the value, the higher the voltage.
