@@ -1,0 +1,5 @@
+This setting contols the power distribution across the GPU frequencies. 
+
+The higher the Stage - the more GPU frequencies will be available for use. 
+
+Leave this at eBamatic, as setting it manually will not provide any benefit

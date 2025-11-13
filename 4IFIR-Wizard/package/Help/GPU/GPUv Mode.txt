@@ -1,3 +1,0 @@
-Lower bound for GPU consumption.
-The selected value will only work in EMC mode - 4IFIR optimized S
-

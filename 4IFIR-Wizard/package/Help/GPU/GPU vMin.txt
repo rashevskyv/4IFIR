@@ -1,0 +1,7 @@
+GPU vMin controls the lower bound voltage. 
+
+Dynamic GPU vMin depends what currently EMC clock has enabled: 
+
+1. 4IFIR Optimized: when enabled, decrease the voltage to reach minimum consumption. 
+
+2. 4IFIR Optimized S: when enabled, increase the voltage to stabilize the current EMC Frequency.
