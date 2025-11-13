@@ -1,0 +1,5 @@
+This menu allows you to create and manage your configuration backups.
+
+When you a create a backup - the new file is created in /atmosphere/kips/.bak folder with a unique name. 
+
+To apply or delete a backup - navigate to Manage Backups menu, select a backup and follow the on-screen prompts.
