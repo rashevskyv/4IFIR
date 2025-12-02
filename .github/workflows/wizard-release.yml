@@ -17,9 +17,11 @@ jobs:
         run: |
           sed -i "s/;version='[0-9.]*'/;version='$(date '+%y.%m.%d.%H')'/g" "4IFIR-Wizard/package/config.ini"
           sed -i "s/;version='[0-9.]*'/;version='$(date '+%y.%m.%d.%H')'/g" "4IFIR-Wizard/package/4Advanced/Full Assist/inis/Start.ini"
-          zip -r "4IFIR-Wizard-update/4IFIR Wizard/files.zip" "4IFIR-Wizard/package/"
-          zip -r "4IFIR-Wizard-update/4IFIR-Wizard-update-$(date '+%y.%m.%d.%H').zip" "4IFIR-Wizard-update/4IFIR Wizard"
-      - id: tag_name
+          zip -r "4IFIR-Wizard/4IFIR-Wizard-update/4IFIR\ Wizard/files.zip" "4IFIR-Wizard/package/*"
+          zip -r "4IFIR-Wizard/4IFIR-Wizard-update/4IFIR-Wizard-update-$(date '+%y.%m.%d.%H').zip" "4IFIR-Wizard/4IFIR-Wizard-update/4IFIR\ Wizard"
+          - id: tag_name
+
+      - name: Add version
         run: echo "version=$(date '+%y.%m.%d.%H')" >> "$GITHUB_OUTPUT"
         env:
           TAG_NAME: test
