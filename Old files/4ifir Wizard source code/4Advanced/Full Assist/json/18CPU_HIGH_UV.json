@@ -1,0 +1,21 @@
+[
+    {
+        "name": "`CPU High mHz Undervolt"
+    },
+    {
+        "name": "eBamatic",
+        "hex": "000000"
+    },
+    {
+        "name": "1 level",
+        "hex": "01"
+    },
+    {
+        "name": "2 level",
+        "hex": "02"
+    },
+    {
+        "name": "3 level",
+        "hex": "03"
+    }
+]

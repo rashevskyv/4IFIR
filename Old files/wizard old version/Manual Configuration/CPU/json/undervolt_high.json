@@ -1,0 +1,41 @@
+[
+    {
+        "name": "0 - Base undervolting",
+        "hex": "00"
+    },
+    {
+        "name": "Level 1",
+        "hex": "01",
+        "color": "Orange"
+    },
+    {
+        "name": "Level 2",
+        "hex": "02",
+        "color": "Orange"
+    },
+    {
+        "name": "Level 3",
+        "hex": "03",
+        "color": "Orange"
+    },
+    {
+        "name": "Level 4",
+        "hex": "04",
+        "color": "Orange"
+    },
+    {
+        "name": "Level 5",
+        "hex": "05",
+        "color": "Orange"
+    },
+    {
+        "name": "Level 6",
+        "hex": "06",
+        "color": "Orange"
+    },
+    {
+        "name": "Level 7",
+        "hex": "07",
+        "color": "Orange"
+    }
+]

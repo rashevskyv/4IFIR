@@ -1,0 +1,2 @@
+
+EBA-Shift - adjusts the eBal mode; setting it to 2 allows raising the 8th timing value

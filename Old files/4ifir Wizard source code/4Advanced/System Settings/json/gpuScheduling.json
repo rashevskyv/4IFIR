@@ -1,0 +1,10 @@
+[
+  {
+    "name": "On",
+    "value": "u8!0x1"
+  },
+  {
+    "name": "Off",
+    "value": "u8!0x0"
+  }
+]

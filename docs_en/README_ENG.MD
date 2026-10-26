@@ -1,77 +1,78 @@
-# **4IFIR 2.4 Gamechanger by [Cooler3D](https://t.me/Cooler3D)**
+# **4IFIR 2.7 by [Cooler3D](https://t.me/Cooler3D)**
 
-
-
-[RUSSIAN GUIDE](../README.md) | [4IFIR Wizard Setup Guide](docs/WIZARD_GUIDE.md) | [Telegram Group](https://t.me/kf4fr/48074) | [Bot that checks updates](https://t.me/kf4fr/98339) 
+[RUSSIAN GUIDE](../../README.md) | [Latitude UI](LATITUDE_UI.md) | [4IFIR Wizard Setup Guide](WIZARD_GUIDE.md) | [Telegram Group](https://t.me/kf4fr/48074) | [Updates Bot](https://t.me/kf4fr/98339) 
 ****
 
-**Always fresh version of 4IFIR: [Telegram](https://t.me/kf4fr/98339) | [sintez.io](https://sintez.io/4IFIR.zip) | [Github](https://github.com/rashevskyv/4ifir-checker/raw/main/github/4IFIR.zip)**  
-**What's new? (only noticeable changes) - [HERE](docs/UPDATE.md)**  
-**Solution for your problem most likely - [HERE](docs/PROBLEM.md)**
+**Always fresh version of 4IFIR: [Telegram](https://t.me/kf4fr/98339) | [Github](https://github.com/rashevskyv/4ifir-checker/releases)**  
+**Solution for your problem most likely — [HERE](PROBLEM.md)**
 
 ***
 
-**4IFIR 2.4 Supports until HOS 18.1  and all console revisions - [Update instrucitons](docs/OTHER_INSTRUCTION.md)** 
+**4IFIR supports all console revisions and current HOS versions — [Update instructions](OTHER_INSTRUCTION.md)** 
 
-**WARNING!: Kips from previous versions are not supported by 4IFIR 2.4 Gamechanger**
+> [!IMPORTANT]
+> Old KIPs from previous releases are not supported in 4IFIR 2.7.
+> You will be protected from potential software problems by using [EmuNand](https://switch.customfw.xyz/emunand), [FAT32](https://customfw.xyz/format_sd) and having [backups](https://switch.customfw.xyz/backup-nand). To avoid conflicts, a clean installation is strongly recommended.
 
-**WARNING!: You will be protected from potential software problems by using [EmuNand](https://switch.customfw.xyz/emunand), [FAT32](https://customfw.xyz/format_sd) and having [backups](https://switch.customfw.xyz/backup-nand). To avoid conflicts, it is recommended to make a clean installation**
+In case of 4IFIR, overclocking refers not merely to unlocking frequencies within standard stock limits, but rather deep hardware overclocking that includes comprehensive undervolting/overvolting for each component.
 
-
-**In case with 4IFIR, under overclocking it means not just unlocking frequencies within the standard tables, but rather overclocking, that includes undervolting/overvolting each overclocked component. By installing this modification without theoretical preparation, you relieve author from responsibility for any possible consiquences, including console break down, and take full risks upon yourself. Absolutely safe overclocking cannot be by definition, i have warned you**   
-
->Instruction is still in work! Pullrequests with corrections and additions are welcome. 
->Users of Mac OS, in case of having troubles - read [guide](https://gbatemp.net/threads/macos-fix-archive-attributes-for-switch-sd-card.545560/)
-  
 *** 
 
-## What 4IFIR can do
-* Overclocking up to values 3009 Mhz for CPU, 1612 Mhz for GPU, 3000 Mhz for RAM (the exact maximum value is individual for each console)
-* Automatic undervolting/overvolting
-* GOVERNOR support - reducing resource consumption when the console does not need them
-* Real-time automatic display frequency adjustment (analog for VRR)
-* Automatically adjusts monitor/TV frequency when playing in dock mode (Auto Frame Rate)
-* Possibility to set up RAM ECO mode as an additional one
-* Switch between ECO and main RAM profile in real time
-* Changing display refresh rate up to 72 Hz
-* Increased charging speed
-* Lowering the current threshold for Official Charger
-* Radical reduction of cooling system noise
-* Overlay with FPS and system metrics
-* An over-the-screen menu for managing the listed features in real-time
-* Background FTP server
-* System modules required for all of the above to work together
-* System modules and Homebrew included in the build - **[Composition of 4ifir](docs/COMPOSITION_4IFIR.md)**
+## What 4IFIR 2.7 can do
+* **New Latitude UI:** Complete replacement of qLaunch with real-time frosted glass effect, customizable blur intensity, and underlay opacity in `Settings → Themes`.
+* **Animated Video Backgrounds:** Per-game video wallpapers on the home screen.
+* **Game Icon Customization:** Change icons using custom logos or fetch box art directly from SteamGridDB.
+* **Seamless Automatic Updates:** Native 4IFIR and HOS updates directly from `Settings → System`.
+* **Background MTP Server:** Instant PC connection via USB for SD card browsing and drag-and-drop game installs without launching DBI.
+* **Built-in `R` Button Shortcuts:**
+  * `R + Gameshare` → Built-in Homebrew Store.
+  * `R + Nintendo eShop` → Built-in Ownfoil (background installation of games from your server).
+  * `R + Virtual Game Cards` → Built-in File Manager.
+* **Ultrahand Overlay:** Modern, scriptable overlay menu replacing Uberhand.
+* **New 4IFIR Wizard:** Interactive hardware tuner package ([qret/Ultrahand-4IFIR-Wizard](https://github.com/qret/Ultrahand-4IFIR-Wizard)).
+* **Hardware Overclocking:** Up to 3009 MHz CPU, 1612 MHz GPU, and 3000 MHz RAM (subject to individual silicon lottery).
+* **Automatic Undervolting/Overvolting:** Dynamic eBamatic hardware optimization algorithms.
+* **Display Frequency Adjustment:** Real-time VRR analog and Auto Frame Rate for docked gaming.
+* **OLED DC Dimming** support.
+* **Automatic 60 FPS Activation** in supported titles without manual cheats.
+* **Real-time Memory Timings Tuning** via EMC Magician.
+* **Real-time Metrics & FPS Counter** via Status Monitor PRO.
+* **Background FTP Server** and controller expansion (sys-con, SysDVR).
 
 ***
 
-### **[Console preparation and installing 4IFIR](docs/INSTAL_4IFIR.md)**
- * Installation and update methods
+### **[Latitude UI Guide](LATITUDE_UI.md)**
+ * Themes, frosted glass, video backgrounds, shortcuts, and background services
 
-### **[Overclocking](docs/OVERCLOKING.md)**
- * Working with overclocking 
+### **[Console Preparation and Installing 4IFIR](INSTAL_4IFIR.md)**
+ * Installation methods, SD card preparation, and EmuNAND
 
-### **[Selecting optimal frequencies CPU GPU](docs/SUITABLE_FREQUENCIES.md)**
- * Frequency selection methods
+### **[System Update Guide](OTHER_INSTRUCTION.md)**
+ * Automatic 4IFIR and HOS updates via System Settings
 
-### **[4IFIR Wizard](docs/4IFIR_WIZARD.md)**
- * Description of all items in 4IFIR WIZARD
+### **[Overclocking](OVERCLOKING.md)**
+ * Managing overclock profiles in Ultrahand
 
-### **[4IFIR Wizard Setup guide](docs/WIZARD_GUIDE.md)**
- * 4IFIR WIZARD Setup
+### **[Suitable Frequencies CPU / GPU](SUITABLE_FREQUENCIES.md)**
+ * Frequency selection guide
 
-### **[Firmware update instructions](docs/OTHER_INSTRUCTION.md)**
- * Updating 4IFIR and HOS to current versions
+### **[4IFIR Wizard](4IFIR_WIZARD.md)**
+ * Detailed guide to all menus in Ultrahand 4IFIR Wizard
 
-### **[4IFIR modules](docs/MODULES_4IFIR.md)**
- * Description of working with modules
+### **[4IFIR Wizard Guide](WIZARD_GUIDE.md)**
+ * Tuning guide for CPU, GPU, and RAM
 
-### **[Cheats and patches for graphics improvement](docs/CHEATS_AND_PATCHES.md)**
- * Where to find them and how to use them
+### **[Modules and Overlays](MODULES_4IFIR.md)**
+ * Managing Ultrahand overlays and background sysmodules
 
-### **[Problems and their solutions](docs/PROBLEM.md)**
- * The most common problems
+### **[Composition of 4IFIR](COMPOSITION_4IFIR.md)**
+ * Complete breakdown of installed software, payloads, and modules
 
-### **[Licenses and Acknowledgments](docs/LICENSES.md)**
- * Licenses and Acknowledgments
+### **[Cheats and Graphics Patches](CHEATS_AND_PATCHES.md)**
+ * Using EdiZon, FPSLocker, and graphical modifications
 
+### **[Problems and Solutions](PROBLEM.md)**
+ * Troubleshooting and recovery instructions
+
+### **[Licenses and Credits](LICENSES.md)**
+ * Open-source licenses and acknowledgements
