@@ -1,0 +1,21 @@
+[
+    {
+        "name": "`CPU Min-High Voltage(dCPUv)"
+    },
+    {
+        "name": "eBamatic",
+        "hex": "000000"
+    },
+    {
+        "name": "1 - ECO ST 1",
+        "hex": "010000"
+    },
+    {
+        "name": "2 - ECO ST 2",
+        "hex": "020000"
+    },
+    {
+        "name": "3 - ECO ST 3",
+        "hex": "030000"
+    }
+]

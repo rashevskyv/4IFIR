@@ -1,0 +1,3 @@
+GPU Undervolt Mode allows you to control the internal 4IFIR algorithms to either overvolt or undervolt GPU.
+
+The higher the value, the lower the consumption.

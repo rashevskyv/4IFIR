@@ -1,0 +1,3 @@
+VDDQ is the voltage supplied to RAM data pins (DQ). Proper voltage is essential for RAM stability. 
+
+Higher values might improve stabilty.

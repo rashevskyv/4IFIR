@@ -1,80 +1,86 @@
-# Problems and their solutions
+# Problems and Solutions
 
-1. [Problems related to 4IFIR](#Problems-related-to-4IFIR)
-2. [Battery problems](#Battery-problems)
-3. [Other problems](#Other-problems)
-4. [FAQ](#FAQ)
-***
+1. [Problems related to 4IFIR](#problems-related-to-4ifir)
+2. [Problems with Latitude UI & 2.7 System Features](#problems-with-latitude-ui--27-system-features)
+3. [Battery problems](#battery-problems)
+4. [Other problems](#other-problems)
+5. [FAQ](#faq)
+
+---
 
 ## Problems related to 4IFIR
 
 * #### The console freezes after 10-15 minutes of gameplay:    
->4IFIR WiZard - 4advanced - CPU - Low Mhz undervolt - 1 (or another value other than 0, if you know what this item is responsible for).   
->If that doesn't help, try:  
->4IFIR WiZard - 4advanced - CPU - Speedshift - ECO ST1. 
+  > **Ultrahand → 4IFIR Wizard → Advanced → CPU → Low MHz Undervolt** — set to 1 (or reduce undervolt aggressiveness).  
+  > If that doesn't help: **Advanced → CPU → Speed Shift → ECO ST1**.
 
 * #### The console freezes almost immediately after startup: 
->It's likely that the voltages are insufficient for the default mode. To increase the voltage:  
->Boot into Safe Mode or use Kiptool.       
->4IFIR WiZard - 4advanced - RAM - pMeh 20 - 4.
+  > Insufficient initial operating voltage.  
+  > Boot into **Stock (semi-stock)** or use **KipTool**:  
+  > **Advanced → RAM → Optimized Mode (1600 MHz) → VDDQ-VDD2 Voltage** (or `Advanced → Micro-Enhance Logic → pMeh 20`) — set to 4.
+
+* #### The console freezes after selecting EMC: 4IFIR Optimized S: 
+  > Unstable target memory frequency:  
+  > **Advanced → RAM → Frequency** — pick a lower frequency (e.g. 2400 or 2133 MHz) and reboot.
 
 * #### Black screen after Nintendo logo:  
->try making - [Debug installation](INSTAL_4IFIR.md#debug-installation-pc-required)
+  > 1. In 4IFIR Wizard, use `Service → Restore Factory Defaults` (hold `(A)`) or restore a working `.ini` snapshot from `/atmosphere/kips/.bak/mariko/` (or `erista/`).  
+  > 2. Or launch **KipTool** (`Hekate → Payloads → kiptool.bin`), go to **KIP Wizard → CPU → SpeedShift**, set **25** or **100** instead of 0, and select `Apply changes`.  
+  > 3. If issues persist, perform a [clean installation](INSTAL_4IFIR.md#clean-installation-recommended).
 
-* #### Black screen after Nintendo logo (if debug installation didn't help):  
->1. Hekate > payloads > kiptool.bin.  
->2. Kip Wizard - CPU - speedshift set **100** instead of zero and don't forget to apply changes.  
->3. Restart the console  
->This may fix launch into the atmosphere
+* #### When playing in dock, stripes appear on the TV screen:
+  > Related to memory efficiency stages (**sMeh 8**).  
+  > Navigate to **Advanced → RAM → Optimized Mode (1600 MHz) → Efficiency Stages** (or `sMeh 8`) and reset it to **0**.
 
-* #### When playing in dock, stripes appear on the TV screen.
->Most likely, this is related to Smeh 8, which is responsible for increasing the memory efficiency in Optimized E mode. To solve this problem, reset sMeh 8 to 0
->
-***
+---
+
+## Problems with Latitude UI & 2.7 System Features
+
+* #### PC does not detect the console over USB (Background MTP):
+  > 1. Verify you are using a quality USB-C data cable (not charge-only).  
+  > 2. Connect directly to the motherboard ports on the rear of your PC rather than unpowered USB hubs.  
+  > 3. On Windows, check Device Manager: if an exclamation mark is shown, update or reinstall the standard MTP USB Device driver.
+
+* #### Failure during automatic update from `Settings → System`:
+  > 1. Check Wi-Fi connectivity.  
+  > 2. Ensure custom DNS rules do not block the 4IFIR update servers.  
+  > 3. Use the [fallback offline update via Daybreak or manual archive extraction](OTHER_INSTRUCTION.md#2-offline-hos-firmware-update-via-daybreak-fallback-method).
+
+* #### Latitude UI blur or panels seem too dense/transparent:
+  > Adjust blur intensity and underlay opacity in `System Settings → Themes`.
+
+---
 
 ## Battery problems 
 
-* #### The battery began to discharge to 1% from 100% in minutes, but it works without problems at 1% for several hours 
+* #### Battery drops from 100% to 1% in minutes, but runs for hours at 1%:
+  > The power controller peak capacity threshold was triggered (~15W). Protection triggers can desynchronize battery gauge calibration by 1% per event. Restore battery calibration using [Battery Desync Fix NX](https://github.com/CTCaer/battery_desync_fix_nx).
 
->The power controller is designed for a peak power consumption of about 15W, if it is exceeded, console will activate emergency protection and turn off. You need to reduce your demands, because it affects the calibration data of the controller. Console may consider that the battery has failed and reduce its remaining capacity estimate by 1% for each failure. This can cause the console's charge indicator to instantly drop to 1% when the battery is under load. Solution for this problem is [Battery Desync Fix NX](https://github.com/CTCaer/battery_desync_fix_nx). 
+* #### Empty battery icon appears during intensive overclocked gaming:
+  > System power consumption exceeded peak controller thresholds. Lower CPU/GPU frequencies or adjust voltage steps in 4IFIR Wizard.
 
-* #### When playing with overclocking enabled, an empty battery icon is shown after a while 
-
->The power controller is designed for a peak power consumption of about 15W, if it is exceeded, console will activate emergency protection and turn off. This is what happens. You have probably exceeded the threshold set in the controller. Reduce the frequency values.
-
-***
+---
 
 ## Other problems 
 
-* #### The Witcher 3/Resident Evil Revelations won't start
->**HB Menu** > **SysDVR** > **DVR-Patches** > **Uninstall** > **Reboot**
+* #### The Witcher 3 / Resident Evil Revelations won't start:
+  > Open **HB Menu → SysDVR → DVR-Patches → Uninstall → Reboot**.
 
-* #### FPS in the game always shows 0/254 or ReverseNX doesn't switch modes
->Your game is probably not compatible with **SaltyNX**, which is responsible for these functions. The list of incompatible games is [here](https://github.com/masagrator/SaltyNX#list-of-titles-not-compatible-with-pluginspatches)
+* #### FPS always shows 0/254 or ReverseNX does not toggle modes:
+  > Game is incompatible with **SaltyNX**. See the [SaltyNX compatibility list](https://github.com/masagrator/SaltyNX#list-of-titles-not-compatible-with-pluginspatches).
 
-***
+---
 
 ## FAQ 
 
-**Q**: How does using 4IFIR affect battery life?\
-**A**: In short, it doesn’t affect it at all. The battery does not degrade due to current but only when a certain temperature is reached. However, built-in protection mechanisms, based on the laws of physics, break the power circuit long before the reached temperatures can harm the battery to prevent the degradation of the chemical properties of the cells.  
-MARIKO  is equipped with a PMIC MAX77812 controller designed for currents up to 6A CPU / 12A GPU. If the limit is reached, it goes into protection mode.  
-ERISTA, unexpectedly, is equipped with a more powerful PMICs MAX77621 controller rated at 16A CPU / 16A GPU.  
- 
-**Q**: Has my battery degraded?\
-**A**: It hasn't degraded. Its calibration has gone off. You can restore the factory battery capacity following the instructions above. 
+**Q: Does 4IFIR degrade battery life?**  
+**A:** No. Batteries degrade from sustained high temperatures and charge cycles, not instantaneous current draw. Hardware PMIC limiters safely disconnect the circuit before dangerous temperatures can be reached.
 
-**Q**: Switch turns off when overclocking\
-**A**: It’s likely that your device can’t handle the values you’ve set. Try lowering them
+**Q: Switch turns off under overclock?**  
+**A:** Your specific hardware cannot sustain that frequency at the current voltage. Lower the clocks or increase voltage by one step in Wizard.
 
-**Q**: Switch discharges from 100% to 1% in 10 minutes\
-**A**: See the Battery problems section above. 
+**Q: Where are the governors?**  
+**A:** In **Ultrahand → 4IFIR → Miscellaneous**, enable **Frequency Governor**.
 
-**Q**: There’s no governor\
-**A**: Enable **4IFIR Miracle** > **Miscellaneous** > **Frequency Governor (Experimental)**, then both governors will appear in **4IFIR Miracle** > **Edit app Profile**
-
-**Q**: Frequencies are jumping\
-**A**: This is expected behavior when the governor is active
-
-**Q**: I can't delete the account\
-**A**: **DBI** > **Tools** > **Delete account...**
+**Q: Why do frequencies fluctuate in real time?**  
+**A:** This is standard governor behavior, matching clock frequencies to real-time render loads.

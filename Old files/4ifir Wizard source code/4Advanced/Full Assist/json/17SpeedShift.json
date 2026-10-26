@@ -1,0 +1,26 @@
+[
+    {
+        "name": "eBamatic",
+        "hex": "000000"
+    },
+    {
+        "name": "D",
+        "hex": "01"
+    },
+    {
+        "name": "Sport",
+        "hex": "32"
+    },
+    {
+        "name": "ECO ST1",
+        "hex": "64"
+    },
+    {
+        "name": "ECO ST2",
+        "hex": "7d"
+    },
+    {
+        "name": "ECO ST3",
+        "hex": "96"
+    }
+]

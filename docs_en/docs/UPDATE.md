@@ -1,3 +1,22 @@
+## Update 4IFIR 2.7
+1. **Latitude UI:** New graphical user interface replacing standard qLaunch:
+   * Frosted glass visual theme with configurable blur intensity and underlay opacity in `Settings → Themes`.
+   * Support for individual animated (video) wallpapers for each game on the home screen.
+   * Game icon customization: upload custom logos or fetch directly from SteamGridDB.
+   * New modernized **HB Menu** and **Album**.
+2. **Built-in `R` Button Shortcuts:**
+   * `R + Gameshare` — Built-in Homebrew Store.
+   * `R + Nintendo eShop` — Built-in **Ownfoil** (background game installation from personal servers).
+   * `R + Virtual Game Cards` — Built-in File Manager.
+3. **Background MTP Server:**
+   * Constantly active MTP server: connect to PC via USB for direct SD card browsing and drag-and-drop game installations without opening DBI.
+4. **Automated 4IFIR & HOS Updates:**
+   * System update process integrated into `Settings → System`. Third-party updaters (AiO Switch Updater) and manual Daybreak flows are no longer required.
+5. **Ultrahand Overlay:**
+   * Upgraded to **Ultrahand Overlay** replacing Uberhand. Config located at `/config/ultrahand/config.ini`.
+6. **New 4IFIR Wizard:**
+   * Integrated [Ultrahand-4IFIR-Wizard](https://github.com/qret/Ultrahand-4IFIR-Wizard) with new menu layout (eBAMATIC Stage, Advanced, Profiles, Service), hardware-specific backup management (`/atmosphere/kips/.bak/`), JSON profile import, and full support for pMeh 0–22 and sMeh 0–17.
+
 ## Update from 12.11.2024 - 4IFIR 2.4 Gamechanger
 1.  In **4IFIR Gamechanger > Miscellaneous** added item - **Adaptive EMC Priority**  
 2.  In **4IFIR Gamechanger > Miscellaneous** added item - **EMC Magician**  

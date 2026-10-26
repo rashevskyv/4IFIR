@@ -1,0 +1,21 @@
+[
+    {
+        "name": "`RAM DVB Mode"
+    },
+    {
+        "name": "eBamatic",
+        "hex": "000000"
+    },
+    {
+        "name": "Eco ST1",
+        "hex": "030000"
+    },
+    {
+        "name": "Eco ST2",
+        "hex": "020000"
+    },
+    {
+        "name": "Eco ST3",
+        "hex": "010000"
+    }
+]

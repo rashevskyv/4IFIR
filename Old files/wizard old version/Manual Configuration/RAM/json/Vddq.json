@@ -1,0 +1,71 @@
+[
+    {
+        "name": "350mV - Unstable",
+        "hex": "305705",
+        "color": "Orange"
+    },
+    {
+        "name": "400mV - Unstable",
+        "hex": "801a06",
+        "color": "Orange"
+    },
+    {
+        "name": "450mV - Unstable",
+        "hex": "d0dd06",
+        "color": "Orange"
+    },
+    {
+        "name": "500mV - Eco",
+        "hex": "20a107"
+    },
+    {
+        "name": "550mV",
+        "hex": "706408"
+    },
+    {
+        "name": "560mV",
+        "hex": "808B08"
+    },
+    {
+        "name": "570mV",
+        "hex": "90B208"
+    },
+    {
+        "name": "580mV",
+        "hex": "A0D908"
+    },
+    {
+        "name": "590mV",
+        "hex": "B00009"
+    },
+    {
+        "name": "600mV",
+        "hex": "C02709"
+    },
+    {
+        "name": "625mV",
+        "hex": "688909"
+    },
+    {
+        "name": "650mV - Default",
+        "hex": "10EB09"
+    },
+    {
+        "name": "675mV",
+        "hex": "B84C0A"
+    },
+    {
+        "name": "700mV - SRT",
+        "hex": "60AE0A"
+    },
+    {
+        "name": "750mV - Unstable",
+        "hex": "B0710B",
+        "color": "Orange"
+    },
+    {
+        "name": "800mV - Unstable",
+        "hex": "00350C",
+        "color": "Orange"
+    }
+]

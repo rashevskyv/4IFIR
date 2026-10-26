@@ -1,0 +1,21 @@
+[
+    {
+        "name": "`GPU Overvolt"
+    },
+    {
+        "name": "eBamatic",
+        "hex": "000000"
+    },  
+    {
+        "name": "800mV - ECO ST3",
+        "hex": "2003"
+    },
+    {
+        "name": "925mV - ECO ST2",
+        "hex": "9d03"
+    },
+    {
+        "name": "1050mV - Default/SPR",
+        "hex": "1a04"
+    }
+]

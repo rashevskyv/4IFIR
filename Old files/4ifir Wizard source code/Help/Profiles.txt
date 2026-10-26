@@ -1,0 +1,10 @@
+This menu contains overclocking profiles.
+Increasing the values of stages for CPU and GPU reduces the consumption of components.
+Increasing the value of stages for RAM increases system performance, but at the same time increases consumption.
+
+The "Timings for Erista v1" menu allows you to set stages that increase the performance of the device (Only for Nintendo Switch first revision v1 Erista)
+
+To apply the change in value, you must reboot the device.
+
+!!!
+4ekate – Additional increase in productivity (about 200 MB/s). Does not work for everyone, there may be problems with the console waking up from sleep. If a problem occurs, disable this function (off)

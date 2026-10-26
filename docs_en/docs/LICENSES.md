@@ -20,8 +20,9 @@ Below are the licenses of the programs that have been modified specifically for 
 [MIT license](https://github.com/masagrator/FPSLocker/blob/main/LICENSE):
   * [FPSLocker](https://github.com/masagrator/FPSLocker)
 
-[CC-BY-NC-4.0 License](https://github.com/efosamark/Uberhand-Overlay/blob/main/LICENSE):
-  * [Uberhand Overlay](https://github.com/efosamark/Uberhand-Overlay)
+[Open Source]:
+  * [Ultrahand Overlay](https://github.com/ppkantorski/Ultrahand-Overlay)
+  * [Ultrahand-4IFIR-Wizard](https://github.com/qret/Ultrahand-4IFIR-Wizard)
 
 No license: 
   * [SaltyNX](https://github.com/masagrator/SaltyNX)

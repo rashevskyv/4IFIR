@@ -6,7 +6,7 @@ In addition to enabling docked mode while playing in handheld mode, you can also
 
 Cheats for unlocking 60FPS in some games can be found in **AiO Updater** > **Download cheats** > **Download graphics enhancing cheats**. If there are matching cheats for the installed games, they will be automatically installed. Remember that if you already have cheats installed for these games, installing the FPS unlock cheats will remove the existing ones. However, if you already have FPS unlock cheats, installing regular cheats via the updater will simply add them while retaining the FPS unlock cheats.
 
-Cheats are activated through the menu **Underhand** > **EdiZon** > **Cheats** in a running game. In the menu that appears, activate the desired cheat. After restarting the game, the cheats you activated earlier will also remain active!
+Cheats are activated through the menu **Ultrahand** > **EdiZon** > **Cheats** in a running game. In the menu that appears, activate the desired cheat. After restarting the game, the cheats you activated earlier will also remain active!
 
 #### Modifications 
 

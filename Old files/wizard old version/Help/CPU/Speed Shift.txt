@@ -1,0 +1,3 @@
+Speed Shift is the secret component of 4IFIR, that allows you to open the full potential of your console.
+
+The higher the value, the lower the consumption.

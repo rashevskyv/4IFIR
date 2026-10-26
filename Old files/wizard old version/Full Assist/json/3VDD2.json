@@ -1,0 +1,21 @@
+[
+    {
+        "name": "`RAM Vdd2"
+    },
+    {
+        "name": "SYK-LOH - 1100mV",
+        "hex": "E0C810"
+    },
+    {
+        "name": "ECO - 1175mv",
+        "hex": "D8ED11"
+    },
+    {
+        "name": "Default - 1275mv",
+        "hex": "787413"
+    },
+    {
+        "name": "Sport - 1375mv",
+        "hex": "18FB14"
+    }
+]

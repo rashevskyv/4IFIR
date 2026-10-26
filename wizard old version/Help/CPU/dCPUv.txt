@@ -1,1 +1,0 @@
-The CPUv Mode controls the median voltage available for CPU.
