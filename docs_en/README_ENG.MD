@@ -1,6 +1,6 @@
 # **4IFIR 2.7 by [Cooler3D](https://t.me/Cooler3D)**
 
-[RUSSIAN GUIDE](../../README.md) | [Latitude UI](LATITUDE_UI.md) | [4IFIR Wizard Setup Guide](WIZARD_GUIDE.md) | [Telegram Group](https://t.me/kf4fr/48074) | [Updates Bot](https://t.me/kf4fr/98339) 
+[RUSSIAN GUIDE](../../README.md) | [Latitude UI](docs/LATITUDE_UI.md) | [4IFIR Wizard Setup Guide](docs/WIZARD_GUIDE.md) | [Telegram Group](https://t.me/kf4fr/48074) | [Updates Bot](https://t.me/kf4fr/98339) 
 ****
 
 **Always fresh version of 4IFIR: [Telegram](https://t.me/kf4fr/98339) | [Github](https://github.com/rashevskyv/4ifir-checker/releases)**  
@@ -41,38 +41,38 @@ In case of 4IFIR, overclocking refers not merely to unlocking frequencies within
 
 ***
 
-### **[Latitude UI Guide](LATITUDE_UI.md)**
+### **[Latitude UI Guide](docs/LATITUDE_UI.md)**
  * Themes, frosted glass, video backgrounds, shortcuts, and background services
 
-### **[Console Preparation and Installing 4IFIR](INSTAL_4IFIR.md)**
+### **[Console Preparation and Installing 4IFIR](docs/INSTAL_4IFIR.md)**
  * Installation methods, SD card preparation, and EmuNAND
 
-### **[System Update Guide](OTHER_INSTRUCTION.md)**
+### **[System Update Guide](docs/OTHER_INSTRUCTION.md)**
  * Automatic 4IFIR and HOS updates via System Settings
 
-### **[Overclocking](OVERCLOKING.md)**
+### **[Overclocking](docs/OVERCLOKING.md)**
  * Managing overclock profiles in Ultrahand
 
-### **[Suitable Frequencies CPU / GPU](SUITABLE_FREQUENCIES.md)**
+### **[Suitable Frequencies CPU / GPU](docs/SUITABLE_FREQUENCIES.md)**
  * Frequency selection guide
 
-### **[4IFIR Wizard](4IFIR_WIZARD.md)**
+### **[4IFIR Wizard](docs/4IFIR_WIZARD.md)**
  * Detailed guide to all menus in Ultrahand 4IFIR Wizard
 
-### **[4IFIR Wizard Guide](WIZARD_GUIDE.md)**
+### **[4IFIR Wizard Guide](docs/WIZARD_GUIDE.md)**
  * Tuning guide for CPU, GPU, and RAM
 
-### **[Modules and Overlays](MODULES_4IFIR.md)**
+### **[Modules and Overlays](docs/MODULES_4IFIR.md)**
  * Managing Ultrahand overlays and background sysmodules
 
-### **[Composition of 4IFIR](COMPOSITION_4IFIR.md)**
+### **[Composition of 4IFIR](docs/COMPOSITION_4IFIR.md)**
  * Complete breakdown of installed software, payloads, and modules
 
-### **[Cheats and Graphics Patches](CHEATS_AND_PATCHES.md)**
+### **[Cheats and Graphics Patches](docs/CHEATS_AND_PATCHES.md)**
  * Using EdiZon, FPSLocker, and graphical modifications
 
-### **[Problems and Solutions](PROBLEM.md)**
+### **[Problems and Solutions](docs/PROBLEM.md)**
  * Troubleshooting and recovery instructions
 
-### **[Licenses and Credits](LICENSES.md)**
+### **[Licenses and Credits](docs/LICENSES.md)**
  * Open-source licenses and acknowledgements
