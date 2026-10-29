@@ -1,17 +1,17 @@
 # **4IFIR 2.7 by [Cooler3D](https://t.me/Cooler3D)**
 
-[RUSSIAN GUIDE](../../README.md) | [Latitude UI](LATITUDE_UI.md) | [4IFIR Wizard Setup Guide](WIZARD_GUIDE.md) | [Telegram Group](https://t.me/kf4fr/48074) | [Updates Bot](https://t.me/kf4fr/98339) 
+[RUSSIAN GUIDE](../README.md) | [Latitude UI](docs/LATITUDE_UI.md) | [4IFIR Wizard Setup Guide](docs/WIZARD_GUIDE.md) | [Telegram Group](https://t.me/kf4fr/48074) | [Updates Bot](https://t.me/kf4fr/98339) 
 ****
 
 **Always fresh version of 4IFIR: [Telegram](https://t.me/kf4fr/98339) | [Github](https://github.com/rashevskyv/4ifir-checker/releases)**  
-**Solution for your problem most likely — [HERE](PROBLEM.md)**
+**Solution for your problem most likely — [HERE](docs/PROBLEM.md)**
 
 ***
 
-**4IFIR supports all console revisions and current HOS versions — [Update instructions](OTHER_INSTRUCTION.md)** 
+**4IFIR supports all console revisions and current HOS versions — [Update instructions](docs/OTHER_INSTRUCTION.md)** 
 
 > [!IMPORTANT]
-> Old KIPs from previous releases are not supported in 4IFIR 2.7.
+> Old KIPs from previous releases are not supported in 4IFIR 2.7. Use current configurations via Wizard.
 > You will be protected from potential software problems by using [EmuNand](https://switch.customfw.xyz/emunand), [FAT32](https://customfw.xyz/format_sd) and having [backups](https://switch.customfw.xyz/backup-nand). To avoid conflicts, a clean installation is strongly recommended.
 
 In case of 4IFIR, overclocking refers not merely to unlocking frequencies within standard stock limits, but rather deep hardware overclocking that includes comprehensive undervolting/overvolting for each component.
@@ -41,38 +41,47 @@ In case of 4IFIR, overclocking refers not merely to unlocking frequencies within
 
 ***
 
-### **[Latitude UI Guide](LATITUDE_UI.md)**
+### **[Latitude UI Guide](docs/LATITUDE_UI.md)**
  * Themes, frosted glass, video backgrounds, shortcuts, and background services
 
-### **[Console Preparation and Installing 4IFIR](INSTAL_4IFIR.md)**
+### **[Console Preparation and Installing 4IFIR](docs/INSTAL_4IFIR.md)**
  * Installation methods, SD card preparation, and EmuNAND
 
-### **[System Update Guide](OTHER_INSTRUCTION.md)**
+### **[System Update Guide](docs/OTHER_INSTRUCTION.md)**
  * Automatic 4IFIR and HOS updates via System Settings
 
-### **[Overclocking](OVERCLOKING.md)**
+### **[Overclocking](docs/OVERCLOKING.md)**
  * Managing overclock profiles in Ultrahand
 
-### **[Suitable Frequencies CPU / GPU](SUITABLE_FREQUENCIES.md)**
- * Frequency selection guide
+### **[Suitable Frequencies CPU / GPU](docs/SUITABLE_FREQUENCIES.md)**
+ * Frequency selection guide for your console
 
-### **[4IFIR Wizard](4IFIR_WIZARD.md)**
- * Detailed guide to all menus in Ultrahand 4IFIR Wizard
+### **[4IFIR Wizard](docs/4IFIR_WIZARD.md)**
+ * Detailed guide to all menus and registers in Ultrahand 4IFIR Wizard
 
-### **[4IFIR Wizard Guide](WIZARD_GUIDE.md)**
- * Tuning guide for CPU, GPU, and RAM
+### **[Basic 4IFIR Wizard Guide](docs/BASE_WIZARD_GUIDE.md)**
+ * Quick initial setup for baseline undervolt and optimizations
 
-### **[Modules and Overlays](MODULES_4IFIR.md)**
+### **[Undervolt 4IFIR Wizard](docs/WIZARD_GUIDE_UV.md)**
+ * Comprehensive step-by-step CPU and GPU undervolting guide
+
+### **[RAM 4IFIR Wizard](docs/WIZARD_GUIDE_RAM.md)**
+ * Detailed guide for voltages, clocks, and memory profiles
+
+### **[EMC Magician](docs/EMC_MAGICIAN.md)**
+ * Real-time memory timing configuration on the fly
+
+### **[Modules and Overlays](docs/MODULES_4IFIR.md)**
  * Managing Ultrahand overlays and background sysmodules
 
-### **[Composition of 4IFIR](COMPOSITION_4IFIR.md)**
+### **[Composition of 4IFIR](docs/COMPOSITION_4IFIR.md)**
  * Complete breakdown of installed software, payloads, and modules
 
-### **[Cheats and Graphics Patches](CHEATS_AND_PATCHES.md)**
+### **[Cheats and Graphics Patches](docs/CHEATS_AND_PATCHES.md)**
  * Using EdiZon, FPSLocker, and graphical modifications
 
-### **[Problems and Solutions](PROBLEM.md)**
+### **[Problems and Solutions](docs/PROBLEM.md)**
  * Troubleshooting and recovery instructions
 
-### **[Licenses and Credits](LICENSES.md)**
+### **[Licenses and Credits](docs/LICENSES.md)**
  * Open-source licenses and acknowledgements

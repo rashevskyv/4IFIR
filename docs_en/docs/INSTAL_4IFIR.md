@@ -69,8 +69,3 @@ If offline:
 
 ---
 
-## Background MTP Server Access
-
-In 4IFIR 2.7, an integrated **MTP Server** runs continuously in the background:
-* Simply connect the console to your PC using a USB-C data cable.
-* Browse the SD card, transfer files, and install `.nsp`/`.xci` games directly via drag & drop without launching DBI.
