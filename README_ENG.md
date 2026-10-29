@@ -11,7 +11,7 @@
 **4IFIR supports all console revisions and current HOS versions — [Update instructions](docs_en/docs/OTHER_INSTRUCTION.md)** 
 
 > [!IMPORTANT]
-> Old KIPs from previous releases are not supported in 4IFIR 2.7.
+> Old KIPs from previous releases are not supported in 4IFIR 2.7. Use current configurations via Wizard.
 > You will be protected from potential software problems by using [EmuNand](https://switch.customfw.xyz/emunand), [FAT32](https://customfw.xyz/format_sd) and having [backups](https://switch.customfw.xyz/backup-nand). To avoid conflicts, a clean installation is strongly recommended.
 
 In case of 4IFIR, overclocking refers not merely to unlocking frequencies within standard stock limits, but rather deep hardware overclocking that includes comprehensive undervolting/overvolting for each component.
@@ -54,13 +54,22 @@ In case of 4IFIR, overclocking refers not merely to unlocking frequencies within
  * Managing overclock profiles in Ultrahand
 
 ### **[Suitable Frequencies CPU / GPU](docs_en/docs/SUITABLE_FREQUENCIES.md)**
- * Frequency selection guide
+ * Frequency selection guide for your console
 
 ### **[4IFIR Wizard](docs_en/docs/4IFIR_WIZARD.md)**
- * Detailed guide to all menus in Ultrahand 4IFIR Wizard
+ * Detailed guide to all menus and registers in Ultrahand 4IFIR Wizard
 
-### **[4IFIR Wizard Guide](docs_en/docs/WIZARD_GUIDE.md)**
- * Tuning guide for CPU, GPU, and RAM
+### **[Basic 4IFIR Wizard Guide](docs_en/docs/BASE_WIZARD_GUIDE.md)**
+ * Quick initial setup for baseline undervolt and optimizations
+
+### **[Undervolt 4IFIR Wizard](docs_en/docs/WIZARD_GUIDE_UV.md)**
+ * Comprehensive step-by-step CPU and GPU undervolting guide
+
+### **[RAM 4IFIR Wizard](docs_en/docs/WIZARD_GUIDE_RAM.md)**
+ * Detailed guide for voltages, clocks, and memory profiles
+
+### **[EMC Magician](docs_en/docs/EMC_MAGICIAN.md)**
+ * Real-time memory timing configuration on the fly
 
 ### **[Modules and Overlays](docs_en/docs/MODULES_4IFIR.md)**
  * Managing Ultrahand overlays and background sysmodules

@@ -17,6 +17,26 @@
 6. **New 4IFIR Wizard:**
    * Integrated [Ultrahand-4IFIR-Wizard](https://github.com/qret/Ultrahand-4IFIR-Wizard) with new menu layout (eBAMATIC Stage, Advanced, Profiles, Service), hardware-specific backup management (`/atmosphere/kips/.bak/`), JSON profile import, and full support for pMeh 0–22 and sMeh 0–17.
 
+## Update from 18.01.2025 - 4IFIR Houdini
+1. Fixed an issue where sliders in EMC Magician with saved profiles reset to default positions upon waking from sleep mode.
+2. SaltyNX no longer causes overlays to crash or hang.
+
+## Update from 12.01.2025 - 4IFIR Houdini
+1. Cosmetic improvements to 4ekate.
+
+## Update from 06.01.2025 - 4IFIR Houdini
+1. Fixed micro-stutter issues in select titles.
+
+## Update from 26.12.2024 - 4IFIR Houdini
+1. Added full support for HOS 19.0.x.
+
+## Update from 18.12.2024 - 4IFIR Houdini
+1. Release codename updated from **4IFIR Gamechanger** to **4IFIR Houdini**.
+2. Reworked timing preset preservation in **EMC Magician** (individual timing profiles are now saved per eBal mode).
+
+## Update from 07.12.2024 - 4IFIR 2.4 Gamechanger
+1. Added **EMC Magician** to **4IFIR** overlay for real-time memory timing configuration.
+
 ## Update from 12.11.2024 - 4IFIR 2.4 Gamechanger
 1.  In **4IFIR Gamechanger > Miscellaneous** added item - **Adaptive EMC Priority**  
 2.  In **4IFIR Gamechanger > Miscellaneous** added item - **EMC Magician**  
